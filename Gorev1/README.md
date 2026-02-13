@@ -1,6 +1,6 @@
 # Proje Özeti
 
-## 🎯 Amaç
+##  Amaç
 Bu projenin amacı, büyük dil modelleri (LLM) kullanılarak sohbet verilerinin otomatik etiketlenmesi üzerine bir çalışma gerçekleştirmektir. Proje kapsamında üretilen etiketler:
 
 * **Duygu Analizi (Sentiment Analysis):** Kullanıcı mesajlarının duygusal tonunu belirlemek.
@@ -46,7 +46,7 @@ Bu projenin amacı, büyük dil modelleri (LLM) kullanılarak sohbet verilerinin
 
 ---
 
-## 📊 Sonuçlar
+##  Sonuçlar
 
 * **V1 Deneyi:** Sadece kullanıcı mesajları verilmesine rağmen, duygu ve konu etiketlemede yüksek başarı sağlandı.
 * **V2 Deneyi:** Bot mesajlarının da dahil edilmesiyle özellikle "Answered" etiketinde daha gerçekçi analizler elde edildi.
@@ -55,7 +55,7 @@ Bu projenin amacı, büyük dil modelleri (LLM) kullanılarak sohbet verilerinin
 
 ---
 
-## 📌 Genel Değerlendirme
+##  Genel Değerlendirme
 
 Bu proje, LLM’lerin sohbet verilerinden otomatik etiket üretme kapasitesini açıkça ortaya koymuştur. Elde edilen temel bulgular şunlardır:
 1. LLM'ler **sentiment (duygu)** ve **intent (niyet)** etiketlemede güvenilir sonuçlar üretmektedir.
