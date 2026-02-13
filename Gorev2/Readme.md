@@ -20,7 +20,7 @@ Odev4/
 ├── gpt-5-nano-out1.csv
 ├── gpt-5-nano-out1.xlsx
 │
-├── Odev4V1/
+├── Calismalar1/
 │   ├── etiket_csvler/
 │   │   ├── etiket_tablosu_intent_detay.csv
 │   │   ├── etiket_tablosu_intent.csv
@@ -49,8 +49,8 @@ Odev4/
 │       ├── etiket_tablosu_tur.png
 │       └── etiket_tablosu_yanit_durumu.png
 │
-└── Odev4V2/
-    └── (Yapı Odev4V1 ile benzerdir, ancak tüm etiketler (tur, intent, intent_detay, sentiment, yanit_durumu) zorunlu seçeneklerle sınırlıdır)
+└── Calismalar2/
+    └── (Yapı Calimalar1 ile benzerdir, ancak tüm etiketler (tur, intent, intent_detay, sentiment, yanit_durumu) zorunlu seçeneklerle sınırlıdır)
 
 📝 Proje Hakkında
 
