@@ -1,4 +1,4 @@
-Odev4 - Proje Özeti
+ Proje Özeti
 🎯 Amaç
 
 Bu projenin amacı, büyük dil modelleri (LLM) kullanılarak sohbet verilerinin
@@ -20,7 +20,7 @@ Yanıt Durumu Analizi (Answered Labeling) → Botun kullanıcı isteğini karş�
 
 Ancak çıktılar istenen formatı karşılamadığı için yalnızca deneme olarak saklanmıştır.
 
-2. Odev4V1 Dizini
+2. Calismalar1 Dizini
 
 GPT-5 nano modeli ile 100 konuşma analiz edilmiştir.
 
@@ -50,7 +50,7 @@ gpt-5-nano-out-1.csv → LLM çıktıları
 
 LLM Karşılaştırma.json → Her konuşmadaki kullanıcı mesajları + manuel etiketler + LLM etiketleri
 
-3. Odev4V2 Dizini
+3. Calismalar2 Dizini
 
 Tekrar 100 konuşma işlenmiştir.
 
