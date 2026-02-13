@@ -1,0 +1,33 @@
+Sutun adi,Etiket,Adet,Toplam Sayi,Yüzde (%)
+intent_detay,İade süreci gecikmesi,3,40,7.5
+intent_detay,Kargo takibi,3,40,7.5
+intent_detay,Kupon hatası,2,40,5.0
+intent_detay,Sipariş teslimatında eksik ürün,2,40,5.0
+intent_detay,Yanlış adres girişi,2,40,5.0
+intent_detay,Sipariş iptali,2,40,5.0
+intent_detay,E-posta linki gelmemesi,1,40,2.5
+intent_detay,İade kargosu takibi,1,40,2.5
+intent_detay,Fatura fiyatı hatası,1,40,2.5
+intent_detay,Hesap bilgisi güncelleme,1,40,2.5
+intent_detay,Stok yenileme tarihi,1,40,2.5
+intent_detay,Sipariş iptali yapılamaması,1,40,2.5
+intent_detay,Çifte çekim,1,40,2.5
+intent_detay,Kredi kartı reddedilmesi,1,40,2.5
+intent_detay,Ürün beden tablosu,1,40,2.5
+intent_detay,Yorum yayınlanmaması,1,40,2.5
+intent_detay,Teknik hata,1,40,2.5
+intent_detay,Hesaptan para çekilip siparişin oluşmaması,1,40,2.5
+intent_detay,Ürün bilgisi,1,40,2.5
+intent_detay,Eksik promosyon ürünleri,1,40,2.5
+intent_detay,Para iadesi gecikmesi,1,40,2.5
+intent_detay,Kargodan kaynaklı hasar,1,40,2.5
+intent_detay,Değişim yapılamaması,1,40,2.5
+intent_detay,Kampanya bilgisi,1,40,2.5
+intent_detay,Yanlış ürün gönderimi,1,40,2.5
+intent_detay,Hesap kapatma,1,40,2.5
+intent_detay,İade kodunun geçersiz olması,1,40,2.5
+intent_detay,Sipariş durumu,1,40,2.5
+intent_detay,Ödemenin tamamlanamaması,1,40,2.5
+intent_detay,Beden uyuşmazlığı,1,40,2.5
+intent_detay,Ürün tamir isteği,1,40,2.5
+intent_detay,E-posta aboneliği iptali,1,40,2.5

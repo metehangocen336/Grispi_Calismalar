@@ -1,0 +1,5 @@
+Farklı olan satırlar ve değerleri (index, manuel, tahmin):
+8 Çözüldü ************** Çözülemedi
+9 Çözüldü ************** Çözülemedi
+18 Çözüldü ************** Çözülemedi
+37 Çözüldü ************** Çözülemedi

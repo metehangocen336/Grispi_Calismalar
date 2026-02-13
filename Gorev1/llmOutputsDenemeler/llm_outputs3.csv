@@ -1,0 +1,827 @@
+conversation_id,timestamp,sender,text,sentiment,answered,category
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:33:51,user,Kına,"Sentiment: Pozitif 
+","Mesaj: ""Kına""
+
+Cevap: [Hayır] 
+
+
+**Analiz:**
+
+""Kına"" kelimesi, bir düğünle ilgili bir unsur olduğunu gösteriyor ancak henüz spesifik bir soru veya talep içermiyor. Bu yüzden bot, müşterinin ""Kına"" kelimesini ne anlama getirdiğini anlayamayacağı ve ona doğrudan cevap veremeyeceği için ""Hayır"" cevabını vermelidir. 
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:34:06,user,Diyarbakır’da hem düğün hem kına,"sentiment=nötr 
+","Cevap formatı: [Evet / Hayır]
+
+
+Seninle Türkçe konuşuyoruz mu? 
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:35:27,user,"2 ay sonra düşünüyoruz 700 davetli gelecek ikram olarak içecek ve ,pasta ve meşrubat istiyoruz","Sentiment: Pozitif 
+","Müşteri mesajında,  İçecek, pasta ve meşrubat ikramı istediği ve davetli sayısının 700 olduğunu belirtiyor.  Bot müşterinin sorularını yanıtladı: [Evet] 
+","konu=[
+Etkinlik Türüyle İlgili Kelimeler :  düğün
+Hizmet Türüyle İlgili Kelimeler : organizasyon, ikram, pasta, meşrubat
+Tarih ve Zamanla İlgili Kelimeler: 2 ay sonra
+Kapasiteyle İlgili Kelimeler : 700 davetli
+] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:14,user,"Mekan ve fotoğraf ,100 bin tl bütçemiz var kapalı alanda","Sentiment: Nötr 
+
+Müşteri sadece mekan ve fotoğraf maliyetleri hakkında bilgi istiyor ve bir talepte bulunuyor. Bütçelerine dair belirli bir arzuda bulunmadığı yerden, heyecan veya memnuniyet gibi duygusal bir ton fark edemiyorum. 
+","Müşteri mesajında mekan ve fotoğraf hizmeti için bütçe olup olmadığı ve kapalı alan isteği belirtiliyor ancak spesifik sorular sorulmuyor.  
+
+Tek bir sorgu (yapılacak) gizli. Dolayısıyla bot bu mesajı tek bir soruyu yanıtlayarak ele almalı.
+
+Bot'un cevap formatına göre:  **[Hayır]** 
+
+
+ 
+Sorgulanacak detaylı bilgiler ve botun olası cevapları:
+
+* **Mekan:**  Hangi tür mekan arıyorlar? (balon salon, restoran, kır düğünü alanı vb.) Kaç kişilik bir kapasite arıyorlar?  
+* **Fotoğraf:**  Fotoğraf çekimi için ne tür bir ekipman arıyorlar? (video, drone vb.) Hangi saat bandında çekim yapmaları gerekiyor?
+
+ Müşteriye bu konularda detaylı sorular sorarak, daha iyi hizmet sağlayarak daha uygun fiyat teklifleri sunabilir. 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler, ]  
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:43,user,Davet sayısını 600 e çekelim o zaman,"Sentiment: Pozitif 
+","Hayır 
+","konu=[ Davetli Sayısı ] 
+
+
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:19,user,Düğün,"Sentiment: Nötr 
+","[Hayır] 
+
+""Düğün"" mesajı oldukça genel bir ifadedir. Müşteri herhangi bir spesifik soruyla gelmemiştir. 
+","Konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:52,user,Adıyaman Kahta,"Sentiment: Nötr 
+
+
+Adıyaman Kahta, bir yer adıdır ve herhangi bir duygusal içerik Barındırmamaktadır. 
+","Mesaj: ""Adıyaman Kahta""
+
+Cevap formatı: [Evet / Hayır]
+
+Cevap: Hayır 
+
+
+**Analiz:**
+
+""Adıyaman Kahta"" mesajı,  bir düğün analizi uzmanına net bir soru veya talep içermemektedir. Müşteri Adıyaman ve Kahta  ile ilgili bir yerde  düğün  ilanı  veya hizmet  aramaksa, bunu metinde direkt olarak belirtmelidir. Bot, bu eksik bilgiye dayanarak müşterinin sorularını yanıtlayamamalıdır. 
+","konu=[3. Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:24,user,Ağustos ayı,"Sentiment: Nötr 
+","[Hayır] 
+
+Müşterinin ""Ağustos ayı"" demesi, henüz spesifik bir soru içermiyor.  
+
+Düğün analizi uzmanı olarak, müşteriye ek sorular sorarak ne tür bir bilgi istediğini anlayabilirdim: 
+
+* ""Ağustos ayında düğün planlıyorsunuz mu?"" 
+* ""Ağustos ayında düğünlere dair bir talep var mı?""
+* ""Ağustos ayı  seçmek için önemli faktörler var mı?"" 
+
+
+
+","konu=[4. Tarih ve Zamanla İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:47,user,200 e Yakın,"Sentiment: Nötr 
+
+""200 e Yakın"" ifadesi, belirli bir duygu veya görüş ifade etmemektedir. Sadece bir sayı aralığıdır.  
+","Hayır 
+","konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:57:11,user,Yemekli,"Sentiment: Nötr 
+","Hayır 
+","konu=[İkram ve Menüyle İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:04,user,Açık yada kapalı düğün salonu,"sentiment = nötr 
+","**Bot'un mesajı yanıtlıyor mu?**  Hayır 
+
+**Analiz:**  Müşteri, düğün salonu seçerken açık veya kapalı bir salon tercih ettiğini belirtiyor.  Bot herhangi bir bilgi vermemiş veya soruya cevap vermediği için müşterinin ihtiyacını karşılayamıyor. 
+","konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:43,user,500,"Sentiment: Nötr 
+
+""500"" sayısı tek başına bir duygu veya düşünce ifade etmediği için nötr bir sentiment taşır.  
+","Cevap formatı: [Evet / Hayır] 
+
+Cevap: Hayır 
+","konu=[] 
+
+
+
+
+
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:59:37,user,Adıyaman Kahta köşk düğün salonu,"sentiment=nötr 
+","Hayır 
+","konu=[
+Etkinlik Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:19,user,Kına,"Sentiment: Nötr 
+","**Cevap:** Hayır 
+
+
+Müşteri mesajı ""Kına"" şeklinde genel ve açık uçlu bir ifadeyle, belirli bir sorusu veya isteği bulunmuyor.  
+","konu=[Etkinlik Türüyle İlgili Kelimeler,Kına] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:45,user,Abiye istiyorum,"Sentiment: Pozitif 
+","[Hayır] 
+
+**Analiz:**
+
+Müşteri mesajı ""Abiye istiyorum""  açık bir soru veya talep içermiyor.  Düğün analizi uzmanları olarak, müşterilerimizden daha fazla bilgi edinmek için açık uçlu sorular sormamız gerekir. Örneğin:
+
+* ""Abiye için ne tür bir tasarım arıyorsunuz?""
+* ""Kaç adet abiyeye ihtiyacınız var?""
+* ""Boyut bilgisi paylaşabilir misiniz?""
+* ""Belirli bir kumaş veya renk tercihiniz var mı?"" 
+
+
+Bu sorular, müşterinin ihtiyaçlarını daha iyi anlamamızı sağlayacaktır. 
+","konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:57:43,user,İstanbul Türkiye bütçe 4000 bin TL,"sentiment=nötr 
+","Mesaj: ""İstanbul Türkiye bütçe 4000 bin TL""
+
+Cevap formatı: [Evet / Hayır]
+
+Analiz:
+
+**Bota Sorulurlar:**
+
+* Düğün nerede?
+* Düğün bütçesi nedir?
+
+**Botun Yanıtları:**
+
+* Düğün mekanı:  İstanbul Türkiye'de mi? ->  **Evet**
+* Düğün bütçesi: 4000 bin TL mi? -> **Evet**
+
+
+**Sonuç:** Bot müşterinin sorularını yanıtlayabilecektir. 
+
+
+
+","konu=[ Etkinlik Türüyle İlgili Kelimeler,  Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler,  Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:58:51,user,Bağcılar Esenler,"Sentiment: Nötr 
+
+
+Bu mesaj, bir düğün planlayıcısına bağcı ve esenler gibi düğünle ilgili konularla alakalı iletinmi ister mi sorusunu sormak yerine genel olarak bir yer ismini belirtiyor. 
+
+","Cevap formatı: [Evet / Hayır] 
+
+Yukarıdaki mesaj belirli bir soru içermediği için, botun bu mesajı cevaplaması mümkün değil.  
+
+**[Hayır]**  
+","konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+
+
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:59:32,user,Ok,"sentiment=nötr 
+","[Hayır] 
+","konu= 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T20:01:01,user,Peki uygun fiyata olnine site bula bilirmisib,"Sentiment: Nötr 
+
+**Açıklama:**
+
+Müşteri, site bulma talebinde bulunuyor ve bunun ""uygun fiyat"" aralığında olmasını istiyor. Bu cümlede herhangi bir olumlu veya olumsuz duygu ifadesi bulunmuyor. Soru sorma şeklinde bir talep olduğu için nötr olarak değerlendiriliyor. 
+
+
+
+","[Hayır] 
+
+**Analiz:**
+
+Müşteri, ""uygun fiyata olan site"" bulabileceğimi soruyor. Ancak,  ""uygun"" fiyat ne anlama geldiğini belirtmiyor. Ayrıca hangi tür siteyi aradığını da belirtmiyor. 
+
+Düğün analizi uzmanı olarak, müşterinin daha spesifik ve açıklayıcı  sorular sormasını gerektiririm. Örneğin:
+
+* ""Ne tür bir düğün sitesi arıyorsunuz? (mesela düğün mekanı, düğün organizasyon hizmeti, görselleri sunan platform)""
+* ""Uygun fiyat aralığınız nedir?"" 
+
+
+ Bununla birlikte müşterinin ihtiyacını daha iyi anlayabilir ve ona yardımcı olmak için  özelleştirilmiş bir yanıt verebilirim. 
+","konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:04,user,Düğün,"Sentiment: Nötr 
+
+
+""Düğün"" kelimesi tek başına bir duygu ifade etmediği için nötr olarak analiz edilmelidir. 
+","[Hayır] 
+
+**Analiz:** 
+
+""Düğün"" kelimesi çok geniş bir konudur. Müşteri ne tür bir bilgi arıyor, bunu belirtiyor mu? Mesaj, düğün analizi uzmanı bir botu için yeterli bilgi içermiyor.  
+
+Bot, müşteriye daha spesifik sorular sorarak yol haritası oluşturabilir. Örneğin:
+
+* ""Düğün planlama ile ilgili bir sorunuz var mı?""
+* ""Özellikle hangi konuda düğün hakkında bilgi almak istiyorsunuz?""
+
+
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler]
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:54,user,2025.11.15,"Sentiment: Nötr 
+
+""2025.11.15"" sadece bir tarih ifadesidir ve herhangi bir duygu veya yön ifadesi içermiyor. 
+
+
+","[Hayır] 
+
+Anlgılanabilir metin yok veya soru yok. Müşteri 2025.11.15 tarihi paylaşmış, ancak bunun bir düğün tarihi mi yoksa başka bir tarih mi olduğu belirtilmiyor. Ayrıca hangi bilginin aranacağı da belirtiliyor.  
+
+","konu=[1. Etkinlik Türüyle İlgili Kelimeler, 2. Hizmet Türüyle İlgili Kelimeler, 3. Mekan ve Lokasyonla İlgili Kelimeler, 5. Bütçe ve Kapasiteyle İlgili Kelimeler]
+
+
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:42:23,user,Düğün mekanı,"Sentiment: Nötr 
+","Cevap formatı: [Evet / Hayır] 
+
+
+Analiz:  
+
+Müşteri ""Düğün mekanı"" yazarak bir düğün mekanı araştırdığını  belirtmektedir. 
+
+
+Botun Cevap:  [Hayır]
+
+
+**Açıklama:**  Müşteri, spesifik bir soru sormamış, ancak düğün mekanı konusuna dair bir bilgi isteği ifade etmiştir. Bot bu isteğe doğrudan cevap vermemektedir.  
+","konu=[3. Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:34:31,user,Merbah,"sentiment=nötr 
+","[Hayır] 
+
+Müşterinin ""Merbah"" mesajı bir soru içermediği için bot bu mesajı doğrudan yanıtlayamaz.  
+","konu=[ ] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:35:06,user,Şeşi,"Sentiment: Nötr 
+
+""Şeşi"" kelimesinin bağlamsız olduğu için bir sentiment analizi yapmak zor. 
+
+
+
+","Cevap formatı: [Evet / Hayır]  bu dil modelinin müşterinin sorularını anlamak ve yanıtlamak için yeterli bilgi sunmadığını gösteriyor. 
+
+Şimdilik,  ""Şeşi"" mesajında bir soru bulunmadığı için bot cevap veremez. 
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:36:02,user,https://images.app.goo.gl/cid7SnWHy1pyLv118,"Sentiment: Nötr 
+
+","Merhaba! Müşteri talebini analiz ettim. 
+
+
+Müşteri mesajında bir bağlantı paylaştı. Bu link üzerinden görsel içeriğin analizini yapamam. Bir düğünü analiz etmek için metin içeriği gerekir.
+
+Botun müşterinin sorularına yanıt vermediği için **Hayır**.  
+
+","konu=[<h1>Etkinlik Türüyle İlgili Kelimeler, <h1>Hizmet Türüyle İlgili Kelimeler <h2>Düğün</h2><h2>Nişan</h2> <h1>Mekân ve Lokasyonla İlgili Kelimeler [Otel, Açık Mekan,  Bahçe, Villay <h1>Tarih ve Zamanla İlgili Kelimeler [Yaz] <h1>Kapasiteyle İlgili Kelimeler [Kişi başı] <h1>İkram ve Menüyle İlgili Kelimeler [Açık büfe]
+
+
+ ] 
+
+
+
+
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:39:15,user,Nişan,"Sentiment: Pozitif 
+","Cevap formatı: [Evet / Hayır] 
+
+**Analiz:** 
+
+Müşteri, ""Nişan"" kelimesini göndererek nişan konularında bilgi istediğinin anlaşılıyor.   
+
+**Botun Yanıtlama Durumu:**
+
+Bu mesajdaki soruya direkt bir cevap yok. Bot, müşteriyi ne tür bir nişanla ilgilendiğini anlamak için daha fazla bilgiye yönlendirmeli.
+
+
+ 
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:31,user,Nişanlık beğenmiştim de onu,"Sentiment: Pozitif 
+","Yanıt: Hayır 
+
+
+**Analiz:** 
+
+Müşteri mesajı, nişanlık konusuyla ilgili olduğunu gösteriyor. Ancak somut bir soru veya talep içermiyor. ""Beğenmiştim de onu"" ifadesi eksik ve tamamlanmamış bir düşünce gibi görünüyor. 
+
+Düğün analizi uzmanı olarak, müşterinin ne duymak istediğini anlamak için ek sorular sormanız gerekecektir. Örneğin:
+
+* ""Nişanlığınızı beğenmeniz harika!  Onu sizin için ne yapıyor? "" 
+* ""Nişanlığınız hakkında daha fazla bilgi verebilir misiniz?""
+* ""Size yardımcı olmak için elimden geleni yaparım. Peki, nişanlı hakkında ne öğrenmek istiyorsunuz?""
+
+
+
+Bu sorularla müşterinin ne aradığı konusunda daha fazla bilgi edinebilir ve ona yardımcı olabilirsiniz.  
+
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Nişan] 
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:40,user,Fiyatı ne kadar,"Sentiment: Nötr 
+
+Bu mesaj fiyat hakkında bilgi talep ediyor, bu da nötr bir sentiment taşıyor. 
+","Botun müşterinin sorularını yanıtladığı: **Hayır**
+
+**Açıklama:** 
+Müşteri sadece ""Fiyatı ne kadar"" diye sorarak hizmet veya ürünün fiyatını öğrenmek istiyor. Bot bu mesajı anlıyorken, **fiyatı belirtmiyor**. 
+
+Düğün analizi uzmanı olarak, müşteriye fiyat bilgisi sunmak ve çeşitli paket veya fiyat seçeneklerini sunmak önemlidir.  
+
+","konu=[5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+
+
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:04,user,Düğün,"Sentiment: Nötr 
+","[Hayır] 
+
+**Analiz:**
+
+Müşteri mesajı ""Düğün"" kelimesiyle başlayarak çok genel bir konu ifade ediyor. Cevap olarak, bu mesajın spesifik bir soru içeriyor veya talepte bulunuyorsa açık bir şekilde belirtmek gerekiyor. 
+
+""Düğün"" kelimesi birçok anlam ifade edebilir; düğünün planlanması, mekan seçimi, dekorasyon gibi konulardan biriyle ilgili bir soruda bulunmuş olabilir. Ancak mesajın halihazırda yeterince bilgi içermediği için bot, soruya uyum sağlamalı ve müşteriden daha fazla detay talep etmelidir. 
+
+","konu= Etkinlik Türüyle İlgili Kelimeler 
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:48,user,23.08.25 pastalı olcak 600 kişi,"sentiment=nötr 
+","Müşteri mesajında düğün tarihi (23.08.25) ve konuk sayısı (600 kişi) belirtilmiş.  Düğün analizi uzmanı olarak, müşteriden **pastayı ne tür bir pasta istediğini (geleneksel, modern, minimalist vb.)** veya **pastada hangi lezzetleri tercih ettiğini** öğrenmem gerekiyor. 
+
+
+**Cevapsız soru:** Pastanın türü, lezzeti ve diğer detayları hakkında bilgi verilmemiş. 
+
+**Cevap formatı:** [Hayır] 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler]  
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:15,user,Konya da olacak,"Sentiment: Nötr 
+","[Hayır] 
+","konu=[Mekân ve Lokasyonla İlgili Kelimeler] 
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:35,user,100,"Sentiment: Nötr 
+","[Hayır]  
+
+Müşteri mesajı matematiksel bir değer (""100"") ifade ediyor ve düğün analizi için anlamlı bir bilgi içermiyor. Bot'un bu mesajı yorumlayıp müşterinin sorularını cevaplaması mümkün değil.  
+","konu=[ ] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:30,user,merhaba,"Sentiment: Nötr 
+","Cevap formatı: [Evet / Hayır] 
+ 
+ 
+
+Cevap: Hayır 
+
+
+Analiz: 
+
+""Merhaba"" bir selamlama ifade eder ve doğrudan bir soru içermez.  Bot, müşterinin sorularına cevap verme biçimiyle ilgili kurallara uygun davranmamıştır.  
+","konu=[ ""Hizmet Türüyle İlgili Kelimeler"", ""Etkinlik Türüyle İlgili Kelimeler"" ] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:47,user,okulumuzun mezuniyet töreni için fiyat almak istiyorum,"Sentiment: Nötr 
+
+Mesaj, fiyata dair bir bilgi isteği içeriyor ve olumlu ya da olumsuz bir duyguyu yansıtmamaktadır.  
+","Cevap formatı: [Evet / Hayır]
+
+
+Cevap: [Evet] 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:12,user,istanbul tuzla,"Sentiment: Nötr 
+
+
+""İstanbul tuzla"" mesajının kendi başına bir duygu ifade etmediğini düşündüğüm için nötr olarak etiketledim.  
+","Hayır 
+","konu=[ 3. Mekan ve Lokasyonla İlgili Kelimeler ] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:19,user,28-29 haziran,"sentiment=nötr 
+","No 
+","konu=[
+""Hizmet Türüyle İlgili Kelimeler"" ; ""Tarih ve Zamanla İlgili Kelimeler""
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:59,user,yemek ve pasta,"Sentiment: Nötr 
+","Hayır 
+","konu=[2. Hizmet Türüyle İlgili Kelimeler, 6. İkram ve Menüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:13,user,toplamda 50 kişi,"Sentiment: Nötr 
+","[Hayır] 
+
+Müşteri, bir soru sormamış. Sadece 50 kişilik bir düğün olduğunu belirtmiş. 
+","konu =[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:57,user,en düşük fiyat önerilerinizi öğrenirsem daha iyi olur,"Sentiment: Nötr 
+","[Evet] 
+","konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:46:26,user,açık kapalı fark etmez,"Sentiment: Nötr 
+
+
+""Açık kapalı fark etmez"" ifadesi, kişinin açık veya kapalı mekan tercihinin olmadığını gösteriyor. Bu ifade pozitif veya negatif bir duygu ifadesi içermemektedir. 
+","Hayır 
+","konu=[Mekan ve Lokasyonla İlgili Kelimeler]  
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:05,user,kapalı alan olan var mı,"Sentiment: Nötr 
+","Cevap formatı ile örtüştüğünü varsayıyorum, ama mesajda kapalı alan olup olmadığı hakkında hiçbir bilgi yok.  
+
+Bu mesajın bir düğün analizi uzmanı tarafından nasıl daha iyi yorumlanabileceğini açıklayalım:
+
+**Müşteri İhtiyaçları ve Kelime Seçimi:**
+
+* ""kapalı alan"" ifadesi, düğün mekanının özelliklerini sorgulamaktadır. Müşteri dış etkenlere bağlı olarak düğün yapmayı düşündüğünü gösteriyor.
+*  ""var mı"" fiili müşteriyi belirli bir sorunun cevabını aradığını gösteriyor.
+
+**Botun Yanıtıyla İlgili:**
+
+* Bot bu mesajı doğrudan anlayamayacaktır. ""Evet / Hayır"" formatı için eksik bilgi sunar. 
+* Bot aynı kibarlığa sahip olmakla birlikte eksik bilgileri daha doğrudan sormak için ""Üzgünüm, kapalı alan mı arıyorsunuz? Mekanımız hakkında daha fazla bilgi verebilir miyim?"" gibi bir metin kullanmalı.
+
+
+
+
+Özetle, bot müşteriye kapalı alan olup olmadığını sorgulamak için yanıt verebilecek ancak soruyu tam olarak anlamak için daha fazla bilgiye ihtiyaç duyar. 
+","Konu: [Mekân ve Lokasyonla İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:41,user,tamam önerilerinizi inceleyim,"Sentiment: Nötr 
+","Hayır 
+","konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:51:28,user,resim ve video çekimi de istiyorum,"Sentiment: Pozitif 
+
+
+**Analiz:**
+
+Müşteri, düğün için resim ve video çekimi hizmetini talep ediyor.  Bu, düğün planlama ve heyecanı ile ilgili aktif bir istektir ve genel olarak olumlu bir duygu ifadesidir. 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:29,user,çekimler tören sırasında olacak," sentiment=nötr 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:59,user,fotoğraf ve video çekimi olacak,"Sentiment: Pozitif 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:53:34,user,en uygun olanları verebilirseniz sevinirim,"Sentiment: Pozitif 
+",,"konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+
+
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:00:34,user,tekrar merhaba,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:01:18,user,temenye quın garden için,"Sentiment: Nötr 
+
+**Açıklama:**
+
+""Temenye quın garden için"" ifadesi dil yapısı ve anlam açısından tam olarak anlaşılır değil. ""Temenye"" kelimesi belirgin bir anlam taşımamaktadır ve ""quın"" kelimesi aynı zamanda bir anlamsal bağlamda kullanılmamıştır. ""Garden için"" kısmı, bir sipariş veya istek gibi bir anlamı ortaya koyabilir ancak cümle tamamlanmamış olduğundan net bir sentiment belirlemek mümkün değildir. 
+
+
+
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:02:49,user,28 haziran akşam saatlerinde  yemek - pasta - ve fotoğraf video çekimi içinde 50 kişilik fiyat teklifi alabilir miyim,"Sentiment: Pozitif 
+",,"konu=[
+   Etkinlik Türüyle İlgili Kelimeler,
+   Hizmet Türüyle İlgili Kelimeler,
+   Tarih ve Zamanla İlgili Kelimeler,
+   Bütçe ve Kapasiteyle İlgili Kelimeler,
+   İkram ve Menüyle İlgili Kelimeler
+] 
+
+
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:31:11,user,Nişan,"Sentiment: Pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:12,user,Manisa Salihli 24 Haziran 2025 150 davetli,"sentiment=nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Kapasite] 
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:36,user,Sadece mekan,"Sentiment: Nötr 
+",,"konu=[3. Mekan ve Lokasyonla İlgili Kelimeler]
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:51,user,Hicbiri,"Sentiment: Nötr 
+",,"konu=[ ] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:53:49,user,19 ekim sünnet düğünü salonu,"Sentiment: Nötr 
+",,"konu=[1. Etkinlik Türüyle İlgili Kelimeler, 2. Hizmet Türüyle İlgili Kelimeler, 3. Mekan ve Lokasyonla İlgili Kelimeler, 4. Tarih ve Zamanla İlgili Kelimeler] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:05,user,Kocaeli gebze,"Sentiment: Nötr 
+
+**Analiz:** ""Kocaeli gebze"" ifadesi, bir yer veya konum belirtiyor.  Bu ifade olumlu, olumsuz veya tarafsız bir duygu ifade etmiyor.  
+",,"Konu:
+- Mekan ve Lokasyonla İlgili Kelimeler 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:29,user,350 400 pasta ö,"Sentiment: Nötr 
+
+Bu mesajın bir düğün pastasının fiyat aralığı hakkında bilgi içermesi bir duygu ifade etmediğinden nötr olarak kabul edilir.  
+",,"konu=[Hizmet Türüyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler]   
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:45,user,Mest5,"Sentiment: Nötr 
+
+""Mest5""  kısaltma veya bir kelime grubunun  şimdiki bağlamda ne anlama geldiğini bilmiyorum. Daha fazla bağlam gerektiriyor. 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:52,user,45 milyar,"sentiment=nötr 
+",,"konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:55:16,user,Gebze sadece,"Sentiment: Nötr 
+
+""Gebze sadece"" cümlesi, yüzeysel bakıldığında bir duygu ifadesi içermiyor. Daha fazla bağlam gerekmektedir.  
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler]  
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:11:32,user,Düğün,"Sentiment: Nötr 
+",,"konu=[1. Etkinlik Türüyle İlgili Kelimeler] 
+
+
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:14:28,user,"Gaziantep Şahinbey de bir mekan arıyoruz. 100-450 civarlarında davetlimiz olacak, tahmini düğün tarihimize daha var ama ben şimdiden araştırmak istiyorum. Hizmette ise;Mekan, organizasyon, içecekler ama alkol asla olmayacak, fotoğraf ve video çekimi ve kuru pasta gibi ikramların olduğu bir mekan arıyorum.. Anlıyorsunuz değil mi beni?","Sentiment: Pozitif 
+",,"konu=[
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler, 
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler, 
+Bütçe ve Kapasiteyle İlgili Kelimeler, 
+İkram ve Menüyle İlgili Kelimeler
+]  
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:16:24,user,"Kapalı bir mekan arıyoruz ve bütçe bizim için önemli değil. Şık, görkemli bir mekan arıyoruz. Önerilerde bulunursanız sevinirim.","Sentiment: Pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:17:22,user,Sence hangisi daha iyi? Karar vermekte zorlanıyorum.,"Sentiment: Nötr 
+",,"konu=[Karar Verme Zorluğu] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:07:52,user,Kıyı bungalov,"Sentiment: Nötr 
+ 
+""Kıyı bungalov"" ifadesi, bir duygu ifade etmiyor.  Sadece bir yer veya mekan türü tanımlamaktadır. 
+
+
+
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:05,user,Balayı,"Sentiment:Pozitif 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:19,user,Rize,"Sentiment: Nötr 
+
+""Rize"" sadece bir yer adıdır ve pozitif veya negatif bir duyguyu ifade etmiyor. 
+",,"konu=[Mekân ve Lokasyonla İlgili Kelimeler] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:09,user,10.07.2025 göl kenarı 1000-5000 TL arası,"sentiment=nötr 
+",,"konu=[ Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler ] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:48,user,5000-10000 TL arası,"Sentiment: Nötr 
+",,"konu=[5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+
+
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:10:25,user,Deniz kenarı,"Sentiment: Pozitif 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:15:19,user,27 09 2025 günü kız isteme ve nişan töreni  ortalama 120 kişilik,"sentiment = pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,Tarih ve Zamanla İlgili Kelimeler,  Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:16:14,user,Hatay ili merkezde ikramlı kapalı alan,"sentiment=nötr 
+",,"konu = [
+    3. Mekan ve Lokasyonla İlgili Kelimeler
+] 
+
+
+
+
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:17:45,user,Pasta meşrubat,"Sentiment: Nötr 
+
+
+""Pasta meşrubat"" ifadesi yüzeysel bir incelemede ne olumlu ne de olumsuz bir duyguya işaret etmiyor.  
+",,"konu=[2. Hizmet Türüyle İlgili Kelimeler]
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:08,user,30000,"Üzgünüm, ancak sadece metin ipuçlarıyla ""30000"" sayısının ifade ettiği duyguyu tam olarak anlayamam. 
+
+Sentiment: Nötr 
+
+",,"konu=[5] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:39,user,Evet,"Sentiment: pozitif 
+",,"Konu:
+- Etkinlik Türüyle İlgili Kelimeler
+- Hizmet Türüyle İlgili Kelimeler 
+- Mekan ve Lokasyonla İlgili Kelimeler 
+- Tarih ve Zamanla İlgili Kelimeler 
+- Bütçe ve Kapasiteyle İlgili Kelimeler 
+- İkram ve Menüyle İlgili Kelimeler 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:19:03,user,Defne,"Sentiment: Nötr 
+
+
+""Defne"" sadece bir isimdir ve duygusal bir anlam içermediği için nötr olarak değerlendirilebilir. 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+
+
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:52:45,user,Nişan,"Sentiment: Pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:11,user,"Söz ve isteme bir arada olacak şekilde kuru pasta ve meyve suyuyla beraber istiyoruz . Ankara yenimahalle, Mamak , Çankaya da olabilir . Yaklaşık 150-200 davetli . Söz mekânında organizasyon fotoğrafını istiyorum . Tarih olarak 20 Temmuz","Sentiment: Pozitif 
+",,"konu=[
+""söz"", 
+""isteme"",
+""organizasyon fotoğrafı"",
+""pasta"",
+""meyve suyu"",
+""Ankara"",
+""yenimahalle"",
+""Mamak"",
+""Çankaya"",
+""150-200 davetli"",
+""20 Temmuz"" 
+] 
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:48,user,evet bakabilirsiniz,"Sentiment: Nötr 
+",,"konu=[] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:13,user,Düğün,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:38,user,trabzon araklı,"Sentiment: Nötr 
+
+**Analiz:** ""Trabzon Araklı"" bir konum belirtiyor. Bu ifade kendisiyle ilgili bir duygu ya da düşünce ifade etmiyor, bu nedenle nötr olarak değerlendiriliyor. 
+
+
+",,"konu=[3. Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:46,user,15 kadım,"Sentiment: Nötr 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler, Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:57,user,200 davetli,"Sentiment: Nötr 
+",,"konu=[5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:05,user,pasta meşrubat,"sentiment=nötr 
+",,"konu=[Pasta, Meşrubat, Hizmet Türüyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:22,user,50,"Sentiment: Nötr 
+",,"konu=[50] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:44,user,50 bin tl,"Sentiment: Nötr 
+
+""50 bin tl"" mesajının tek başına bir duygu ifade etmediğini düşünürsek, nötr bir sentiment etiketi daha uygun olur. 
+",,"konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:55,user,kapalı,"Sentiment:  Nötr 
+
+
+""Kapalı"" kelimesi genellikle bir duygu ifade etmeyen, nesnel bir durumdur.  
+",,"konu=[ Mekan ve Lokasyonla İlgili Kelimeler ] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T15:59:57,user,Düğün,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,  Hizmet Türüyle İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:22,user,Ankara,"Sentiment: Nötr 
+",,"konu=[Mekân ve Lokasyonla İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:31,user,Etiler orduevi,"Sentiment: Nötr 
+",,"konu=[Mekana ve Lokasyonla İlgili Kelimeler ] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:01:40,user,300 kişi yemekli 2026 ekim,"Sentiment: Nötr 
+",,"konu=[
+Etkinlik Türüyle İlgili Kelimeler
+,
+Hizmet Türüyle İlgili Kelimeler
+,
+Mekan ve Lokasyonla İlgili Kelimeler
+,
+Tarih ve Zamanla İlgili Kelimeler
+,
+Bütçe ve Kapasiteyle İlgili Kelimeler
+,
+İkram ve Menüyle İlgili Kelimeler
+]
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:02:28,user,Paket herşey dahil Etiler ordu evi,"Sentiment: Nötr 
+
+
+Bu mesaj, sadece bir paketin ismini ve mekanı belirtiyor. Dikkate değer bir his veya duygu ifade etmiyor. 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:03:23,user,Fotoğrafçı canlı müzik düğün pastasi,"sentiment=nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,Hizmet Türüyle İlgili Kelimeler,Hizmet Türüyle İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:08,user,Kişi başı 1000 tl,"Sentiment: Nötr 
+",,"konu=[5] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:54,user,1250,"Sentiment: Nötr 
+
+""1250"" rakamı, bir duygu veya görüş ifade etmediği için nötr bir sentiment taşır.  
+",,"konu=[Bütçe] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:05:22,user,Kisi başı 1500,"sentiment=nötr 
+",,"konu=[5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:07:22,user,Sayın Hera talebim Etiler orduevi,"Sentiment: Nötr 
+",,"konu=[ Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler ] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:08:55,user,Tandoğan orduevi,"Sentiment: Nötr 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:09:22,user,Aynı paket program,"Sentiment: Nötr 
+",,"konu=[Hizmet Türüyle İlgili Kelimeler]  
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:13:52,user,Düğün,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:30,user,İstabul Eyüp,"Sentiment: Nötr 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:48,user,9 Kasım,"sentiment=nötr 
+",,"konu=[4. Tarih ve Zamanla İlgili Kelimeler]  
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:56,user,500 kişilik kokteyl," sentiment=nötr 
+",,"konu=[
+2. Hizmet Türüyle İlgili Kelimeler 
+6. İkram ve Menüyle İlgili Kelimeler
+5. Bütçe ve Kapasiteyle İlgili Kelimeler 
+] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:06,user,düğün mekanı,"sentiment=nötr 
+",,"konu=[3. Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:27,user,kapalı mekan,"Sentiment: Nötr 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:37,user,120 bin,"Sentiment: Nötr 
+",,"konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+
+
+"
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:20,user,Düğün,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,  Hizmet Türüyle İlgili Kelimeler] 
+"
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:36,user,Ankara Keçiören,"sentiment=nötr 
+",,"konu=[Mekan ve Lokasyon] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:25,user,arkadaslarjmla gelmek istiyorum,"sentiment=pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,  Hizmet Türüyle İlgili Kelimeler, Davetli Sayısı] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:44,user,arkadaslarımla vakit gecirmek icin,"Sentiment: Pozitif 
+",,"konu=[Arkadaşlar, vakit geçirmek, etkinlik türü ile ilgili kelimeler] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:04:33,user,bakırkoyde ferah ve boyama yapabilecegim bir kafede,"Sentiment: Pozitif 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:05:20,user,2 kisiyiz pazartesi günü ve boyama yapmamıza izin verecek bir kafe,"sentiment=pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler,  Mekan ve Lokasyonla İlgili Kelimeler,  Tarih ve Zamanla İlgili Kelimeler,  Kapasiteyle İlgili Kelimeler] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:04:53,user,Düğün,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler]  
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:05:23,user,Gelin bohcası fiyatlar,"Örüntü analizi gereği ""Gelin bohçası fiyatları"" ifadesi bir bilgi talebi taşımaktadır. Hisse ve duygular ifade etmediği için nötr kabul edilmelidir.
+
+Sentiment: Nötr 
+
+",,"konu=[5] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:06:53,user,10 bin tl,"Sentiment: Nötr 
+
+""10 bin tl"" ifadesi tek başına bir duygu ifade etmiyor.  Bir fiyat teklifi olabilir, bir bütçe olabilir veya bir zaman dilimi gibi başka bir şey ifade edebilir. Duygusal bir ton taşımadığı için nötr olarak değerlendirilmelidir. 
+
+
+",,"Konu=[5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:07:01,user,Bütce,"Sentiment: Nötr 
+",,"konu=[Bütçe, toplam bütçe, uygun fiyatlı, ekonomik] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:08:23,user,İl aksaray,"Sentiment: Nötr 
+",,"konu=[Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:09:14,user,Set takımı,"Sentiment: Nötr 
+
+""Set takımı"" mesajı tek başına bir duygu ifade etmiyor. Bu, bir ürün veya hizmet hakkında bilgi isteyen bir talep olabilir. 
+
+
+
+",,"konu=[Hizmet Türüyle İlgili Kelimeler]  
+
+
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:10:26,user,Set oldun yeterli,"Sentiment: Negatif 
+",,"konu=[ Etkinlik Türüyle İlgili Kelimeler ] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:11:19,user,İzmir'de gördüm bi set takımı,"Sentiment: Nötr 
+
+
+Mesaj, sadece bir set takımının İzmir'de görüldüğünü bildirmiş.  Düğün analizi için daha fazla bağlam bilgisi gerekli.  
+",,"konu=[ 3. Mekan ve Lokasyonla İlgili Kelimeler ]  
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:12:44,user,Tüm izmir,"Sentiment: Nötr 
+",,"konu=[Mekân ve Lokasyonla İlgili Kelimeler] 
+"

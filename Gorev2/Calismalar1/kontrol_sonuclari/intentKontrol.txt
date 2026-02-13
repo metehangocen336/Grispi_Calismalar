@@ -1,0 +1,30 @@
+Farklı olan satırlar ve değerleri (index, df_yeni, dfLabels):
+1 Eksik ürün ************** İade
+2 Şifre sıfırlama ************** Hesap Yönetimi
+5 İptal ************** Sipariş İptali
+7 Defolu ürün ************** İade
+8 Hesap bilgisi ************** Hesap Yönetimi
+9 Fatura hatası ************** Ödeme
+10 İptal ************** Sipariş İptali
+11 Stok ************** Stok Takibi
+13 Kargo ************** Kargo Takibi
+15 Beden tablosu ************** Teknik Sorun
+16 Adres hatası ************** Hesap Yönetimi
+17 Yorum ************** Teknik Sorun
+18 Web sitesi ************** Teknik Sorun
+20 Ürün ************** Ürün Özellikleri
+21 Eksik ürün ************** İade
+23 Hasarlı ürün ************** İade
+24 Değişim ************** İade
+25 İndirim ************** Kupon
+26 Yanlış ürün ************** İade
+27 Hesap kapatma ************** Hesap Yönetimi
+28 Eksik ürün ************** İade
+30 Adres hatası ************** Hesap Yönetimi
+31 Sipariş ************** Kargo Takibi
+33 Beden ************** İade
+35 Kargo ************** Kargo Takibi
+36 İptal ************** Sipariş İptali
+37 Teknik sorun ************** Teknik Sorun
+38 Abonelik ************** Hesap Yönetimi
+39 Kargo ************** Kargo Takibi

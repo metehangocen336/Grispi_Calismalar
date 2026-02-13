@@ -1,0 +1,20 @@
+Türkçe konuşuyorum. Aşağıdaki kullanıcı mesajlarını bir düğün analizi uzmanı gibi analiz et. Analiz sonucunu yazmana gerek yok. Sadece kullanıcı mesajlarının içerdiği kategorileri belirle.  
+
+Kategori Etiketleme Mantığı:
+- Kullanılacak altı kategori: Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü
+- Her kategori için örnek anahtar kelimeler:
+
+Etkinlik Türü: düğün, düğün salonu, kır düğünü, kına, nişan, sünnet, doğum günü, mezuniyet, parti  
+Hizmet Türü: organizasyon, fotoğrafçı, video, davetiye, gelinlik, damatlık, saç-makyaj, DJ, catering, yemek, kokteyl, pasta, balayı  
+Mekan ve Lokasyon: il, ilçe, semt, açık alan, kapalı alan, bahçe, salon, villa, otel, tekne  
+Tarih ve Zaman: tarih, gün, hafta sonu, hafta içi, yaz, kış, Haziran, Temmuz  
+Bütçe ve Kapasite: kişi başı, toplam bütçe, fiyat, ücret, davetli sayısı, kapasite, küçük grup, kalabalık  
+İkram ve Menü: yemekli, yemeksiz, kokteyl, pasta, meşrubat, açık büfe, içecek, ikram  
+
+- Anahtar kelimeleri **yalnızca modelin kategoriyi tanımasına yardımcı olmak için kullan**, yanıtına ekleme  
+- Yanıtı **tek satır** olarak ve sadece kategori başlıkları şeklinde ver, başka hiçbir şey ekleme  
+- Boş bırakma, en az bir kategori döndür  
+
+**Doğru Cevap Formatı:** Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü  
+
+user mesajları: "{mesaj}"

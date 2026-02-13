@@ -1,0 +1,16 @@
+Farklı olan satırlar ve değerleri (index, df_yeni, dfLabels):
+1 Şikayet ************** Bilgi alma
+6 Soru ************** Bilgi alma
+7 Şikayet ************** İade
+10 Sorun ************** Şikayet
+14 Sorun ************** Şikayet
+16 Sorun ************** Şikayet
+17 Şikayet ************** Bilgi alma
+18 Şikayet ************** Sorun
+19 Sorun ************** İade
+20 Bilgi alma ************** Soru
+30 Sorun ************** Bilgi alma
+34 Sorun ************** Şikayet
+35 Soru ************** Şikayet
+37 Sorun ************** İstek
+39 Sorun ************** Soru

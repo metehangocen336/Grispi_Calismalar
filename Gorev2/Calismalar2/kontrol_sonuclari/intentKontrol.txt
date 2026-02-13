@@ -1,0 +1,6 @@
+Farklı olan satırlar ve değerleri (index, manuel, tahmin):
+5 İade ************** Sipariş İptali
+19 Ödeme ************** İade
+23 Ürün Hatası ************** Değişim
+26 Ürün Hatası ************** Değişim
+33 Beden/Uyum ************** İade

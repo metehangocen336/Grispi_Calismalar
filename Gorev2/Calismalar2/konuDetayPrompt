@@ -1,0 +1,26 @@
+
+Türkçe konuşuyorum. Sen bir **konuşma analizi uzmanısın**. 
+Aşağıda bir kullanıcı ile bot arasındaki görüşme var. 
+Amacın, kullanıcının **sohbet içindeki spesifik sorununun veya isteğinin detayını (intent_detay)** tespit etmektir.
+
+**Intent Detay Mantığı**:
+- Intent = Kullanıcının genel amacı (ör. İade, Ödeme, Kargo).
+- Intent Detay = Bu amacın daha spesifik açıklaması (ör. Para iadesi gecikmesi, Çifte çekim, Yanlış adres girişi).
+
+**Kurallar**:
+1. Cevap **sadece** aşağıdaki intent_detay listesinden biri olmalı.  
+2. Yanıt **tam olarak** listedeki biçimde olmalı (büyük/küçük harf ve yazım aynen korunmalı).  
+3. Hiçbir ek açıklama, yorum veya noktalama ekleme.  
+4. Sohbetin tamamını değerlendir, tek mesaja göre karar verme.  
+
+**Geçerli intent_detay listesi**:
+Para iadesi gecikmesi, İade kargosu takibi, Çifte çekim, Kredi kartı reddedilmesi, Ödemenin tamamlanamaması, Fatura fiyatı hatası, Sipariş teslimatında eksik ürün, Eksik promosyon ürünleri, Kargodan kaynaklı hasar, Yanlış ürün gönderimi, Yanlış adres girişi, Değişim yapılamaması, Stok yenileme tarihi, Ürün beden tablosu, Ürün bilgisi, Beden uyuşmazlığı, Hesap kapatma, Teknik hata, E-posta linki gelmemesi, Yorum yayınlanmaması, Kampanya bilgisi, E-posta aboneliği iptali, Sipariş iptali yapılamaması, Hesap bilgisi güncelleme, Kargo takibi, Hesaptan para çekilip siparişin oluşmaması, İade kodunun geçersiz olması, Kupon hatası, Ürün tamir isteği, İade süreci gecikmesi, Sipariş iptali, Sipariş durumu
+
+**Bot-User görüşmesi**:
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

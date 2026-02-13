@@ -1,0 +1,10 @@
+Farklı olan satırlar ve değerleri (index, df_yeni, dfLabels):
+3 Nötr ************** Pozitif
+6 Nötr ************** Pozitif
+8 Nötr ************** Pozitif
+20 Nötr ************** Pozitif
+25 Nötr ************** Pozitif
+30 Pozitif ************** Nötr
+31 Nötr ************** Pozitif
+37 Nötr ************** Negatif
+38 Nötr ************** Pozitif

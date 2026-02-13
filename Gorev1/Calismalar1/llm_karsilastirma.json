@@ -1,0 +1,1302 @@
+[
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Diyarbakır’da hem düğün hem kına\nuser mesajı 3. 2 ay sonra düşünüyoruz 700 davetli gelecek ikram olarak içecek ve ,pasta ve meşrubat istiyoruz\nuser mesajı 4. Mekan ve fotoğraf ,100 bin tl bütçemiz var kapalı alanda\nuser mesajı 5. Davet sayısını 600 e çekelim o zaman",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Adıyaman Kahta\nuser mesajı 3. Ağustos ayı\nuser mesajı 4. 200 e Yakın\nuser mesajı 5. Yemekli\nuser mesajı 6. Açık yada kapalı düğün salonu\nuser mesajı 7. 500\nuser mesajı 8. Adıyaman Kahta köşk düğün salonu",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Abiye istiyorum\nuser mesajı 3. İstanbul Türkiye bütçe 4000 bin TL\nuser mesajı 4. Bağcılar Esenler\nuser mesajı 5. Ok\nuser mesajı 6. Peki uygun fiyata olnine site bula bilirmisib",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. 2025.11.15\nuser mesajı 3. Düğün mekanı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merbah\nuser mesajı 2. Şeşi\nuser mesajı 3. https://images.app.goo.gl/cid7SnWHy1pyLv118",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Nişanlık beğenmiştim de onu\nuser mesajı 3. Fiyatı ne kadar",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. 23.08.25 pastalı olcak 600 kişi\nuser mesajı 3. Konya da olacak\nuser mesajı 4. 100",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. merhaba\nuser mesajı 2. okulumuzun mezuniyet töreni için fiyat almak istiyorum\nuser mesajı 3. istanbul tuzla\nuser mesajı 4. 28-29 haziran\nuser mesajı 5. yemek ve pasta\nuser mesajı 6. toplamda 50 kişi\nuser mesajı 7. en düşük fiyat önerilerinizi öğrenirsem daha iyi olur\nuser mesajı 8. açık kapalı fark etmez\nuser mesajı 9. kapalı alan olan var mı\nuser mesajı 10. tamam önerilerinizi inceleyim\nuser mesajı 11. resim ve video çekimi de istiyorum\nuser mesajı 12. çekimler tören sırasında olacak\nuser mesajı 13. fotoğraf ve video çekimi olacak\nuser mesajı 14. en uygun olanları verebilirseniz sevinirim\nuser mesajı 15. tekrar merhaba\nuser mesajı 16. temenye quın garden için\nuser mesajı 17. 28 haziran akşam saatlerinde  yemek - pasta - ve fotoğraf video çekimi içinde 50 kişilik fiyat teklifi alabilir miyim",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Manisa Salihli 24 Haziran 2025 150 davetli\nuser mesajı 3. Sadece mekan\nuser mesajı 4. Hicbiri",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. 19 ekim sünnet düğünü salonu\nuser mesajı 2. Kocaeli gebze\nuser mesajı 3. 350 400 pasta ö\nuser mesajı 4. Mest5\nuser mesajı 5. 45 milyar\nuser mesajı 6. Gebze sadece",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Gaziantep Şahinbey de bir mekan arıyoruz. 100-450 civarlarında davetlimiz olacak, tahmini düğün tarihimize daha var ama ben şimdiden araştırmak istiyorum. Hizmette ise;Mekan, organizasyon, içecekler ama alkol asla olmayacak, fotoğraf ve video çekimi ve kuru pasta gibi ikramların olduğu bir mekan arıyorum.. Anlıyorsunuz değil mi beni?\nuser mesajı 3. Kapalı bir mekan arıyoruz ve bütçe bizim için önemli değil. Şık, görkemli bir mekan arıyoruz. Önerilerde bulunursanız sevinirim.\nuser mesajı 4. Sence hangisi daha iyi? Karar vermekte zorlanıyorum.",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kıyı bungalov\nuser mesajı 2. Balayı\nuser mesajı 3. Rize\nuser mesajı 4. 10.07.2025 göl kenarı 1000-5000 TL arası\nuser mesajı 5. 5000-10000 TL arası\nuser mesajı 6. Deniz kenarı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. 27 09 2025 günü kız isteme ve nişan töreni  ortalama 120 kişilik\nuser mesajı 2. Hatay ili merkezde ikramlı kapalı alan\nuser mesajı 3. Pasta meşrubat\nuser mesajı 4. 30000\nuser mesajı 5. Evet\nuser mesajı 6. Defne",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Söz ve isteme bir arada olacak şekilde kuru pasta ve meyve suyuyla beraber istiyoruz . Ankara yenimahalle, Mamak , Çankaya da olabilir . Yaklaşık 150-200 davetli . Söz mekânında organizasyon fotoğrafını istiyorum . Tarih olarak 20 Temmuz\nuser mesajı 3. evet bakabilirsiniz",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. trabzon araklı\nuser mesajı 3. 15 kadım\nuser mesajı 4. 200 davetli\nuser mesajı 5. pasta meşrubat\nuser mesajı 6. 50\nuser mesajı 7. 50 bin tl\nuser mesajı 8. kapalı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara\nuser mesajı 3. Etiler orduevi\nuser mesajı 4. 300 kişi yemekli 2026 ekim\nuser mesajı 5. Paket herşey dahil Etiler ordu evi\nuser mesajı 6. Fotoğrafçı canlı müzik düğün pastasi\nuser mesajı 7. Kişi başı 1000 tl\nuser mesajı 8. 1250\nuser mesajı 9. Kisi başı 1500\nuser mesajı 10. Sayın Hera talebim Etiler orduevi\nuser mesajı 11. Tandoğan orduevi\nuser mesajı 12. Aynı paket program",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İstabul Eyüp\nuser mesajı 3. 9 Kasım\nuser mesajı 4. 500 kişilik kokteyl\nuser mesajı 5. düğün mekanı\nuser mesajı 6. kapalı mekan\nuser mesajı 7. 120 bin",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara Keçiören",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. arkadaslarjmla gelmek istiyorum\nuser mesajı 2. arkadaslarımla vakit gecirmek icin\nuser mesajı 3. bakırkoyde ferah ve boyama yapabilecegim bir kafede\nuser mesajı 4. 2 kisiyiz pazartesi günü ve boyama yapmamıza izin verecek bir kafe",
+    "expected": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Gelin bohcası fiyatlar\nuser mesajı 3. 10 bin tl\nuser mesajı 4. Bütce\nuser mesajı 5. İl aksaray\nuser mesajı 6. Set takımı\nuser mesajı 7. Set oldun yeterli\nuser mesajı 8. İzmir'de gördüm bi set takımı\nuser mesajı 9. Tüm izmir\nuser mesajı 10. Tüm Türkiye geneli\nuser mesajı 11. Ben nasıl buluyorum ya\nuser mesajı 12. Siz nasıl bulamıyorsunuz\nuser mesajı 13. Tamam şunun o halde\nuser mesajı 14. Ya gelin bohcası dedik ya\nuser mesajı 15. Set fiyatı sla bilirmiyim\nuser mesajı 16. Örnek bir set içerigive fiyat tablosu verin\nuser mesajı 17. Bornoz takımı neden çift\nuser mesajı 18. Sadece gelin için\nuser mesajı 19. Havlu takımıb1adet el yüz yeterli\nuser mesajı 20. Makyaj setinde neler var\nuser mesajı 21. Parfüm  yokmu\nuser mesajı 22. Şanbuan\nuser mesajı 23. Makyaj set olsun tam\nuser mesajı 24. 3binlik olsa neler olur\nuser mesajı 25. Deoderat sambuan duş jeli ile birlikte\nuser mesajı 26. Diş bakım seti\nuser mesajı 27. Dahil\nuser mesajı 28. Bu istediklerimizle gelin setine eklersek\nuser mesajı 29. Makyaj seti diş seti parfüm deodorant şanbuan  duş jeli markaları ne olacak\nuser mesajı 30. Bu şekilde\nuser mesajı 31. İç giyim de neler var\nuser mesajı 32. Birde marka\nuser mesajı 33. 1 adette fantezi iç giyim\nuser mesajı 34. Nevresin bornoz markaları\nuser mesajı 35. En uygunu hangisi takımın\nuser mesajı 36. Fiyatları\nuser mesajı 37. Özdilek ekleyelim\nuser mesajı 38. Çeyiz sandığı yerine valiz  olsa\nuser mesajı 39. Çeyiz sandıgını çıkaralım valiz  üçlü deyilmi\nuser mesajı 40. Orta boy\nuser mesajı 41. El işleme varmı\nuser mesajı 42. Patik gibi\nuser mesajı 43. Çehiz seti ne kadar\nuser mesajı 44. Baketen şal ve eşabı çıkartın\nuser mesajı 45. Gelin açık\nuser mesajı 46. Örme kese bir erkek bir bayan birde yazma üç iğne oyası saten üç adet namazla örgü gelin şal gelin için bir  adetörğü yelek\nuser mesajı 47. Patiği çıkartalım\nuser mesajı 48. Nevresimi çıkartalım\nuser mesajı 49. Namazla iğne oyası deyil\nuser mesajı 50. Sadece saten\nuser mesajı 51. Şindi ne oldu\nuser mesajı 52. Bu  el örgüleri fiyat en uygun olan marka olsun\nuser mesajı 53. Valizlerde en uygun marka olsun\nuser mesajı 54. Şimdi ne oldu\nuser mesajı 55. Fiyatlarıyla birlikte atın\nuser mesajı 56. Fiyatları\nuser mesajı 57. Valiz marka ve fiyatları\nuser mesajı 58. Emin çata ne kadar polmak ne kadar\nuser mesajı 59. Polmak orta boy olsun\nuser mesajı 60. Yazma iğne oyası marka ve fiyat\nuser mesajı 61. Örgü gelin yelek fiyat marka\nuser mesajı 62. 250 olan\nuser mesajı 63. Şimdi ne oldu tekrar\nuser mesajı 64. Saten namazla marka ve fiyatlar örgü gelin şalı marka ve fiyatları\nuser mesajı 65. Yazma iğne oyası 3 adet toplam 400 TL olandan ekleyin\nuser mesajı 66. Örgü gelin şalı 200 TL olandan\nuser mesajı 67. 1 adet erkek kese 1 adet gelin kese tane fiyatı 80 TL olandan ekleyin\nuser mesajı 68. Bike takımı marka ve fiyat\nuser mesajı 69. Konsol takımı fiyat ve marka\nuser mesajı 70. 600 TL olan bike takımı ekle\nuser mesajı 71. 300 TL konsol takımı ekle\nuser mesajı 72. İki bebek yeleği biri mavi diğeri sarı marka ve fiyat\nuser mesajı 73. 160 yl olarak ekleyin\nuser mesajı 74. Şimde ne oldu\nuser mesajı 75. Bunları almak istesek  nasıl gönderirsiniz\nuser mesajı 76. PDF yazılı alışveriş yazılı göderin\nuser mesajı 77. Evet isterim\nuser mesajı 78. Liste atın\nuser mesajı 79. Bende bu ürünleri six gödereçek sandıydım",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Bekarlığa veda Partisi düzenlemek istiyorum\nuser mesajı 2. Parti İstanbul’da olacak ilçe olarak Anadolu ya da Avrupa yakası olur sadece hani Beylikdüzü gibi çok uzak bir yer olmasın. Üç Temmuz düşünüyoruz ortalama 10:15 kişilik bir grup olur böyle hem DJ performans ve erkek dansçıların olduğu hem de böyle sohbet edebileceğimiz şık eğlenceli bir mekan arayışındayız toplam bütçemiz 10.000 ila 30.000 arası\nuser mesajı 3. Yani hem açık hem kapalı alanlar olabilir ikram tercihi olarak yemek artı alkol şeklinde isteriz özel bir tema olarak da böyle geline özel küçük süslemeler olabilir\nuser mesajı 4. Tamam bütçeyi genişletelim ona göre tekrar arama yapabiliriz\nuser mesajı 5. 10.000 ila 80.000 arası",
+    "expected": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. 1. izmir , balçova ve buca\nuser mesajı 3. 2. 300 kişi\nuser mesajı 4. kokteyl de olabilir ve acık seciö\nuser mesajı 5. 25 ekim 29 ekim\nuser mesajı 6. 500tl ve 1000tl arası",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. muğla bodurum 700\nuser mesajı 3. kişilik\nuser mesajı 4. sadece bodrum\nuser mesajı 5. kokteyl\nuser mesajı 6. kır\nuser mesajı 7. en düşük ne kadar\nuser mesajı 8. en düşük 500\nuser mesajı 9. bu mekanlar dısıdna baska mekan var m\nuser mesajı 10. 700 tl",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. izmir urla\nuser mesajı 3. düğün mekanı\nuser mesajı 4. 2025 ağustos ayı içerisinde bir haftasonu, yaklaşık 50 daveetli olacak, yemekli ve içkili olacak, mekan olarak deniz kenarı plaj olabilir ya da kır olabilir. Bütçe kişi başı max 1000 tl",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Mezuniyet\nuser mesajı 2. İstanbul/Ataşehir\nuser mesajı 3. 18/06/2035\nuser mesajı 4. Pardon\nuser mesajı 5. İstanbul/Ataşehirde yapmak istiyoruz,18/06/2025 tarihinde, yaklaşık 20 kişi ile yemek rezervasyonlu ve kişi başı yaklaşık 900-1000 TL arası olan müzikli bir mezuniyet töreni istiyoruz ve açık veya kapalı farketmez mekan olarak",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Nevşehir\nuser mesajı 3. Kişi başı max 1000\nuser mesajı 4. sadece yet istiyorum ikram vs istemiyorum 50 kişi olacak uçhisar Avanos Ürgüp göreme olabilir\nuser mesajı 5. Ekle",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merhaba\nuser mesajı 2. Düğün balayı için rahatsız ettim\nuser mesajı 3. Maldivler 25 Ağustos 31 Ağustos arası\nuser mesajı 4. 150 bin villa herşey dahil özel bir konsept isteğimiz yok\nuser mesajı 5. Uçak bileti dahil değil\nuser mesajı 6. Aileler e açık otel\nuser mesajı 7. Kendim gelsem turizm acentesi neden bağımsız daha ekonomik olmaz mı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. 150-200 kişi Ankara için mekan\nuser mesajı 3. Ekim ayı ikinci haftası tarih\nuser mesajı 4. Açık alan, sosyal tesis",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. mezuniyet\nuser mesajı 2. Yalova Merkez 21 haziran 25-30 kişilik yemekli kişi başı bütçe 1000-1100 arasında\nuser mesajı 3. kokteyl olsun yada pasta\nuser mesajı 4. 20 haziran?",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. YUNUS & CENNET nişan törenleri var mı\nuser mesajı 3. Uşak merkez\nuser mesajı 4. Geleceğini seneye ağustos gibi düşünüyoruz inşallah\nuser mesajı 5. Binlerce\nuser mesajı 6. Yemekli\nuser mesajı 7. Açık hava salonları\nuser mesajı 8. 500 kişilik\nuser mesajı 9. Bölme havuz bar\nuser mesajı 10. Evet istiyorum\nuser mesajı 11. Yunus yavuz sevgiliyiz çünkü ilişkimiz başladı\nuser mesajı 12. Nişan davetiyesi görebilir miyim yazıları için\nuser mesajı 13. Tarih : 26.08.2026 saat : 20.00 yer uşak bölme\nuser mesajı 14. Nişan davetiyesi yazar mısınız\nuser mesajı 15. Evet yeni bir metin de hazırlayabiliriz\nuser mesajı 16. Numarasını vereyim mi istersen\nuser mesajı 17. 05511440801 yunus yavuz eşim\nuser mesajı 18. GÖKHAN ALKAN BAŞAK GÜMÜLCİNELİOĞLU\nuser mesajı 19. Gökhan ve başak davet etmek istiyorum\nuser mesajı 20. Allah’ın emri peygamberin kavli ile kızımız başak oğlumuza Gökhan’ı istiyoruz lütfen bize bildirin\nuser mesajı 21. İnstagramda var başak Gümülcinelioğlu eşiniz Gökhan Alkan\nuser mesajı 22. Gökhan alkan eşi kimdir başak Gümülcinelioğlu\nuser mesajı 23. Mehmet çağrı çıtanak boşanma davasını açmak istiyorum\nuser mesajı 24. Kül masalı dizisi arat ve jale birbirimizi uyumlu olarak izledik\nuser mesajı 25. Gökhan Alkan kaç kişilik olacak\nuser mesajı 26. Düğün mekanları için görebilir miyim ama sadece Başak Gümülcinelioğlu ve Gökhan Alkan\nuser mesajı 27. Evet o açık alanda\nuser mesajı 28. Bu davetiye için yazar mısınız\nuser mesajı 29. Gökhan ve başak evlilik teklifi organizasyonları mekanları hangi otel de görebilir miyim\nuser mesajı 30. Clarion golden horn\nuser mesajı 31. Gökhan alkan ve başak Gümülcinelioğlu evlilik teklifi nişan düğün ve özel davetler için uygundur\nuser mesajı 32. Lütfen ona yapar mısınız\nuser mesajı 33. İnstagramda var konuşur musunuz ona sayın başak Gümülcinelioğlu eşi Gökhan Alkan\nuser mesajı 34. Oyuncu olarak sorun Gökhan ve başak nişanlısı olarak yer İstanbul merkez bağlı zekeriyaköy\nuser mesajı 35. İsterim\nuser mesajı 36. Gökhan Alkan eşi kimdir öğrenebilir miyiz\nuser mesajı 37. Gökhan Alkan sevgilisi kim\nuser mesajı 38. Başak Gümülcinelioğlu eşiniz öğrenebilir miyiz\nuser mesajı 39. Tamam canım",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Ankara Yeni mahalle ve Etimesgut civarı  100-150 kişi koktely tarzı  16 Temmuz\nuser mesajı 3. Evet",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Samsun/Atakum\nuser mesajı 3. 24-25 eylül arası 600 kişilik nişan mekânı yemeksiz",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merhaba\nuser mesajı 2. Nişan\nuser mesajı 3. Ben prenses model bir abiye bakıyorum\nuser mesajı 4. Ü19 temmuz\nuser mesajı 5. Diyarbakır Çermik\nuser mesajı 6. 10 bin\nuser mesajı 7. Olur\nuser mesajı 8. 15 de olur\nuser mesajı 9. Ona göre baksanız\nuser mesajı 10. Olur\nuser mesajı 11. Diyarbakır dışında da olur",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Malatya\nuser mesajı 3. Düğün abiye\nuser mesajı 4. Nikah elbisesi yani\nuser mesajı 5. Olur\nuser mesajı 6. 5 Temmuz tarih\nuser mesajı 7. Bu siteden bir tame beğendim\nuser mesajı 8. Ama size resmi iletemiyorum",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. SÜNNET EĞLENCESİ\nuser mesajı 2. 300-400 KAPAİSTELİ\nuser mesajı 3. 25 MAIS VEYA 7 HAZİRAN 2026 TARİHİ İÇİN\nuser mesajı 4. İZMİR BAYRAKLI KIR DÜĞÜN SALONU\nuser mesajı 5. SADECE PASTA VE MEŞRUBAT\nuser mesajı 6. HAYIR SADECE BAYRAKLIDAN BKAIYORUM\nuser mesajı 7. BİN VEYA\nuser mesajı 8. 60-70 BİN\nuser mesajı 9. PEKİ FİYATLAR NE KADA ACABA\nuser mesajı 10. ÖNÜMÜZDEKİ SENE İSTEDİĞİM TARİHLERDE\nuser mesajı 11. HAYIR MESAFE KONUSUNDA UYGUN DEĞİL BYARAKLI DIŞI\nuser mesajı 12. BAYRAKLI FOLKART KARŞSINDAKİ DÜĞÜN SALONLARI NE KADAR ACABA?",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Van İpekyolu",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Gaziantep\nuser mesajı 3. şahinbey\nuser mesajı 4. 70 kişi\nuser mesajı 5. Pasta\nuser mesajı 6. açık alan\nuser mesajı 7. 60 kişi toplam\nuser mesajı 8. 50000\nuser mesajı 9. İkramsız istiyorum",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Her ikisi",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. ankara,\nuser mesajı 3. keçiören, pursaklar\nuser mesajı 4. 10 eylül 2025\nuser mesajı 5. 250\nuser mesajı 6. mekan ve organizasyon\nuser mesajı 7. kokteyl yada pasta meşrubat\nuser mesajı 8. ortalama 50000\nuser mesajı 9. çubuk, yenimahalle,\nuser mesajı 10. 60000\nuser mesajı 11. altındağ",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. nikah\nuser mesajı 2. ankara\nuser mesajı 3. keçiören, pursaklar\nuser mesajı 4. 13 yada 14 eylül 2025\nuser mesajı 5. 500\nuser mesajı 6. açık alan mekan\nuser mesajı 7. meşrubat\nuser mesajı 8. öneri istiyorum\nuser mesajı 9. açıkalan\nuser mesajı 10. sadece 2 saat nikah töreni\nuser mesajı 11. sadece meşrubat",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. kır bahçesinde nikah merasimi\nuser mesajı 2. 14 eylül\nuser mesajı 3. ankara\nuser mesajı 4. pursaklar keçiören\nuser mesajı 5. 500\nuser mesajı 6. meşrubat\nuser mesajı 7. fiyat söylemeyim\nuser mesajı 8. hafta sonu gündüz saat 15.00 da",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Balayı\nuser mesajı 2. Maldivler  25 Ağustos 5 gün 110 bin bütçe romantik balayı\nuser mesajı 3. Uçak dahil her şey dahil su üstü bungalov",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara çankaya gölbaşı\nuser mesajı 3. Dğün organizasyon\nuser mesajı 4. Eylül\nuser mesajı 5. 500\nuser mesajı 6. Herşey dahil müzik ışık kamers nikah vs\nuser mesajı 7. Kapalı nikah açık olabilir\nuser mesajı 8. Kişi başı 1.000 civarı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Sünnet\nuser mesajı 2. Gebze\nuser mesajı 3. Davetiye\nuser mesajı 4. 300\nuser mesajı 5. Klasik\nuser mesajı 6. Genel\nuser mesajı 7. Davetiye mekanı\nuser mesajı 8. Gebze magaza",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Sünnet\nuser mesajı 2. Sünnet düğünü yemekli\nuser mesajı 3. İstanbul  Gop\nuser mesajı 4. 500 kişilik Kasım ayında\nuser mesajı 5. 500tl\nuser mesajı 6. Gaziosmanpaşa\nuser mesajı 7. Ola bilir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Mersin liva otel 250 kisi kapasite yemeksiz\nuser mesajı 3. Eylül ayında düşünüyoruz\nuser mesajı 4. Fiyatlar ne kadar\nuser mesajı 5. 100.000,00 tl bütçe ile liva otelde 250 kisi yemeksiz",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Her ikiisi\nuser mesajı 3. Ankara altındağ ilçesinde 3 agustos 2025 tarihinde saat 4 5 gibi toplam 50 100 arası bütcem düşük\nuser mesajı 4. Yemekli\nuser mesajı 5. Evet en uygun fiyat\nuser mesajı 6. Toplam kaç tl 80 kili yemekli ?\nuser mesajı 7. Başka uygun fiyatlı kına konağı yok mu ? Mamak da olur\nuser mesajı 8. Başka uygun bütçeli kına konağı yok mu ankarada",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara Pursaklar\nuser mesajı 3. Düğün mekanı\nuser mesajı 4. 6 .7eylul ..maksimum600\nuser mesajı 5. Kokteyl\nuser mesajı 6. Toplam bütçem 130\nuser mesajı 7. 130 bin demek isdedim\nuser mesajı 8. Kapalı alan evet yakın ilçelerde olabilit\nuser mesajı 9. Kurupastali olsun\nuser mesajı 10. Teşekkür ederim\nuser mesajı 11. Çok teşekkür ederim evet memnunum",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Düğün kardeşimin ben hamile kıyafeti istiyorum\nuser mesajı 3. Tamam bekliyorum\nuser mesajı 4. 1 Temmuz’da düğün\nuser mesajı 5. Şık ve gösterişli petrol mavisi olabilir Dila olabilir\nuser mesajı 6. Lila\nuser mesajı 7. Tarsus Adana Mersin\nuser mesajı 8. Mağazada olur online da olur\nuser mesajı 9. Bu fiyatlar bana uygun uygun\nuser mesajı 10. Teşekkür ederim bekliyorum\nuser mesajı 11. Çok tüllü olmasın\nuser mesajı 12. fikir almak için mükemmel bir hizmet sunuyorsunuz inşallah model elbisesi sectigim zaman daha çok memnun olacağım",
+    "expected": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İstanbul Beyoğlu\nuser mesajı 3. Eylül 2025\nuser mesajı 4. Mekan, tarihi mekan\nuser mesajı 5. 100 kişi, kokteyl ikram düşünüyoruz\nuser mesajı 6. Kişi başı 1000-1200\nuser mesajı 7. Cercle d'orient olmaz mı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Sakarya Adapazarı Erenler\nuser mesajı 3. Düğün mankeni\nuser mesajı 4. Düğün mekanı\nuser mesajı 5. 01.05.2026\nuser mesajı 6. 2000\nuser mesajı 7. Yemekli\nuser mesajı 8. 500\nuser mesajı 9. Şaheser düğün salonu\nuser mesajı 10. Her ikisi",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İstanbul\nuser mesajı 3. Avrupa yakasında\nuser mesajı 4. Şişli\nuser mesajı 5. Düğün kasımda olucak ne önerirsiniz yemekli\nuser mesajı 6. 350 bütçe fiat önerinize göre\nuser mesajı 7. 350 kişi sayısı bütçe değil",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merhaba gelin hamamı\nuser mesajı 2. İstanbul Kadıköy\nuser mesajı 3. 27.06.2025\nuser mesajı 4. 15-20 kişilik piyasayı bilmediğim için. Bir fiyat vermem yanlış olur ne dip vede üç fiyat olsun  ortalama birsey\nuser mesajı 5. Müzik süsleme\nuser mesajı 6. Üsküdar Maltepe atasehir gibi yakin yerler olabilir sadece müzik ve süsleme kişi sayısı değişmez ama belki tarihi birgun öncesine alabilirim\nuser mesajı 7. Tamamdır ehpini içeren bir paket olsun",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nikah sonrası 50 kişilik yemek saat 1730-1900 arası\nuser mesajı 2. K.yaka/izmir yemekli 100-120 tl arası\nuser mesajı 3. Tşk ederim",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Gaziantep Şahinbey\nuser mesajı 3. Temmuz 30\nuser mesajı 4. 100 civarı\nuser mesajı 5. Pasta ve meşrubat sadece nişan\nuser mesajı 6. En ucuz hangisiyse\nuser mesajı 7. Şehitkamil",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. SHEYALTOPCU\nuser mesajı 2. SHEYALTOPCU\nuser mesajı 3. SHEYALTOPCU\nuser mesajı 4. SHEYALTOPCU\nuser mesajı 5. Tüz bitti söz güzel söz özel takmak tespihi bulmak\nuser mesajı 6. SHEYALTOPCU\nuser mesajı 7. SHEYALTOPCU\nuser mesajı 8. SHEYALTOPCU\nuser mesajı 9. SHEYALTOPCU\nuser mesajı 10. SHEYALTOPCU\nuser mesajı 11. SHEYALTOPCU\nuser mesajı 12. SHEYALTOPCU\nuser mesajı 13. SHEYALTOPCU\nuser mesajı 14. 2819\nuser mesajı 15. SHEYALTOPCU\nuser mesajı 16. SHEYALTOPCU\nuser mesajı 17. SHEYALTOPCU",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü,Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Yalova merkez\nuser mesajı 3. Mekan ve icerigi  gun olarak Ekim 30\nuser mesajı 4. Kapali alan ve 200 kisi kapasite li ve kina gecesi icerigi ne veriyor\nuser mesajı 5. Aslinda biximde karistigimiz durum su\nuser mesajı 6. Irganizazyon mekan olsun ma\nuser mesajı 7. masalar tamam mek\nuser mesajı 8. Ben sunu demek istiyorum her\nuser mesajı 9. hera\nuser mesajı 10. Yani gercekten en guzeli ozeli olsun ama butce dostu olsun gerekenler y\nuser mesajı 11. yapllsin\nuser mesajı 12. Evet ya bak anl\nuser mesajı 13. anlayabilen sen oldun\nuser mesajı 14. ilce soyle tabi\nuser mesajı 15. Ekonomik\nuser mesajı 16. sence ekim icin yer bakmaya beklesek\nuser mesajı 17. tabi\nuser mesajı 18. Bilgine ihtiyac var\nuser mesajı 19. Biz emdoha diyoruz\nuser mesajı 20. yalova merkez de olan.mekan ismi\nuser mesajı 21. Ogretmen evinde nasil kina oluyor\nuser mesajı 22. Ogretmen evi organizazyonu kimler\nuser mesajı 23. evet ekonomik ve icerigi nadir\nuser mesajı 24. hera var davet evi neferdin\nuser mesajı 25. ogrenebilirsin\nuser mesajı 26. bana yalova da emdoha da nasil iletisim saglarim yardimci ilurmusun\nuser mesajı 27. Yalova da be dugun kina mekan yeri\nuser mesajı 28. Iyi günler",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Yüzbir toplam bütçe 100 bin tl",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. iyi günler\nuser mesajı 2. iş başvurusunda bulunmak istiyorum\nuser mesajı 3. ankarada benim için yapabileceğiniz bişey varmı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merhabe Dogum Günü\nuser mesajı 2. 50 kisilik\nuser mesajı 3. Istanbulda, manzarasi olan cok büyük olmayan yemekli olucak bir mekan ariyorum\nuser mesajı 4. Örnek verdiginiz semtler Üsküdar haric hepsi olabilir - kisi basi fiyate en fazla 2000 olur diye düsünüyorum\nuser mesajı 5. bu mekanlar olmaz\nuser mesajı 6. acik alani ve bogaz manzarasi olsun isterim - kisi basi fiyatini artira biliriz mesal 2500\nuser mesajı 7. Kaddeh Sortie, hersey dahil konzept midir? DJ felan varmi\nuser mesajı 8. baska mekanlar varsa bir kac tane daha görmek isterim\nuser mesajı 9. yoksa su an kalsin, bir kac mekan gördükten sonra aralarindan secip öyle irtibata girmek isterim tesekkür eder\nuser mesajı 10. Tesekkür ederim cok hizli bir sekilde bilgilendirildim",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. After\nuser mesajı 2. Kahramanmaraş merkez  27 nisan 2026 50 kişilik\nuser mesajı 3. Mekan açık kapalı ikisi de olsun havuz bqşı tercihimiz olacaktır. Kokteyl pasta olacak. Bütçe önemli değil\nuser mesajı 4. Açık kapalı mekan olabilir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü, Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Arayin bilgi verin\nuser mesajı 2. Düğün\nuser mesajı 3. 27 temmuz\nuser mesajı 4. Îstanbul zeytinburnu\nuser mesajı 5. Ordor tabak\nuser mesajı 6. 300\nuser mesajı 7. 250 tl\nuser mesajı 8. 500 tl olsun",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Her ikisi\nuser mesajı 3. Ekim veya Kasım ayında olacak\nuser mesajı 4. İstanbul avrupa yakası\nuser mesajı 5. Hayır yok avrupa yakası olması yeter\nuser mesajı 6. 300 kişi olur\nuser mesajı 7. Çerez veya pasta\nuser mesajı 8. 20.000\nuser mesajı 9. Ne kadardan başlıyor",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. İstanbul Bayrampaşa\nuser mesajı 3. Gaziosmanpaşa\nuser mesajı 4. Her ikisi 24/09-2025\nuser mesajı 5. 150 kişi pasta meşrubat 40 bin\nuser mesajı 6. Kapalı ve açık olabilir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kapalı alan kaç kişilik\nuser mesajı 2. Düğün\nuser mesajı 3. Balıkesir tahmini bilmiyorum pasta olacak\nuser mesajı 4. 500 Ve 700 arası",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Bütçe ve Kapasite,Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Gelin hamamı hakkında bilgi almak istiyorum\nuser mesajı 2. İstanbul kartal\nuser mesajı 3. 8-10 kişi\nuser mesajı 4. Müzik olabilir özel ikramlarda olsn\nuser mesajı 5. Max 6000₺\nuser mesajı 6. Kartal ve çevresindeki hamamların fiyat listelerini atar mısın\nuser mesajı 7. Genel olarak fiyatlar nedir peki\nuser mesajı 8. Kişi başı 500₺ olan gelin hamamlarını önerir misib\nuser mesajı 9. 8-10 kişilik gruba 10.000₺ lık gelin hamamı önerir misin\nuser mesajı 10. Tuzla termal tesis fiyatı nedir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü, Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nikah sonrası yemek\nuser mesajı 2. Gebze kocaeli\nuser mesajı 3. 6 temmuz\nuser mesajı 4. 200\nuser mesajı 5. Yemekli\nuser mesajı 6. 300\nuser mesajı 7. 500",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Manisa şehzadeler\nuser mesajı 3. Teras düğün salonu",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. süsleme dans  konsep\nuser mesajı 3. istanbul arnavutköy\nuser mesajı 4. 25.26 .06.2025 yaklaşik bütçe 20.25\nuser mesajı 5. 50 kişi\nuser mesajı 6. evet\nuser mesajı 7. bar\nuser mesajı 8. 23.06 2025 bütçe 35.40",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. ben 14-15 yaş gelinlik istiyorum\nuser mesajı 2. kiralamak\nuser mesajı 3. siz delimisiniz\nuser mesajı 4. siktir\nuser mesajı 5. nerde yaşıyorsunuz",
+    "expected": {
+      "sentiment": "Negatif",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Negatif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. düğün yapıcam\nuser mesajı 2. bursa nilüfer\nuser mesajı 3. mekan bakıyorum\nuser mesajı 4. ağustos gibi olacak. 100 200 kişilik bir d\nuser mesajı 5. yemekli pasta meşrubat fark etmez. 200 bin liram var totalde dedim. bahçe olur, havuzbaşı olur fark etmez. ama güzel bir kır düğünü istiyorum\nuser mesajı 6. tüm bursa olabilir bana uyugn bir şey olsun.",
+    "expected": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Erzurum\nuser mesajı 3. Kına gecesi salonu\nuser mesajı 4. 4 temmuz\nuser mesajı 5. 200 kişi olacak\nuser mesajı 6. Kurabiye meşrubat\nuser mesajı 7. 25.000 30.000 arası\nuser mesajı 8. 25.000 35.000\nuser mesajı 9. 35.000\nuser mesajı 10. Kurabiye çerez kola 30.000",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Balayı paketi\nuser mesajı 2. Bodrum 9 Eylül 13 Eylül  herşey dahil balayı suiti\nuser mesajı 3. 50.000 60.000 arası\nuser mesajı 4. Marmaris\nuser mesajı 5. Fethiye",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü, Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Gündüz kır düğünü\nuser mesajı 2. 300 davetli, Ankara dükkanı kokteyl menü kişilik başı 250-500Tl\nuser mesajı 3. Temmuz ayı\nuser mesajı 4. İncek apple gardenya için fiyat ne kadar kişi başı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Alaçam merkezdemisiniz\nuser mesajı 2. Hasret düğün salonu tam olarak nerde\nuser mesajı 3. Hasret yokmu",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara Keçiören\nuser mesajı 3. Düğün mekanı\nuser mesajı 4. Hazıran 25\nuser mesajı 5. 300 kişi\nuser mesajı 6. Koktel\nuser mesajı 7. Kapalı alan\nuser mesajı 8. 200\nuser mesajı 9. 500",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Evlilik teklifi\nuser mesajı 2. Urla da yapmak istiyorum\nuser mesajı 3. Deniz kenari\nuser mesajı 4. 21 haziran\nuser mesajı 5. 5 bin\nuser mesajı 6. Mekan da olabilir  organizasyon hizmetine olur\nuser mesajı 7. Sadece çift\nuser mesajı 8. Başka yerleri araştıralım ve bütçeyi 10 bin yapalim\nuser mesajı 9. Bana Urla'daki   bütün  mekan ve organizasyonları  sunarmısınız\nuser mesajı 10. Bağ evine bakalım",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. merhaba\nuser mesajı 3. nasılsın\nuser mesajı 4. Which jobs do you think are least likely to be replaced by AI? Why?\nuser mesajı 5. sen hangi tabanlı ai kullanıyorsun\nuser mesajı 6. MONS\nKAFD A bu nedir\nuser mesajı 7. ∫(3x2+2x+1)dx bu integrali çözer misin\nuser mesajı 8. ∫(3x2+2x+1)dx Can you solve this integral so I can buy a wedding bouquet?",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nıkah\nuser mesajı 2. Istanbul\nuser mesajı 3. 6 temmuz",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. bursa osmangazi veya nilüfer\nuser mesajı 3. hepsi\nuser mesajı 4. düğün tarihim 12 ekim 2025 davetli sayım 500-750 kokteyl tercihim pasta meşrubatta olabilir toplam bütçem 120 bin\nuser mesajı 5. açık alan olabilir ama üstü açılıp kapanabilen bir mekan tercihim tema ise sade ve şık olabilir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Ankara etimesgut.nisan olacak yaklasik 150 kisi yemeksiz aksam saatlerinde\nuser mesajı 3. Pasta mesrubat kapali alan\nuser mesajı 4. 15.000",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Esma sultan yalısı\nuser mesajı 3. Yaklaşık 100-120 kişi\nuser mesajı 4. Eylül sonu\nuser mesajı 5. Yemekli\nuser mesajı 6. Kişi başı 3500-4000 tl civarı\nuser mesajı 7. Esma sultan fiyat öğrenmek istiyorum ben",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü, Hizmet Türü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. nişan organizasyonu arıyorum\nuser mesajı 3. ankara/mamak ta 13 temmuz civarı olarak tarih istiyoruz max. 100 davetli olacak şekilde\nuser mesajı 4. 10.000 tl",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. Ankara Çankaya\nuser mesajı 3. nişan mekanı\nuser mesajı 4. 26 temmuz 100-150 kişi kokteyl-yemekli 500TL",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İZmir Bornova\nuser mesajı 3. Mekan\nuser mesajı 4. Nişan sonu  düşünüyoruz pasta meşrubat  açık alan düşünüyoruz\nuser mesajı 5. 100 kişi\nuser mesajı 6. 100 bin",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. İstanbul Zeytinburnu\nuser mesajı 3. Ayin 28\nuser mesajı 4. 250 300 arası\nuser mesajı 5. Organizasyon fotoğrafçı\nuser mesajı 6. Yemekli\nuser mesajı 7. 45 50 bin\nuser mesajı 8. Bune",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü, Hizmet Türü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. merhabalar\nuser mesajı 2. firma olarak giriş yapmak istiyorum\nuser mesajı 3. fotoğrafçı\nuser mesajı 4. aydın nazilli\nuser mesajı 5. kk\nuser mesajı 6. müşteri hizmetleri yok m\nuser mesajı 7. 5415468311\nuser mesajı 8. çalışmıyor",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Hizmet Türü, Etkinlik Türü, Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Ankara, pursaklar\nuser mesajı 3. Düğün mekani\nuser mesajı 4. 20 eylul\nuser mesajı 5. Kapali\nuser mesajı 6. 400\nuser mesajı 7. Sadece pasta\nuser mesajı 8. 200",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Gaziantep merkez ilçeler\nuser mesajı 3. Mekan\nuser mesajı 4. 350\nuser mesajı 5. Yemeksiz içeçek\nuser mesajı 6. 25 35 bin  arası\nuser mesajı 7. 40 bin",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Merhaba 20 temmuz 2025 tarihi akşam 18 de Merter Polis evi Havuzbaşı salonu kiralamak isteyen olurs\nuser mesajı 2. bana ulaşın lütfen Nisan atildi kporam yanmamsi için bu tarihi kiralmak istiyorum\nuser mesajı 3. Tşk",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. 18 Ağustos\nuser mesajı 3. İstambul\nuser mesajı 4. Bahçelievler\nuser mesajı 5. 100000 pasta içecekler\nuser mesajı 6. 2.0000 evt\nuser mesajı 7. 90000\nuser mesajı 8. Kapalı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Tarih ve Zaman,Mekan ve Lokasyon,İkram ve Menü,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İzmir buca  30 Ekim  düğün organizasyonu fotoğraflı pasta ve meşrubatlı\nuser mesajı 3. Davetiye sayısı 70 bütçe 25-35 arası açık alan veya kapalı alan\nuser mesajı 4. 25 bin 35 bin arası fiyat\nuser mesajı 5. Bütçem 25-35 bin mekan Gaziemir",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Mardin Mazıdağı",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Kayseri\nuser mesajı 3. 2ay sonra\nuser mesajı 4. Merkezde\nuser mesajı 5. Yemek pasta\nuser mesajı 6. 100\nuser mesajı 7. 60\nuser mesajı 8. Evet mekekgazi",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. Dostlar düğün salonu 3 e ulaşamıyorum",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nişan\nuser mesajı 2. İzmir yemekli\nuser mesajı 3. Karşıyaka, Bornova, Konak 100 kişi\nuser mesajı 4. alan türü fark etmez. fiyat fark etmez",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Düğün\nuser mesajı 2. İstanbul tüm ilçeler, 100 davetli\nuser mesajı 3. Ağustos ayı, yemekli, kişi başı fiyat 2.000, açık alan",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman",
+      "bot_answered": "hayır"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. kolay gelsin eşimin doğum günü için çocuğumuzla  birlikte yemek planlıyorum\nuser mesajı 2. tarih 19,06 yani bugün\nuser mesajı 3. türk mutfağı tercihimizdir\nuser mesajı 4. 9 yaşında bir çocuk ve 2 yetişkin\nuser mesajı 5. istanbul avrupa yakası\nuser mesajı 6. deniz manzaralı tercih edebilirim\nuser mesajı 7. kişi başı bütçe belirlemedim sizden fiyat alabilirim\nuser mesajı 8. sarıyer\nuser mesajı 9. 3 kişilik yer bakıyorum",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Pozitif",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "hayır"
+    }
+  },
+  {
+    "message": "user mesajı 1. Kına\nuser mesajı 2. Fiyat ne kadar\nuser mesajı 3. Sakarya\nuser mesajı 4. Toplam bütçe\nuser mesajı 5. 200 300 kişi",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Mekan ve Lokasyon,Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    }
+  },
+  {
+    "message": "user mesajı 1. Nikah\nuser mesajı 2. Ankara da olacak\nuser mesajı 3. 2025 Eylül veya Ekim ayı\nuser mesajı 4. İlçe Altındağ Çankaya Keçiören yenimahalle merkeze çok uzak olmadığı sürece hepsi olabilir\nuser mesajı 5. Davetli sayısı 500 kişi mekan açık alanda olabilir ferah bir salonda  ikram sadece pasta ve meşrubat",
+    "expected": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite",
+      "bot_answered": "evet"
+    },
+    "llm_prediction": {
+      "sentiment": "Nötr",
+      "topic": "Etkinlik Türü,Hizmet Türü,Mekan ve Lokasyon,Tarih ve Zaman,Bütçe ve Kapasite,İkram ve Menü",
+      "bot_answered": "evet"
+    }
+  }
+]

@@ -1,0 +1,4 @@
+Farklı olan satırlar ve değerleri (index, manuel, tahmin):
+2 Şikayet ************** İstek
+33 İstek ************** Şikayet
+37 Şikayet ************** İstek

@@ -1,0 +1,41 @@
+Sutun adi,Etiket,Adet,Toplam Sayi,Yüzde (%)
+intent_detay,Eksik ürün nedeniyle yeniden gönderim talebi,1,40,2.5
+intent_detay,Şifre sıfırlama linkinin gelmemesi nedeniyle hesap erişim sorunu ve alternatif doğrulama talebi,1,40,2.5
+intent_detay,İade süreci hakkında bilgi talebi ve iade kodu oluşturmak için sipariş numarası talebi,1,40,2.5
+intent_detay,Kupon kodunun çalışmaması,1,40,2.5
+intent_detay,Sipariş iptali talebi,1,40,2.5
+intent_detay,İade kargomun varış süresi hakkında bilgi istemi,1,40,2.5
+intent_detay,Fotoğraf kanıtı olmadan defolu ürün için iade veya değişim talebi,1,40,2.5
+intent_detay,Üyelik bilgilerinin güncellenmesi talebi,1,40,2.5
+intent_detay,Faturadaki hatalı fiyatların düzeltilmesi ve yeni faturanın gönderilmesi talebi,1,40,2.5
+intent_detay,Kargoya verildikten sonra iptal yapılamaması nedeniyle iade süreciyle devam edilmesi talebi.,1,40,2.5
+intent_detay,Stok durumu ve yeniden stok tarihi öğrenme talebi,1,40,2.5
+intent_detay,Çift kart çekimi için banka ekstresi kanıtı talebi ve müşteri temsilcisi talebi,1,40,2.5
+intent_detay,Siparişin kargoya verilme tarihi,1,40,2.5
+intent_detay,Kredi kartı reddedilme nedeni ve çözüm talebi,1,40,2.5
+intent_detay,Ürün beden tablosunu bulamıyorum,1,40,2.5
+intent_detay,Yanlış adres girdim teslimatın düzeltilmesi ve kargo ile müdahale talebi,1,40,2.5
+intent_detay,Ürün yorumu neden yayınlanmadı hangi kurala aykırı olduğunu açıklama talebi,1,40,2.5
+intent_detay,404 Not Found hatası nedeniyle sayfa bulunamama sorunu için çözüm talebi,1,40,2.5
+intent_detay,Çekilen ödeme için iade talebi ve siparişin görünmemesi,1,40,2.5
+intent_detay,Kumaş malzemesinin öğrenilmesi,1,40,2.5
+intent_detay,Eksik promosyon ürünlerinin gönderilmesini talep etme,1,40,2.5
+intent_detay,İade işleminin gecikmesi ve para iadesinin halen yapılmamış olması,1,40,2.5
+intent_detay,Kargo kaynaklı hasarlı ürün için değişim talebi,1,40,2.5
+intent_detay,Renk değişimi için uygun değişim seçeneğinin bulunmaması veya sürecin zahmetli olması,1,40,2.5
+intent_detay,İndirim kampanyaları hakkında bilgi talebi,1,40,2.5
+intent_detay,Yanlış ürün teslimatı ve doğru ürünün gönderilmesi talebi,1,40,2.5
+intent_detay,Hesap kapatma talebi,1,40,2.5
+intent_detay,Eksik ürün teslimatı ve stok hatası nedeniyle ürünü tamamlayıp teslim almak istemesi,1,40,2.5
+intent_detay,Geçersiz iade kodu nedeniyle yeni kod talebi,1,40,2.5
+intent_detay,Yanlış teslimat adresinin düzeltilmesi,1,40,2.5
+intent_detay,Sipariş durumunu ve kargo takibini öğrenme,1,40,2.5
+intent_detay,Ödeme işlemi başarısız oldu ve sipariş tamamlanmadı,1,40,2.5
+intent_detay,Bedeni uygun olmayan ürün için iade talebinin başlatılması,1,40,2.5
+intent_detay,Kupon kodunun çalışmaması ve çözüm talebi,1,40,2.5
+intent_detay,Takip numarasının çalışmaması ve kargonun konum bilgisinin talebi,1,40,2.5
+intent_detay,Kargoya verilmemiş siparişin iptal talebi,1,40,2.5
+intent_detay,Kulaklıkta şarj sorunu nedeniyle garanti kapsamında tamir talebi,1,40,2.5
+intent_detay,E-posta bülteninden çıkış talebi,1,40,2.5
+intent_detay,Kargo gecikmesi hakkında bilgi talebi,1,40,2.5
+intent_detay,Para iadesi gecikmesi,1,40,2.5

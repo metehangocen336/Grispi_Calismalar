@@ -1,0 +1,40 @@
+Farklı olan satırlar ve değerleri (index, df_yeni, dfLabels):
+1 Sipariş teslimatında eksik ürün ************** Eksik ürün nedeniyle yeniden gönderim talebi
+2 E-posta linki gelmemesi ************** Şifre sıfırlama linkinin gelmemesi nedeniyle hesap erişim sorunu ve alternatif doğrulama talebi
+3 İade prosedürü hakkında bilgi ************** İade süreci hakkında bilgi talebi ve iade kodu oluşturmak için sipariş numarası talebi
+5 Sipariş iptali ************** Sipariş iptali talebi
+6 İade kargosu takibi ************** İade kargomun varış süresi hakkında bilgi istemi
+7 Değişim/iade yapılamaması ************** Fotoğraf kanıtı olmadan defolu ürün için iade veya değişim talebi
+8 Üyelik bilgisi güncelleme ************** Üyelik bilgilerinin güncellenmesi talebi
+9 Fatura fiyatı hatası ************** Faturadaki hatalı fiyatların düzeltilmesi ve yeni faturanın gönderilmesi talebi
+10 Sipariş iptali yapılamaması ************** Kargoya verildikten sonra iptal yapılamaması nedeniyle iade süreciyle devam edilmesi talebi.
+11 Stok yenileme tarihi ************** Stok durumu ve yeniden stok tarihi öğrenme talebi
+12 Çifte çekim ************** Çift kart çekimi için banka ekstresi kanıtı talebi ve müşteri temsilcisi talebi
+13 Kargo durumu ************** Siparişin kargoya verilme tarihi
+14 Kredi kartı reddedilmesi ************** Kredi kartı reddedilme nedeni ve çözüm talebi
+15 Ürün beden tablosu ************** Ürün beden tablosunu bulamıyorum
+16 Yanlış adres girişi ************** Yanlış adres girdim teslimatın düzeltilmesi ve kargo ile müdahale talebi
+17 Yorum yayınlanmaması ************** Ürün yorumu neden yayınlanmadı hangi kurala aykırı olduğunu açıklama talebi
+18 Teknik hata ************** 404 Not Found hatası nedeniyle sayfa bulunamama sorunu için çözüm talebi
+19 Hesaptan para çekilip siparişin oluşmaması ************** Çekilen ödeme için iade talebi ve siparişin görünmemesi
+20 Ürün bilgisi ************** Kumaş malzemesinin öğrenilmesi
+21 Eksik promosyon ürünleri ************** Eksik promosyon ürünlerinin gönderilmesini talep etme
+22 Para iadesi gecikmesi ************** İade işleminin gecikmesi ve para iadesinin halen yapılmamış olması
+23 Kargodan kaynaklı hasar ************** Kargo kaynaklı hasarlı ürün için değişim talebi
+24 Değişim seçeneği olmaması ************** Renk değişimi için uygun değişim seçeneğinin bulunmaması veya sürecin zahmetli olması
+25 Kampanya bilgisi ************** İndirim kampanyaları hakkında bilgi talebi
+26 Yanlış ürün gönderimi ************** Yanlış ürün teslimatı ve doğru ürünün gönderilmesi talebi
+27 Hesap kapatma ************** Hesap kapatma talebi
+28 Stokta görünen ürünün eksik gelmesi ************** Eksik ürün teslimatı ve stok hatası nedeniyle ürünü tamamlayıp teslim almak istemesi
+29 İade kodunun geçersiz olması ************** Geçersiz iade kodu nedeniyle yeni kod talebi
+30 Yanlış teslimat adresi ************** Yanlış teslimat adresinin düzeltilmesi
+31 Sipariş durumu ************** Sipariş durumunu ve kargo takibini öğrenme
+32 Ödemenin tamamlanmaması ************** Ödeme işlemi başarısız oldu ve sipariş tamamlanmadı
+33 Beden uyuşmazlığı ************** Bedeni uygun olmayan ürün için iade talebinin başlatılması
+34 Kupon kodunun çalışmaması ************** Kupon kodunun çalışmaması ve çözüm talebi
+35 Kargonun gecikmesi ************** Takip numarasının çalışmaması ve kargonun konum bilgisinin talebi
+36 Sipariş iptali ************** Kargoya verilmemiş siparişin iptal talebi
+37 Garanti kapsamında tamir ************** Kulaklıkta şarj sorunu nedeniyle garanti kapsamında tamir talebi
+38 E-posta aboneliği iptali ************** E-posta bülteninden çıkış talebi
+39 Kargo gecikmesi ************** Kargo gecikmesi hakkında bilgi talebi
+40 İade süreci gecikmesi ************** Para iadesi gecikmesi

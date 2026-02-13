@@ -1,0 +1,5 @@
+Farklı olan satırlar ve değerleri (index, df_yeni, dfLabels):
+9 Çözüldü ************** Çözülemedi
+11 Çözüldü ************** Çözülemedi
+18 Çözüldü ************** Çözülemedi
+37 Çözüldü ************** Çözülemedi

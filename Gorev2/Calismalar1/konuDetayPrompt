@@ -1,0 +1,27 @@
+
+Türkçe konuşuyorum. Aşağıda kullanıcının (user) bir botla yaptığı görüşmenin tüm mesajları var. 
+Bu mesajları bir konuşma analizi uzmanı gibi değerlendir. Amacın, kullanıcının **sohbet içindeki spesifik sorununun veya isteğinin detayını (intent_detay)** belirlemektir.
+
+**Intent Detay Mantığı**:
+- Kullanıcının niyetini (intent) açıklayan spesifik durumu veya problemi tespit et.
+- Örnek detaylar:
+    - Para iadesi gecikmesi
+    - Kupon kodunun çalışmaması
+    - Yanlış adres girişi
+    - Sipariş iptali talebi
+    - Kargo takibi ile ilgili sorun
+- Detay, intent’in daha spesifik ve açıklayıcı hâlidir.
+
+**Kurallar**:
+1. Cevap yalnızca bir kısa ifade olmalı (örnekler gibi).  
+2. Hiçbir ek açıklama, yorum veya noktalama ekleme.  
+3. Kararı verirken **sohbetin tamamını** göz önünde bulundur, tek mesaj bazlı karar verme.
+
+Bot-User görüşmesi:
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

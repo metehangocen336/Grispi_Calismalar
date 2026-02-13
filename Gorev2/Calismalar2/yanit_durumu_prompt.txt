@@ -1,0 +1,1676 @@
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde bir ürün eksik geldi. Ne yapmalıyım?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 98765432
+Bot: Kontrol ediyorum... Siparişinizde bir hata olduğunu görüyorum. Yeni ürününüz en kısa sürede gönderilecektir. Özür dileriz.
+Müşteri: Harika, teşekkür ederim!
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Hesabıma giriş yapamıyorum, şifremi unuttum.
+Bot: Şifre sıfırlama linki için e-posta adresinizi girer misiniz?
+Müşteri: Şifremi sıfırlama linki gelmiyor. Başka bir yol yok mu?
+Bot: E-posta kutunuzun spam klasörünü kontrol ettiniz mi?
+Müşteri: Evet, kontrol ettim. Hiçbir yerde yok. Bu durum çok can sıkıcı.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade süreci hakkında bilgi almak istiyorum.
+Bot: İade sürecimiz 14 gündür. Ürünü orijinal paketiyle birlikte kargoya vermeniz yeterlidir. İade kodunuzu oluşturmak için sipariş numaranızı alabilir miyim?
+Müşteri: Anladım, teşekkürler.
+Bot: Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kupon kodum çalışmıyor. 'Hoş Geldin15' kuponunu kullanmak istiyorum ama hata veriyor.
+Bot: Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi.
+Müşteri: Evet, her şeyi kontrol ettim. Sepetim de 200 TL üzerinde. Ne yapabilirim?
+Bot: Sistemde kuponunuzla ilgili bir sorun görünmüyor. Lütfen farklı bir tarayıcıdan denemeyi veya önbelleğinizi temizlemeyi deneyin.
+Müşteri: Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal etmek istiyorum.
+Bot: Sipariş numaranızı paylaşır mısınız?
+Müşteri: 76458902
+Bot: Siparişiniz başarılı bir şekilde iptal edilmiştir. İadeniz en kısa sürede gerçekleştirilecektir.
+Müşteri: Çok teşekkür ederim!
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade kargom ne zaman ulaşır?
+Bot: İade takip kodunuzu paylaşır mısınız?
+Müşteri: 654321987
+Bot: Kontrol ediyorum... İadeniz 2 gün içinde elimize ulaşacaktır.
+Müşteri: Tamam, teşekkür ederim.
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünüm defolu geldi. Değişim veya iade yapmak istiyorum.
+Bot: Bu konuda size yardımcı olabilirim. Lütfen sipariş numaranızı ve ürünün defolu kısmının fotoğrafını gönderin.
+Müşteri: Telefonumdan fotoğraf çekemiyorum, başka bir yol yok mu?
+Bot: Maalesef, defolu ürün işlemleri için fotoğraf kanıtı gerekmektedir.
+Müşteri: Bu çok saçma! O zaman iade de yapamayacak mıyım?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Üyelik bilgilerimi güncellemek istiyorum.
+Bot: Hesabım sayfasından 'Bilgilerimi Düzenle' seçeneği ile bu işlemi gerçekleştirebilirsiniz. Eğer sorun yaşarsanız, tekrar bana yazın.
+Müşteri: Teşekkür ederim, deneyeceğim.
+Bot: Rica ederim. Başka bir şeye ihtiyacınız olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Faturamda bir yanlışlık var. Fiyatlar hatalı görünüyor.
+Bot: Sipariş numaranızı ve faturadaki hatalı fiyat bilgisini paylaşır mısınız?
+Müşteri: Sipariş numarası 54897213. Fatura detayları ekte.
+Bot: Kontrol ediyorum... Faturanızdaki hatayı düzelterek yeni faturayı size e-posta ile göndereceğim. Sorun için özür dileriz.
+Müşteri: Çok teşekkürler, çok iyi oldu bu.
+Bot: Rica ederim, başka bir konuda yardımcı olmamı ister misiniz?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal etmek istiyorum ama sistemde 'iptal et' butonu görünmüyor.
+Bot: Siparişiniz kargoya verildiği için 'iptal et' butonu görünmüyor olabilir. Bu durumda iade süreciyle devam etmeniz gerekir.
+Müşteri: Ama siparişim daha yeni kargoya verildi. İptal edebilmem gerekirdi. Çok kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün stok bilgisi hakkında bilgi almak istiyorum. Stokta yok görünüyor ama ne zaman gelir?
+Bot: Ürün kodunu veya adını paylaşır mısınız?
+Müşteri: Elbise kodu: AB-456.
+Bot: Maalesef, bu ürün için henüz bir stok yenileme tarihi belirlenmedi.
+Müşteri: Anladım. Teşekkürler yine de.
+Bot: Rica ederim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kredi kartımdan iki kez çekim yapılmış.
+Bot: Sipariş numaranızı ve banka ekstrenizin ekran görüntüsünü paylaşır mısınız?
+Müşteri: Banka ekstresini çekemedim, telefonda uygulamam çalışmıyor.
+Bot: Maalesef, iki kez çekim işlemi için banka ekstresi kanıtı gereklidir.
+Müşteri: O zaman ne yapacağım? Bana bir müşteri temsilcisi bağlayın. Bu botun bir faydası yok.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişim hala hazırlanıyor görünüyor. Ne zaman kargoya verilir?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 21345678
+Bot: Kontrol ediyorum... Siparişiniz bugün kargoya verilecek. Takip numaranız e-posta adresinize gönderilecektir.
+Müşteri: Tamam, çok sağolun.
+Bot: Rica ederim. İyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kredi kartım neden reddediliyor?
+Bot: Kredi kartı reddedilme nedenlerini güvenlik ve gizlilik nedeniyle göremiyorum. Bu durumu bankanızla görüşmeniz en doğru seçenek olacaktır.
+Müşteri: Siz yardımcı olamayacaksanız neden buradasınız? Çok sinir bozucu bir durum.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün beden tablosunu bulamıyorum.
+Bot: Hangi ürünü arıyorsunuz? Genellikle ürün sayfasında 'Beden Tablosu' başlığı altında bu bilgi yer alır.
+Müşteri: Tamam, buldum şimdi. Gözümden kaçmış.
+Bot: Sevindim. Başka bir sorunuz olursa çekinmeyin.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Adresimi yanlış girdim, nasıl düzeltebilirim?
+Bot: Siparişiniz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.
+Müşteri: Siparişimi dün verdim, kargoya verilmiş. O zaman ne olacak?
+Bot: Bu durumda kargo firmasıyla iletişime geçmeniz gerekmektedir.
+Müşteri: Her şey için beni kargoya yönlendiriyorsunuz. Hiçbir işe yaramıyorsunuz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün yorumumu neden yayınlamadınız?
+Bot: Yorumlar, içerik kurallarına uygunluk açısından incelenmektedir. Yorumunuzun kurallarımıza aykırı bir içeriği olabilir.
+Müşteri: Hangi kurala aykırı? Bana bir açıklama yapın. Çok sinirliyim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor.
+Bot: Yaşadığınız sorun için üzgünüz. Teknik ekibimiz bu hatayı en kısa sürede çözecektir.
+Müşteri: Anladım. Teşekkürler.
+Bot: Yardımcı olabildiğime sevindim. İyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama hesabımdan para çekildi. Siparişlerim sayfasında görünmüyor.
+Bot: Ödeme bilgilerinizle bir sorun olabilir. Lütfen bir süre bekleyin, işlem bankanız tarafından iade edilebilir.
+Müşteri: Yine mi bekleyeceğim? Bu ne kadar kötü bir sistem. Paramı geri istiyorum. Ne yapacağım şimdi?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün hakkında bilgi almak istiyorum, kumaşı nedir?
+Bot: Hangi ürünü merak ediyorsunuz? Genellikle ürün açıklamasında bu bilgi yer almaktadır.
+Müşteri: Tamam, kontrol ettim. Açıklamada yazıyormuş, teşekkür ederim.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde promosyon ürünleri eksik geldi. Ne yapabilirim?
+Bot: Sipariş numaranızı ve eksik gelen promosyon ürünlerini paylaşır mısınız?
+Müşteri: 85472196. Eksik olanlar çanta ve cüzdan.
+Bot: Eksik ürünleriniz en kısa sürede kargoya verilecektir. Yaşanan aksaklık için özür dileriz.
+Müşteri: Çok teşekkür ederim, hızlı çözüm için.
+Bot: Rica ederim. Başka bir şey olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal ettim ama param hala iade edilmedi.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 98745612
+Bot: İadenizin bankanıza yansıma süresi 1-5 iş günüdür. Lütfen banka ekstrenizi kontrol edin.
+Müşteri: Siparişimi 1 hafta önce iptal ettim zaten! Çok iyi bir hizmet değil bu.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünümde hasar var, kargodan kaynaklı olduğunu düşünüyorum.
+Bot: Sipariş numaranızı ve ürünün hasarlı fotoğrafını gönderir misiniz?
+Müşteri: 78965412. Fotoğrafı çektim, gönderiyorum. 
+Bot: Fotoğrafınız incelenmiştir. Hasarlı ürününüz en kısa sürede yenisiyle değiştirilecektir.
+Müşteri: Çok iyi, teşekkürler!
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünü denedim ve rengini beğenmedim, değişim yapmak istiyorum.
+Bot: İade sürecini başlatarak istediğiniz renkteki ürünü yeniden sipariş edebilirsiniz.
+Müşteri: Değişim seçeneği yok mu? İade ve yeniden sipariş çok zahmetli. Çok kötü bir sistem.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İndirim kampanyaları hakkında bilgi almak istiyorum.
+Bot: Kampanyalarımız ana sayfamızda ve e-posta bültenimizde yer almaktadır. E-posta bültenimize üye olarak güncel kampanyalardan haberdar olabilirsiniz.
+Müşteri: Tamam, kontrol edeceğim. Teşekkürler.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama yanlış ürün geldi.
+Bot: Sipariş numaranızı ve yanlış gelen ürünün fotoğrafını paylaşır mısınız?
+Müşteri: 65432198. Fotoğrafı ekledim.
+Bot: Kontrol ediyorum... Doğru ürününüz en kısa sürede adresinize gönderilecektir. Yanlış gelen ürünü kargo ile ücretsiz olarak iade edebilirsiniz.
+Müşteri: Çok iyi, teşekkür ederim.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Hesabımı kapatmak istiyorum.
+Bot: Hesabınızı Hesabım sayfasından 'Hesabımı Kapat' butonu ile kapatabilirsiniz.
+Müşteri: Anladım, teşekkürler.
+Bot: Rica ederim. Başka bir şey olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde bir ürün eksik geldi, ancak siparişi verdiğimde ürünün stokta olduğunu görüyordum.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 987456321
+Bot: Stok durumunu kontrol ettim. Ürününüz stokta bulunmuyor, bu nedenle siparişinize eklenememiş. En kısa sürede para iadesi yapılacaktır.
+Müşteri: O zaman neden ürünü sipariş verdirdiniz? İade istemiyorum, ürünü istiyorum. Çok kötü bir deneyim oldu.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecinde bir sorun çıktı, iade kodum geçersiz görünüyor.
+Bot: Sipariş ve iade kodunuzu alabilir miyim?
+Müşteri: 456123789. İade kodu XYZ-1234.
+Bot: İade kodunuzun süresi dolmuş olabilir. Sizin için yeni bir iade kodu oluşturdum: ABC-5678.
+Müşteri: Harika! Çok teşekkürler.
+Bot: Rica ederim. Başka bir şey olursa yardımcı olmaktan mutluluk duyarım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimin teslimat adresi yanlış yazılmış, nasıl düzeltebilirim?
+Bot: Siparişiniz henüz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.
+Müşteri: Sipariş vereli 10 dakika oldu, ne zaman kargoya verilir?
+Bot: Siparişler genellikle 1 iş günü içinde kargoya verilir. Lütfen güncellemeyi yapın.
+Müşteri: Teşekkürler, çok yardımcı oldunuz.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimin durumu hakkında bilgi almak istiyorum.
+Bot: Sipariş numaranızı paylaşır mısınız?
+Müşteri: 54321678
+Bot: Siparişiniz kargoya verilmiş ve yolda. Tahmini teslimat tarihi 3-4 gün içinde.
+Müşteri: Tamam, çok sağolun.
+Bot: Rica ederim. Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama hesabımdan para çekilmedi.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 34567890
+Bot: Kontrol ettim, siparişiniz tamamlanmamış görünüyor. Lütfen tekrar deneyin.
+Müşteri: Tekrar denedim yine olmadı. Ne yapabilirim?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünü denemek için sipariş verdim, bedeni olmadı.
+Bot: Bu durumda iade sürecini başlatabilirsiniz. Lütfen sipariş numaranızı girin.
+Müşteri: 12398765
+Bot: İade kodunuz oluşturulmuştur. Kargoya ücretsiz olarak verebilirsiniz. 
+Müşteri: Çok teşekkür ederim, çok hızlı oldu.
+Bot: Rica ederim. Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kupon kodum neden çalışmıyor?
+Bot: Kupon kodunuzun süresi dolmuş veya geçerli olduğu ürün ve sepet tutarı kriterlerini karşılamıyor olabilir.
+Müşteri: Kontrol ettim, her şey uygun görünüyor. Başka bir sebep olabilir mi?
+Bot: Maalesef, sistemde kuponunuzla ilgili bir hata görünmüyor.
+Müşteri: O zaman ne yapacağım? Bir çözümünüz yok mu? Çok kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kargom nerede kaldı? Takip numaram çalışmıyor.
+Bot: Kargo takip numaranızı paylaşır mısınız?
+Müşteri: 1234567890
+Bot: Kontrol ediyorum... Kargonuz henüz kargo firmasına teslim edilmemiş. Lütfen biraz bekleyin.
+Müşteri: Ne kadar bekleyeceğim? Bu durumdan hiç memnun kalmadım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Müşteri temsilcisiyle görüşmek istiyorum.
+Bot: Belirli bir konuda yardımcı olabilmem için sorununuzu yazabilir misiniz?
+Müşteri: Siparişimi iptal etmek istiyorum. Sipariş numarası: 87654321.
+Bot: Siparişiniz kargoya verilmeden iptal edilmiştir. Başka bir şeye ihtiyacınız olursa buradayım.
+Müşteri: Teşekkür ederim.
+Bot: Rica ederim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünümde bir hata var, tamir ettirmek istiyorum.
+Bot: Hangi ürün olduğunu ve hatanın ne olduğunu belirtir misiniz?
+Müşteri: Kulaklık. Şarjı tutmuyor. Garanti kapsamında tamir ettirebilir miyim?
+Bot: Ürününüzü teknik servisimize göndermeniz gerekmektedir. Adres ve gönderim detayları için e-posta adresinizi paylaşır mısınız?
+Müşteri: Tamam, teşekkürler.
+Bot: Rica ederim. Sorunuz çözüldü mü?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: E-posta bülteninizden çıkmak istiyorum.
+Bot: Size gönderilen e-postaların en altında yer alan 'abonelikten çık' linkini kullanarak bu işlemi gerçekleştirebilirsiniz.
+Müşteri: Anladım. Teşekkürler.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kargom 2 gün önce dağıtıma çıktı, neden hala gelmedi?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 876543210
+Bot: Kargo firmasıyla iletişime geçtik. Kargonuzda bir gecikme yaşanmış. Yarın gün içinde size teslim edilecektir.
+Müşteri: Tamam, teşekkürler. Artık yarın gelsin.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde bir ürün eksik geldi. Ne yapmalıyım?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 98765432
+Bot: Kontrol ediyorum... Siparişinizde bir hata olduğunu görüyorum. Yeni ürününüz en kısa sürede gönderilecektir. Özür dileriz.
+Müşteri: Harika, teşekkür ederim!
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Hesabıma giriş yapamıyorum, şifremi unuttum.
+Bot: Şifre sıfırlama linki için e-posta adresinizi girer misiniz?
+Müşteri: Şifremi sıfırlama linki gelmiyor. Başka bir yol yok mu?
+Bot: E-posta kutunuzun spam klasörünü kontrol ettiniz mi?
+Müşteri: Evet, kontrol ettim. Hiçbir yerde yok. Bu durum çok can sıkıcı.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade süreci hakkında bilgi almak istiyorum.
+Bot: İade sürecimiz 14 gündür. Ürünü orijinal paketiyle birlikte kargoya vermeniz yeterlidir. İade kodunuzu oluşturmak için sipariş numaranızı alabilir miyim?
+Müşteri: Anladım, teşekkürler.
+Bot: Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kupon kodum çalışmıyor. 'Hoş Geldin15' kuponunu kullanmak istiyorum ama hata veriyor.
+Bot: Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi.
+Müşteri: Evet, her şeyi kontrol ettim. Sepetim de 200 TL üzerinde. Ne yapabilirim?
+Bot: Sistemde kuponunuzla ilgili bir sorun görünmüyor. Lütfen farklı bir tarayıcıdan denemeyi veya önbelleğinizi temizlemeyi deneyin.
+Müşteri: Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal etmek istiyorum.
+Bot: Sipariş numaranızı paylaşır mısınız?
+Müşteri: 76458902
+Bot: Siparişiniz başarılı bir şekilde iptal edilmiştir. İadeniz en kısa sürede gerçekleştirilecektir.
+Müşteri: Çok teşekkür ederim!
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade kargom ne zaman ulaşır?
+Bot: İade takip kodunuzu paylaşır mısınız?
+Müşteri: 654321987
+Bot: Kontrol ediyorum... İadeniz 2 gün içinde elimize ulaşacaktır.
+Müşteri: Tamam, teşekkür ederim.
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünüm defolu geldi. Değişim veya iade yapmak istiyorum.
+Bot: Bu konuda size yardımcı olabilirim. Lütfen sipariş numaranızı ve ürünün defolu kısmının fotoğrafını gönderin.
+Müşteri: Telefonumdan fotoğraf çekemiyorum, başka bir yol yok mu?
+Bot: Maalesef, defolu ürün işlemleri için fotoğraf kanıtı gerekmektedir.
+Müşteri: Bu çok saçma! O zaman iade de yapamayacak mıyım?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Üyelik bilgilerimi güncellemek istiyorum.
+Bot: Hesabım sayfasından 'Bilgilerimi Düzenle' seçeneği ile bu işlemi gerçekleştirebilirsiniz. Eğer sorun yaşarsanız, tekrar bana yazın.
+Müşteri: Teşekkür ederim, deneyeceğim.
+Bot: Rica ederim. Başka bir şeye ihtiyacınız olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Faturamda bir yanlışlık var. Fiyatlar hatalı görünüyor.
+Bot: Sipariş numaranızı ve faturadaki hatalı fiyat bilgisini paylaşır mısınız?
+Müşteri: Sipariş numarası 54897213. Fatura detayları ekte.
+Bot: Kontrol ediyorum... Faturanızdaki hatayı düzelterek yeni faturayı size e-posta ile göndereceğim. Sorun için özür dileriz.
+Müşteri: Çok teşekkürler, çok iyi oldu bu.
+Bot: Rica ederim, başka bir konuda yardımcı olmamı ister misiniz?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal etmek istiyorum ama sistemde 'iptal et' butonu görünmüyor.
+Bot: Siparişiniz kargoya verildiği için 'iptal et' butonu görünmüyor olabilir. Bu durumda iade süreciyle devam etmeniz gerekir.
+Müşteri: Ama siparişim daha yeni kargoya verildi. İptal edebilmem gerekirdi. Çok kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün stok bilgisi hakkında bilgi almak istiyorum. Stokta yok görünüyor ama ne zaman gelir?
+Bot: Ürün kodunu veya adını paylaşır mısınız?
+Müşteri: Elbise kodu: AB-456.
+Bot: Maalesef, bu ürün için henüz bir stok yenileme tarihi belirlenmedi.
+Müşteri: Anladım. Teşekkürler yine de.
+Bot: Rica ederim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kredi kartımdan iki kez çekim yapılmış.
+Bot: Sipariş numaranızı ve banka ekstrenizin ekran görüntüsünü paylaşır mısınız?
+Müşteri: Banka ekstresini çekemedim, telefonda uygulamam çalışmıyor.
+Bot: Maalesef, iki kez çekim işlemi için banka ekstresi kanıtı gereklidir.
+Müşteri: O zaman ne yapacağım? Bana bir müşteri temsilcisi bağlayın. Bu botun bir faydası yok.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişim hala hazırlanıyor görünüyor. Ne zaman kargoya verilir?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 21345678
+Bot: Kontrol ediyorum... Siparişiniz bugün kargoya verilecek. Takip numaranız e-posta adresinize gönderilecektir.
+Müşteri: Tamam, çok sağolun.
+Bot: Rica ederim. İyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kredi kartım neden reddediliyor?
+Bot: Kredi kartı reddedilme nedenlerini güvenlik ve gizlilik nedeniyle göremiyorum. Bu durumu bankanızla görüşmeniz en doğru seçenek olacaktır.
+Müşteri: Siz yardımcı olamayacaksanız neden buradasınız? Çok sinir bozucu bir durum.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün beden tablosunu bulamıyorum.
+Bot: Hangi ürünü arıyorsunuz? Genellikle ürün sayfasında 'Beden Tablosu' başlığı altında bu bilgi yer alır.
+Müşteri: Tamam, buldum şimdi. Gözümden kaçmış.
+Bot: Sevindim. Başka bir sorunuz olursa çekinmeyin.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Adresimi yanlış girdim, nasıl düzeltebilirim?
+Bot: Siparişiniz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.
+Müşteri: Siparişimi dün verdim, kargoya verilmiş. O zaman ne olacak?
+Bot: Bu durumda kargo firmasıyla iletişime geçmeniz gerekmektedir.
+Müşteri: Her şey için beni kargoya yönlendiriyorsunuz. Hiçbir işe yaramıyorsunuz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün yorumumu neden yayınlamadınız?
+Bot: Yorumlar, içerik kurallarına uygunluk açısından incelenmektedir. Yorumunuzun kurallarımıza aykırı bir içeriği olabilir.
+Müşteri: Hangi kurala aykırı? Bana bir açıklama yapın. Çok sinirliyim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor.
+Bot: Yaşadığınız sorun için üzgünüz. Teknik ekibimiz bu hatayı en kısa sürede çözecektir.
+Müşteri: Anladım. Teşekkürler.
+Bot: Yardımcı olabildiğime sevindim. İyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama hesabımdan para çekildi. Siparişlerim sayfasında görünmüyor.
+Bot: Ödeme bilgilerinizle bir sorun olabilir. Lütfen bir süre bekleyin, işlem bankanız tarafından iade edilebilir.
+Müşteri: Yine mi bekleyeceğim? Bu ne kadar kötü bir sistem. Paramı geri istiyorum. Ne yapacağım şimdi?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürün hakkında bilgi almak istiyorum, kumaşı nedir?
+Bot: Hangi ürünü merak ediyorsunuz? Genellikle ürün açıklamasında bu bilgi yer almaktadır.
+Müşteri: Tamam, kontrol ettim. Açıklamada yazıyormuş, teşekkür ederim.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde promosyon ürünleri eksik geldi. Ne yapabilirim?
+Bot: Sipariş numaranızı ve eksik gelen promosyon ürünlerini paylaşır mısınız?
+Müşteri: 85472196. Eksik olanlar çanta ve cüzdan.
+Bot: Eksik ürünleriniz en kısa sürede kargoya verilecektir. Yaşanan aksaklık için özür dileriz.
+Müşteri: Çok teşekkür ederim, hızlı çözüm için.
+Bot: Rica ederim. Başka bir şey olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimi iptal ettim ama param hala iade edilmedi.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 98745612
+Bot: İadenizin bankanıza yansıma süresi 1-5 iş günüdür. Lütfen banka ekstrenizi kontrol edin.
+Müşteri: Siparişimi 1 hafta önce iptal ettim zaten! Çok iyi bir hizmet değil bu.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünümde hasar var, kargodan kaynaklı olduğunu düşünüyorum.
+Bot: Sipariş numaranızı ve ürünün hasarlı fotoğrafını gönderir misiniz?
+Müşteri: 78965412. Fotoğrafı çektim, gönderiyorum. 
+Bot: Fotoğrafınız incelenmiştir. Hasarlı ürününüz en kısa sürede yenisiyle değiştirilecektir.
+Müşteri: Çok iyi, teşekkürler!
+Bot: Rica ederim, iyi günler dileriz.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünü denedim ve rengini beğenmedim, değişim yapmak istiyorum.
+Bot: İade sürecini başlatarak istediğiniz renkteki ürünü yeniden sipariş edebilirsiniz.
+Müşteri: Değişim seçeneği yok mu? İade ve yeniden sipariş çok zahmetli. Çok kötü bir sistem.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İndirim kampanyaları hakkında bilgi almak istiyorum.
+Bot: Kampanyalarımız ana sayfamızda ve e-posta bültenimizde yer almaktadır. E-posta bültenimize üye olarak güncel kampanyalardan haberdar olabilirsiniz.
+Müşteri: Tamam, kontrol edeceğim. Teşekkürler.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama yanlış ürün geldi.
+Bot: Sipariş numaranızı ve yanlış gelen ürünün fotoğrafını paylaşır mısınız?
+Müşteri: 65432198. Fotoğrafı ekledim.
+Bot: Kontrol ediyorum... Doğru ürününüz en kısa sürede adresinize gönderilecektir. Yanlış gelen ürünü kargo ile ücretsiz olarak iade edebilirsiniz.
+Müşteri: Çok iyi, teşekkür ederim.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Hesabımı kapatmak istiyorum.
+Bot: Hesabınızı Hesabım sayfasından 'Hesabımı Kapat' butonu ile kapatabilirsiniz.
+Müşteri: Anladım, teşekkürler.
+Bot: Rica ederim. Başka bir şey olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimde bir ürün eksik geldi, ancak siparişi verdiğimde ürünün stokta olduğunu görüyordum.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 987456321
+Bot: Stok durumunu kontrol ettim. Ürününüz stokta bulunmuyor, bu nedenle siparişinize eklenememiş. En kısa sürede para iadesi yapılacaktır.
+Müşteri: O zaman neden ürünü sipariş verdirdiniz? İade istemiyorum, ürünü istiyorum. Çok kötü bir deneyim oldu.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecinde bir sorun çıktı, iade kodum geçersiz görünüyor.
+Bot: Sipariş ve iade kodunuzu alabilir miyim?
+Müşteri: 456123789. İade kodu XYZ-1234.
+Bot: İade kodunuzun süresi dolmuş olabilir. Sizin için yeni bir iade kodu oluşturdum: ABC-5678.
+Müşteri: Harika! Çok teşekkürler.
+Bot: Rica ederim. Başka bir şey olursa yardımcı olmaktan mutluluk duyarım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimin teslimat adresi yanlış yazılmış, nasıl düzeltebilirim?
+Bot: Siparişiniz henüz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.
+Müşteri: Sipariş vereli 10 dakika oldu, ne zaman kargoya verilir?
+Bot: Siparişler genellikle 1 iş günü içinde kargoya verilir. Lütfen güncellemeyi yapın.
+Müşteri: Teşekkürler, çok yardımcı oldunuz.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Siparişimin durumu hakkında bilgi almak istiyorum.
+Bot: Sipariş numaranızı paylaşır mısınız?
+Müşteri: 54321678
+Bot: Siparişiniz kargoya verilmiş ve yolda. Tahmini teslimat tarihi 3-4 gün içinde.
+Müşteri: Tamam, çok sağolun.
+Bot: Rica ederim. Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Sipariş verdim ama hesabımdan para çekilmedi.
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 34567890
+Bot: Kontrol ettim, siparişiniz tamamlanmamış görünüyor. Lütfen tekrar deneyin.
+Müşteri: Tekrar denedim yine olmadı. Ne yapabilirim?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünü denemek için sipariş verdim, bedeni olmadı.
+Bot: Bu durumda iade sürecini başlatabilirsiniz. Lütfen sipariş numaranızı girin.
+Müşteri: 12398765
+Bot: İade kodunuz oluşturulmuştur. Kargoya ücretsiz olarak verebilirsiniz. 
+Müşteri: Çok teşekkür ederim, çok hızlı oldu.
+Bot: Rica ederim. Başka bir sorunuz olursa buradayım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kupon kodum neden çalışmıyor?
+Bot: Kupon kodunuzun süresi dolmuş veya geçerli olduğu ürün ve sepet tutarı kriterlerini karşılamıyor olabilir.
+Müşteri: Kontrol ettim, her şey uygun görünüyor. Başka bir sebep olabilir mi?
+Bot: Maalesef, sistemde kuponunuzla ilgili bir hata görünmüyor.
+Müşteri: O zaman ne yapacağım? Bir çözümünüz yok mu? Çok kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kargom nerede kaldı? Takip numaram çalışmıyor.
+Bot: Kargo takip numaranızı paylaşır mısınız?
+Müşteri: 1234567890
+Bot: Kontrol ediyorum... Kargonuz henüz kargo firmasına teslim edilmemiş. Lütfen biraz bekleyin.
+Müşteri: Ne kadar bekleyeceğim? Bu durumdan hiç memnun kalmadım.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Müşteri temsilcisiyle görüşmek istiyorum.
+Bot: Belirli bir konuda yardımcı olabilmem için sorununuzu yazabilir misiniz?
+Müşteri: Siparişimi iptal etmek istiyorum. Sipariş numarası: 87654321.
+Bot: Siparişiniz kargoya verilmeden iptal edilmiştir. Başka bir şeye ihtiyacınız olursa buradayım.
+Müşteri: Teşekkür ederim.
+Bot: Rica ederim.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Ürünümde bir hata var, tamir ettirmek istiyorum.
+Bot: Hangi ürün olduğunu ve hatanın ne olduğunu belirtir misiniz?
+Müşteri: Kulaklık. Şarjı tutmuyor. Garanti kapsamında tamir ettirebilir miyim?
+Bot: Ürününüzü teknik servisimize göndermeniz gerekmektedir. Adres ve gönderim detayları için e-posta adresinizi paylaşır mısınız?
+Müşteri: Tamam, teşekkürler.
+Bot: Rica ederim. Sorunuz çözüldü mü?
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: E-posta bülteninizden çıkmak istiyorum.
+Bot: Size gönderilen e-postaların en altında yer alan 'abonelikten çık' linkini kullanarak bu işlemi gerçekleştirebilirsiniz.
+Müşteri: Anladım. Teşekkürler.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: Kargom 2 gün önce dağıtıma çıktı, neden hala gelmedi?
+Bot: Sipariş numaranızı alabilir miyim?
+Müşteri: 876543210
+Bot: Kargo firmasıyla iletişime geçtik. Kargonuzda bir gecikme yaşanmış. Yarın gün içinde size teslim edilecektir.
+Müşteri: Tamam, teşekkürler. Artık yarın gelsin.
+Bot: Rica ederim, iyi günler.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+
+
+Aşağıdaki müşteri-bot sohbetini analiz et. Sohbetin tamamını dikkate al, tek mesaj bazlı davranma. 
+Amacın, müşterinin sorunu veya talebinin bot tarafından nasıl yanıtlandığını belirlemek ve doğru 
+"yanıt_durumu" etiketini vermektir.
+
+Sohbet:
+Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet.
+Kurallar ve kriterler:
+1. Yanıt durumu yalnızca **Çözüldü** veya **Çözülemedi** olmalıdır.
+2. Çözüldü: Müşterinin sorunu tamamen çözülmüş, talebi karşılanmış veya gerekli bilgi verilmişse.
+3. Çözülemedi: Müşterinin sorunu çözülmemiş, talep karşılanmamış veya sorun devam ediyorsa.
+4. Hiçbir ek açıklama, yorum veya başka kelime kullanma.
+5. Kararı verirken sohbetin tamamını göz önünde bulundur; yalnızca son mesaja bakma.
+
+Yalnızca **Çözüldü** veya **Çözülemedi** olarak cevap ver:
+

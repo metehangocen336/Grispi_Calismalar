@@ -1,0 +1,10 @@
+Seninle Türkçe konuşuyorum. Aşağıdaki konuşma sırasında müşteri bot konuşmalarında mesaj gönderme sırası var konuşma boyunca botun userın sorularını yanıtlayıp yanıtlamadığını
+kontrol et konuşma userdan sonraki ilk gönderici botsa cevaplandı kabul edebilirsin:
+Userdan sonraki gönderici usersa hayır kabul et, konuşmada tek bir tane bile böyle durum varsa yani gönderici art arda usersa cevaplamadı kabul et
+Tüm konuşma için tek bir cevap ver
+Userın cevap verip vermemesi önemli degil önemli olan botun cevap verip vermemesi
+Cevap formatı: evet / hayır
+
+Konuşma sırası: "{mesaj}"
+
+sadece evet hayır olarak tek bir cevap ver.

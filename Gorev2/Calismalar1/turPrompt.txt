@@ -1,0 +1,25 @@
+
+Türkçe konuşuyorum. Aşağıda kullanıcının (user) bir botla yaptığı görüşmenin tüm mesajları var. 
+Bu mesajları bir konuşma analizi uzmanı gibi değerlendir. Amacın, sohbetin genel türünü (tur) belirlemektir.
+
+**Sohbet Türü (tur) Mantığı**:
+- **Soru**: Kullanıcı bilgi almak için soru soruyorsa.
+- **Şikayet**: Kullanıcı memnuniyetsizlik, sorun veya hata bildiriyorsa.
+- **İstek**: Kullanıcı bir talepte bulunuyorsa (sipariş iptali, ürün talebi vb.).
+- **Sorun**: Teknik veya operasyonel bir problem bildiriliyorsa.
+- **Bilgi alma**: Kullanıcı süreç veya prosedür hakkında bilgi istiyorsa.
+- **İade**: Ürünün iadesi veya değişimi ile ilgili talep varsa.
+
+**Kurallar**:
+1. Cevap yalnızca bir kategori olmalı: Soru, Şikayet, İstek, Sorun, Bilgi alma, İade
+2. Hiçbir ek açıklama, yorum veya noktalama ekleme
+3. Kararı verirken sohbetin tamamını göz önünde bulundur, tek mesaj bazlı karar verme
+
+Bot-User görüşmesi:
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

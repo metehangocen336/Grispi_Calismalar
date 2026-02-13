@@ -1,0 +1,143 @@
+conversation_id,text,sentiment,category,answered
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,Kına,"sentiment=nötr 
+","konu = [Etkinlik Türüyle İlgili Kelimeler] 
+","Evet 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,Diyarbakır’da hem düğün hem kına,"sentiment=pozitif 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+","[Hayır]
+[Evet]
+[Evet]
+[Hayır]
+[Evet] 
+[Hayır]
+[Hayır] 
+
+
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,"2 ay sonra düşünüyoruz 700 davetli gelecek ikram olarak içecek ve ,pasta ve meşrubat istiyoruz","sentiment=pozitif 
+","konu=[Etkinlik Türüyle İlgili Kelimeler: düğün, Hizmet Türüyle İlgili Kelimeler: organizasyon, fotoğrafçı, davetiye, nikah şekeri, gelin arabası, gelin buketi, gelinlik, damatlık, saç-makyaj, orkestra, DJ, müzik grubu, catering, yemek, kokteyl, pasta, balayı, balayı oteli, balayı villası, Mekan ve Lokasyonla İlgili Kelimeler: açık alan, kapalı alan, bahçe, salon, villa, tarihi mekan, sosyal tesis, otel, tekne, havuz başı, İkram ve Menüyle İlgili Kelimeler : içecek, pasta, meşrubat] 
+","Evet 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,"Mekan ve fotoğraf ,100 bin tl bütçemiz var kapalı alanda","sentiment=nötr 
+","konu = [Mekân, fotoğraf, Kapalı alan, Bütçe] 
+",
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,Davet sayısını 600 e çekelim o zaman,"sentiment=nötr 
+","konu = [Davet Sayısı] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Düğün,"sentiment=nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Adıyaman Kahta,"sentiment=nötr 
+","konu = [Mekân ve Lokasyonla İlgili Kelimeler] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Ağustos ayı,"Sentiment: Nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,200 e Yakın,"sentiment=nötr 
+","konu=[Davetli Sayısı] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Yemekli,"sentiment=neuter 
+","konu=[İkram ve Menüyle İlgili Kelimeler] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Açık yada kapalı düğün salonu,"sentiment=nötr 
+","konu = [Düğün Salonu Türü] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,500,"sentiment=nötr 
+","konu=[Bütçe ve Kapasite] 
+",
+9f1fb51c-a029-4691-973d-63772a5f82ab,Adıyaman Kahta köşk düğün salonu,"sentiment=nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,Kına,"Sentiment: nötr 
+","konu = [ Etkinlik Türüyle İlgili Kelimeler ]
+ 
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,Abiye istiyorum,"sentiment=nötr 
+","konu=[Abiye] 
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,İstanbul Türkiye bütçe 4000 bin TL,"sentiment=nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler  , Bütçe ve Kapasiteyle İlgili Kelimeler ] 
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,Bağcılar Esenler,"sentiment=nötr 
+","konu = [Mekan ve Lokasyon] 
+
+
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,Ok,"Sentiment: Nötr 
+","konu=[Hizmet Türüyle İlgili Kelimeler] 
+",
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,Peki uygun fiyata olnine site bula bilirmisib,"sentiment=nötr 
+","konu=[Fiyat, Uygun Fiyat] 
+",
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,Düğün,"Sentiment: Nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler]
+",
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025.11.15,"sentiment=nötr 
+","konu=[Tarih] 
+",
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,Düğün mekanı,"sentiment=nötr 
+","konu=[Düğün Mekanı]  
+",
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,Merbah,"Sentiment: Nötr 
+","konu=[Konu: Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,Şeşi,"sentiment=nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,https://images.app.goo.gl/cid7SnWHy1pyLv118,"sentiment=nötr 
+","konu = [Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,Nişan,"sentiment = pozitif 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,Nişanlık beğenmiştim de onu,"sentiment=negatif 
+","konu=[Nişan, Nişanlık] 
+",
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,Fiyatı ne kadar,"sentiment=nötr 
+","konu=[Fiyat] 
+",
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,Düğün,"Sentiment = Nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler] 
+",
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,23.08.25 pastalı olcak 600 kişi,"sentiment=nötr 
+","konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Kapasiteyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler]  
+",
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,Konya da olacak,"sentiment=nötr 
+","konu=[Mekan] 
+",
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,100,"sentiment=nötr 
+","konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,merhaba,"sentiment=nötr 
+","konu=[] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,okulumuzun mezuniyet töreni için fiyat almak istiyorum,"sentiment=pozitif 
+","konu = [Etkinlik Türüyle İlgili Kelimeler, 2. Hizmet Türüyle İlgili Kelimeler] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,istanbul tuzla,"sentiment=nötr 
+","konu=[Mekan ve Lokasyon] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,28-29 haziran,"sentiment=nötr 
+","konu =  [Tarih ve Zamanla İlgili Kelimeler] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,yemek ve pasta,"Sentiment: Nötr 
+","konu=[Yemek, pasta] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,toplamda 50 kişi,"sentiment=nötr 
+","konu=[Davetli Sayısı] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,en düşük fiyat önerilerinizi öğrenirsem daha iyi olur,"sentiment = nötr 
+","konu=[Bütçe ve Kapasiteyle İlgili Kelimeler] 
+
+
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,açık kapalı fark etmez,"sentiment=nötr 
+","konu=[Mekan Türü] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,kapalı alan olan var mı,"sentiment=nötr 
+","konu=[Mekân ve Lokasyon] 
+",
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,tamam önerilerinizi inceleyim,"sentiment=pozitif 
+","konu = [Düğün Organizasyonu, Öneriler] 
+",

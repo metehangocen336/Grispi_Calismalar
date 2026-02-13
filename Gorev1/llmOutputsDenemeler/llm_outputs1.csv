@@ -1,0 +1,121 @@
+conversation_id,timestamp,sender,text,sentiment,answered,category
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:33:51,user,Kına,HATA,HATA,HATA
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:34:06,user,Diyarbakır’da hem düğün hem kına,HATA,HATA,HATA
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:35:27,user,"2 ay sonra düşünüyoruz 700 davetli gelecek ikram olarak içecek ve ,pasta ve meşrubat istiyoruz",HATA,HATA,HATA
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:14,user,"Mekan ve fotoğraf ,100 bin tl bütçemiz var kapalı alanda",HATA,HATA,HATA
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:43,user,Davet sayısını 600 e çekelim o zaman,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:19,user,Düğün,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:52,user,Adıyaman Kahta,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:24,user,Ağustos ayı,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:47,user,200 e Yakın,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:57:11,user,Yemekli,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:04,user,Açık yada kapalı düğün salonu,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:43,user,500,HATA,HATA,HATA
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:59:37,user,Adıyaman Kahta köşk düğün salonu,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:19,user,Kına,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:45,user,Abiye istiyorum,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:57:43,user,İstanbul Türkiye bütçe 4000 bin TL,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:58:51,user,Bağcılar Esenler,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:59:32,user,Ok,HATA,HATA,HATA
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T20:01:01,user,Peki uygun fiyata olnine site bula bilirmisib,HATA,HATA,HATA
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:04,user,Düğün,HATA,HATA,HATA
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:54,user,2025.11.15,HATA,HATA,HATA
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:42:23,user,Düğün mekanı,HATA,HATA,HATA
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:34:31,user,Merbah,HATA,HATA,HATA
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:35:06,user,Şeşi,HATA,HATA,HATA
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:36:02,user,https://images.app.goo.gl/cid7SnWHy1pyLv118,HATA,HATA,HATA
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:39:15,user,Nişan,HATA,HATA,HATA
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:31,user,Nişanlık beğenmiştim de onu,HATA,HATA,HATA
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:40,user,Fiyatı ne kadar,HATA,HATA,HATA
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:04,user,Düğün,HATA,HATA,HATA
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:48,user,23.08.25 pastalı olcak 600 kişi,HATA,HATA,HATA
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:15,user,Konya da olacak,HATA,HATA,HATA
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:35,user,100,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:30,user,merhaba,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:47,user,okulumuzun mezuniyet töreni için fiyat almak istiyorum,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:12,user,istanbul tuzla,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:19,user,28-29 haziran,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:59,user,yemek ve pasta,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:13,user,toplamda 50 kişi,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:57,user,en düşük fiyat önerilerinizi öğrenirsem daha iyi olur,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:46:26,user,açık kapalı fark etmez,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:05,user,kapalı alan olan var mı,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:41,user,tamam önerilerinizi inceleyim,HATA,HATA,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:51:28,user,resim ve video çekimi de istiyorum,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:29,user,çekimler tören sırasında olacak,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:59,user,fotoğraf ve video çekimi olacak,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:53:34,user,en uygun olanları verebilirseniz sevinirim,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:00:34,user,tekrar merhaba,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:01:18,user,temenye quın garden için,HATA,,HATA
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:02:49,user,28 haziran akşam saatlerinde  yemek - pasta - ve fotoğraf video çekimi içinde 50 kişilik fiyat teklifi alabilir miyim,HATA,,HATA
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:31:11,user,Nişan,HATA,,HATA
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:12,user,Manisa Salihli 24 Haziran 2025 150 davetli,HATA,,HATA
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:36,user,Sadece mekan,HATA,,HATA
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:51,user,Hicbiri,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:53:49,user,19 ekim sünnet düğünü salonu,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:05,user,Kocaeli gebze,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:29,user,350 400 pasta ö,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:45,user,Mest5,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:52,user,45 milyar,HATA,,HATA
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:55:16,user,Gebze sadece,HATA,,HATA
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:11:32,user,Düğün,HATA,,HATA
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:14:28,user,"Gaziantep Şahinbey de bir mekan arıyoruz. 100-450 civarlarında davetlimiz olacak, tahmini düğün tarihimize daha var ama ben şimdiden araştırmak istiyorum. Hizmette ise;Mekan, organizasyon, içecekler ama alkol asla olmayacak, fotoğraf ve video çekimi ve kuru pasta gibi ikramların olduğu bir mekan arıyorum.. Anlıyorsunuz değil mi beni?",HATA,,HATA
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:16:24,user,"Kapalı bir mekan arıyoruz ve bütçe bizim için önemli değil. Şık, görkemli bir mekan arıyoruz. Önerilerde bulunursanız sevinirim.",HATA,,HATA
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:17:22,user,Sence hangisi daha iyi? Karar vermekte zorlanıyorum.,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:07:52,user,Kıyı bungalov,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:05,user,Balayı,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:19,user,Rize,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:09,user,10.07.2025 göl kenarı 1000-5000 TL arası,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:48,user,5000-10000 TL arası,HATA,,HATA
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:10:25,user,Deniz kenarı,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:15:19,user,27 09 2025 günü kız isteme ve nişan töreni  ortalama 120 kişilik,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:16:14,user,Hatay ili merkezde ikramlı kapalı alan,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:17:45,user,Pasta meşrubat,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:08,user,30000,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:39,user,Evet,HATA,,HATA
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:19:03,user,Defne,HATA,,HATA
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:52:45,user,Nişan,HATA,,HATA
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:11,user,"Söz ve isteme bir arada olacak şekilde kuru pasta ve meyve suyuyla beraber istiyoruz . Ankara yenimahalle, Mamak , Çankaya da olabilir . Yaklaşık 150-200 davetli . Söz mekânında organizasyon fotoğrafını istiyorum . Tarih olarak 20 Temmuz",HATA,,HATA
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:48,user,evet bakabilirsiniz,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:13,user,Düğün,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:38,user,trabzon araklı,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:46,user,15 kadım,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:57,user,200 davetli,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:05,user,pasta meşrubat,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:22,user,50,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:44,user,50 bin tl,HATA,,HATA
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:55,user,kapalı,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T15:59:57,user,Düğün,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:22,user,Ankara,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:31,user,Etiler orduevi,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:01:40,user,300 kişi yemekli 2026 ekim,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:02:28,user,Paket herşey dahil Etiler ordu evi,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:03:23,user,Fotoğrafçı canlı müzik düğün pastasi,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:08,user,Kişi başı 1000 tl,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:54,user,1250,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:05:22,user,Kisi başı 1500,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:07:22,user,Sayın Hera talebim Etiler orduevi,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:08:55,user,Tandoğan orduevi,HATA,,HATA
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:09:22,user,Aynı paket program,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:13:52,user,Düğün,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:30,user,İstabul Eyüp,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:48,user,9 Kasım,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:56,user,500 kişilik kokteyl,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:06,user,düğün mekanı,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:27,user,kapalı mekan,HATA,,HATA
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:37,user,120 bin,HATA,,HATA
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:20,user,Düğün,HATA,,HATA
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:36,user,Ankara Keçiören,HATA,,HATA
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:25,user,arkadaslarjmla gelmek istiyorum,HATA,,HATA
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:44,user,arkadaslarımla vakit gecirmek icin,HATA,,HATA
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:04:33,user,bakırkoyde ferah ve boyama yapabilecegim bir kafede,HATA,,HATA
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:05:20,user,2 kisiyiz pazartesi günü ve boyama yapmamıza izin verecek bir kafe,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:04:53,user,Düğün,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:05:23,user,Gelin bohcası fiyatlar,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:06:53,user,10 bin tl,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:07:01,user,Bütce,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:08:23,user,İl aksaray,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:09:14,user,Set takımı,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:10:26,user,Set oldun yeterli,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:11:19,user,İzmir'de gördüm bi set takımı,HATA,,HATA
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:12:44,user,Tüm izmir,HATA,,HATA

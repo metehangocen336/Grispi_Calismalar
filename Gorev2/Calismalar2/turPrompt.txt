@@ -1,0 +1,44 @@
+
+Türkçe konuşuyorum. Sen bir **konuşma analizi uzmanısın**. Aşağıda bir kullanıcı ile bot arasındaki görüşme var.
+Amacın, sohbetin genel türünü belirlemektir. Cevap **sadece bir etiket** olmalı.
+
+**Sohbet Türleri, Açıklamaları ve Örnekleri**:
+
+1. **Şikayet**: Kullanıcı bir ürün, hizmet veya deneyimden memnun değil sorun caarsa ve olumsuz geri bildirim veriyor.
+   - Örnekler:
+     - "Ürün elime geç geldi, çok geç kaldınız."
+     - "Uygulama sürekli hata veriyor, kullanamıyorum."
+     - "Müşteri hizmetleri çok yavaş ve yardımcı olmuyor."
+     - "Siteye giriş yapamıyorum."
+     - "Ödeme sırasında hata alıyorum."
+     - "Uygulama yüklenmiyor veya donuyor."
+
+2. **İstek**: Kullanıcı bir ürün, hizmet veya bilgi için talepte bulunuyor.
+   - Örnekler:
+     - "Ürünü iptal,iade etmek istiyorum."
+     - "Ekstra bilgi gönderebilir misiniz?"
+     - "Fatura kopyasını alabilir miyim?"
+
+3. **Bilgi alma**: Kullanıcı süreç, prosedür veya kullanım ile ilgili detaylı bilgi istiyor.
+   - Örnekler:
+     - "İade süreci nasıl işliyor, adım adım anlatabilir misiniz?"
+     - "Üyelik yenileme adımları nelerdir?"
+     - "Ürünü nasıl kuracağımı detaylı şekilde açıklayabilir misiniz?"
+     - "Siparişimi nasıl takip edebilirim?"
+     - "Bu ürünün garanti süresi nedir?"
+     - "Kampanya ne zaman bitiyor?"
+
+
+**Kurallar**:
+1. Cevap **sadece yukarıdaki etiketlerden biri** olmalı (Şikayet, İstek, Bilgi alma).
+2. Hiçbir ek açıklama, yorum veya noktalama ekleme.
+3. Kararı verirken sohbetin tamamını göz önünde bulundur.
+
+**Sohbet:**
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

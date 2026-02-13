@@ -1,0 +1,26 @@
+
+Türkçe konuşuyorum. Aşağıda kullanıcının (user) bir botla yaptığı görüşmenin tüm mesajları var. 
+Bu mesajları bir konuşma analizi uzmanı gibi değerlendir. Analiz sonucunu yazmana gerek yok. 
+Amacın, kullanıcının genel duygusal tonunu (sentiment) belirlemektir.
+
+**Sentiment Etiketleme Mantığı**:
+- **Pozitif**: Kullanıcının mesajları tamamen olumlu, kullanıcının mesajları memnuniyet veya teşekkür gibi ifadeler içeriyorsa.
+- **Negatif**: Kullanıcının mesajları şikayet, hayal kırıklığı veya olumsuz duygu içeriyorsa.
+- **Nötr**: Kullanıcının mesajları net bir şekilde pozitif veya negatif değilse; bilgi alma, soru veya karışık ifadeler içeriyorsa.
+- Her mesajı ayrı ayrı değerlendir, ancak etiketi **konuşmanın geneline bakarak** belirle.
+
+**Kurallar**:
+1. Cevap yalnızca **Pozitif**, **Negatif** veya **Nötr** olmalı.
+2. Hiçbir ek açıklama, yorum veya noktalama ekleme.
+3. Kararı verirken tüm konuşmayı göz önünde bulundur, tek mesajla karar verme.
+4. Cevap formatı: "Pozitif" veya "Negatif" veya "Nötr" tek kelime
+5. talimatları asla ihlal etme
+
+Bot-User görüşmesi:
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

@@ -1,0 +1,41 @@
+sohbet_id,ilk_mesaj_tarihi,son_mesaj_tarihi,konusma_suresi_dakika,yanit_durumu,sentiment,tur,intent,intent_detay
+90001,2024-09-04 09:00:00,2024-09-04 09:01:30,1 dk 30 sn,Çözüldü,Pozitif,Bilgi alma,İade,Eksik ürün nedeniyle yeniden gönderim talebi
+90002,2024-09-04 09:15:00,2024-09-04 09:16:25,1 dk 25 sn,Çözülemedi,Negatif,Sorun,Hesap Yönetimi,Şifre sıfırlama linkinin gelmemesi nedeniyle hesap erişim sorunu ve alternatif doğrulama talebi
+90003,2024-09-04 09:30:00,2024-09-04 09:30:50,0 dk 50 sn,Çözüldü,Pozitif,Bilgi alma,İade,İade süreci hakkında bilgi talebi ve iade kodu oluşturmak için sipariş numarası talebi
+90004,2024-09-04 09:45:00,2024-09-04 09:46:15,1 dk 15 sn,Çözülemedi,Negatif,Sorun,Kupon,Kupon kodunun çalışmaması
+90005,2024-09-04 10:00:00,2024-09-04 10:01:25,1 dk 25 sn,Çözüldü,Pozitif,İstek,Sipariş İptali,Sipariş iptali talebi
+90006,2024-09-04 10:15:00,2024-09-04 10:16:25,1 dk 25 sn,Çözüldü,Pozitif,Bilgi alma,İade,İade kargomun varış süresi hakkında bilgi istemi
+90007,2024-09-04 10:30:00,2024-09-04 10:31:10,1 dk 10 sn,Çözülemedi,Negatif,İade,İade,Fotoğraf kanıtı olmadan defolu ürün için iade veya değişim talebi
+90008,2024-09-04 10:45:00,2024-09-04 10:45:50,0 dk 50 sn,Çözüldü,Pozitif,İstek,Hesap Yönetimi,Üyelik bilgilerinin güncellenmesi talebi
+90009,2024-09-04 11:00:00,2024-09-04 11:01:30,1 dk 30 sn,Çözülemedi,Pozitif,Şikayet,Ödeme,Faturadaki hatalı fiyatların düzeltilmesi ve yeni faturanın gönderilmesi talebi
+90010,2024-09-04 11:15:00,2024-09-04 11:15:40,0 dk 40 sn,Çözülemedi,Negatif,Şikayet,Sipariş İptali,Kargoya verildikten sonra iptal yapılamaması nedeniyle iade süreciyle devam edilmesi talebi.
+90011,2024-09-04 11:30:00,2024-09-04 11:31:25,1 dk 25 sn,Çözülemedi,Nötr,Soru,Stok Takibi,Stok durumu ve yeniden stok tarihi öğrenme talebi
+90012,2024-09-04 11:45:00,2024-09-04 11:46:15,1 dk 15 sn,Çözülemedi,Negatif,Şikayet,Ödeme,Çift kart çekimi için banka ekstresi kanıtı talebi ve müşteri temsilcisi talebi
+90013,2024-09-04 12:00:00,2024-09-04 12:01:20,1 dk 20 sn,Çözüldü,Nötr,Soru,Kargo Takibi,Siparişin kargoya verilme tarihi
+90014,2024-09-04 12:15:00,2024-09-04 12:15:40,0 dk 40 sn,Çözülemedi,Negatif,Şikayet,Ödeme,Kredi kartı reddedilme nedeni ve çözüm talebi
+90015,2024-09-04 12:30:00,2024-09-04 12:30:55,0 dk 55 sn,Çözüldü,Nötr,Bilgi alma,Teknik Sorun,Ürün beden tablosunu bulamıyorum
+90016,2024-09-04 12:45:00,2024-09-04 12:46:15,1 dk 15 sn,Çözülemedi,Negatif,Şikayet,Hesap Yönetimi,Yanlış adres girdim teslimatın düzeltilmesi ve kargo ile müdahale talebi
+90017,2024-09-04 13:00:00,2024-09-04 13:00:40,0 dk 40 sn,Çözülemedi,Negatif,Bilgi alma,Teknik Sorun,Ürün yorumu neden yayınlanmadı hangi kurala aykırı olduğunu açıklama talebi
+90018,2024-09-04 13:15:00,2024-09-04 13:15:55,0 dk 55 sn,Çözülemedi,Nötr,Sorun,Teknik Sorun,404 Not Found hatası nedeniyle sayfa bulunamama sorunu için çözüm talebi
+90019,2024-09-04 13:30:00,2024-09-04 13:30:40,0 dk 40 sn,Çözülemedi,Negatif,İade,Ödeme,Çekilen ödeme için iade talebi ve siparişin görünmemesi
+90020,2024-09-04 13:45:00,2024-09-04 13:45:55,0 dk 55 sn,Çözüldü,Pozitif,Soru,Ürün Özellikleri,Kumaş malzemesinin öğrenilmesi
+90021,2024-09-04 14:00:00,2024-09-04 14:01:30,1 dk 30 sn,Çözüldü,Pozitif,Şikayet,İade,Eksik promosyon ürünlerinin gönderilmesini talep etme
+90022,2024-09-04 14:15:00,2024-09-04 14:16:10,1 dk 10 sn,Çözülemedi,Negatif,Şikayet,İade,İade işleminin gecikmesi ve para iadesinin halen yapılmamış olması
+90023,2024-09-04 14:30:00,2024-09-04 14:31:20,1 dk 20 sn,Çözüldü,Pozitif,Şikayet,İade,Kargo kaynaklı hasarlı ürün için değişim talebi
+90024,2024-09-04 14:45:00,2024-09-04 14:45:40,0 dk 40 sn,Çözülemedi,Negatif,Şikayet,İade,Renk değişimi için uygun değişim seçeneğinin bulunmaması veya sürecin zahmetli olması
+90025,2024-09-04 15:00:00,2024-09-04 15:00:55,0 dk 55 sn,Çözüldü,Pozitif,Bilgi alma,Kupon,İndirim kampanyaları hakkında bilgi talebi
+90026,2024-09-04 15:15:00,2024-09-04 15:16:20,1 dk 20 sn,Çözüldü,Pozitif,Şikayet,İade,Yanlış ürün teslimatı ve doğru ürünün gönderilmesi talebi
+90027,2024-09-04 15:30:00,2024-09-04 15:30:55,0 dk 55 sn,Çözüldü,Nötr,İstek,Hesap Yönetimi,Hesap kapatma talebi
+90028,2024-09-04 15:45:00,2024-09-04 15:46:15,1 dk 15 sn,Çözülemedi,Negatif,Şikayet,İade,Eksik ürün teslimatı ve stok hatası nedeniyle ürünü tamamlayıp teslim almak istemesi
+90029,2024-09-04 16:00:00,2024-09-04 16:01:25,1 dk 25 sn,Çözüldü,Pozitif,Sorun,İade,Geçersiz iade kodu nedeniyle yeni kod talebi
+90030,2024-09-04 16:15:00,2024-09-04 16:16:20,1 dk 20 sn,Çözüldü,Nötr,Bilgi alma,Hesap Yönetimi,Yanlış teslimat adresinin düzeltilmesi
+90031,2024-09-04 16:30:00,2024-09-04 16:31:25,1 dk 25 sn,Çözüldü,Pozitif,Soru,Kargo Takibi,Sipariş durumunu ve kargo takibini öğrenme
+90032,2024-09-04 16:45:00,2024-09-04 16:46:10,1 dk 10 sn,Çözülemedi,Negatif,Sorun,Ödeme,Ödeme işlemi başarısız oldu ve sipariş tamamlanmadı
+90033,2024-09-04 17:00:00,2024-09-04 17:01:20,1 dk 20 sn,Çözüldü,Pozitif,İade,İade,Bedeni uygun olmayan ürün için iade talebinin başlatılması
+90034,2024-09-04 17:15:00,2024-09-04 17:16:15,1 dk 15 sn,Çözülemedi,Negatif,Şikayet,Kupon,Kupon kodunun çalışmaması ve çözüm talebi
+90035,2024-09-04 17:30:00,2024-09-04 17:31:10,1 dk 10 sn,Çözülemedi,Negatif,Şikayet,Kargo Takibi,Takip numarasının çalışmaması ve kargonun konum bilgisinin talebi
+90036,2024-09-04 17:45:00,2024-09-04 17:46:25,1 dk 25 sn,Çözüldü,Pozitif,İstek,Sipariş İptali,Kargoya verilmemiş siparişin iptal talebi
+90037,2024-09-04 18:00:00,2024-09-04 18:01:25,1 dk 25 sn,Çözülemedi,Negatif,İstek,Teknik Sorun,Kulaklıkta şarj sorunu nedeniyle garanti kapsamında tamir talebi
+90038,2024-09-04 18:15:00,2024-09-04 18:15:55,0 dk 55 sn,Çözüldü,Pozitif,İstek,Hesap Yönetimi,E-posta bülteninden çıkış talebi
+90039,2024-09-04 18:30:00,2024-09-04 18:31:25,1 dk 25 sn,Çözüldü,Nötr,Soru,Kargo Takibi,Kargo gecikmesi hakkında bilgi talebi
+90040,2024-09-04 18:45:00,2024-09-04 18:46:10,1 dk 10 sn,Çözülemedi,Negatif,Şikayet,İade,Para iadesi gecikmesi

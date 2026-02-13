@@ -1,0 +1,10 @@
+Sutun adi,Etiket,Adet,Toplam Sayi,Yüzde (%)
+intent,İade,13,40,32.5
+intent,Hesap Yönetimi,6,40,15.0
+intent,Ödeme,5,40,12.5
+intent,Teknik Sorun,4,40,10.0
+intent,Kargo Takibi,4,40,10.0
+intent,Sipariş İptali,3,40,7.5
+intent,Kupon,3,40,7.5
+intent,Stok Takibi,1,40,2.5
+intent,Ürün Özellikleri,1,40,2.5

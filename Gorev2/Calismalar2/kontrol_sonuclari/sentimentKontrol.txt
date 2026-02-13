@@ -1,0 +1,5 @@
+Farklı olan satırlar ve değerleri (index, manuel, tahmin):
+1 Pozitif ************** Nötr
+9 Pozitif ************** Nötr
+18 Pozitif ************** Nötr
+37 Pozitif ************** Nötr

@@ -1,0 +1,722 @@
+[
+  {
+    "sohbet_id": 90001,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimde bir ürün eksik geldi. Ne yapmalıyım?\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 98765432\nBot: Kontrol ediyorum... Siparişinizde bir hata olduğunu görüyorum. Yeni ürününüz en kısa sürede gönderilecektir. Özür dileriz.\nMüşteri: Harika, teşekkür ederim!\nBot: Rica ederim, iyi günler dileriz.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Eksik ürün",
+      "intent_detay": "Sipariş teslimatında eksik ürün"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Bilgi alma",
+      "intent": "İade",
+      "intent_detay": "Eksik ürün nedeniyle yeniden gönderim talebi"
+    }
+  },
+  {
+    "sohbet_id": 90002,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Hesabıma giriş yapamıyorum, şifremi unuttum.\nBot: Şifre sıfırlama linki için e-posta adresinizi girer misiniz?\nMüşteri: Şifremi sıfırlama linki gelmiyor. Başka bir yol yok mu?\nBot: E-posta kutunuzun spam klasörünü kontrol ettiniz mi?\nMüşteri: Evet, kontrol ettim. Hiçbir yerde yok. Bu durum çok can sıkıcı.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Şifre sıfırlama",
+      "intent_detay": "E-posta linki gelmemesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "Şifre sıfırlama linkinin gelmemesi nedeniyle hesap erişim sorunu ve alternatif doğrulama talebi"
+    }
+  },
+  {
+    "sohbet_id": 90003,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: İade süreci hakkında bilgi almak istiyorum.\nBot: İade sürecimiz 14 gündür. Ürünü orijinal paketiyle birlikte kargoya vermeniz yeterlidir. İade kodunuzu oluşturmak için sipariş numaranızı alabilir miyim?\nMüşteri: Anladım, teşekkürler.\nBot: Başka bir sorunuz olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "İade",
+      "intent_detay": "İade prosedürü hakkında bilgi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Bilgi alma",
+      "intent": "İade",
+      "intent_detay": "İade süreci hakkında bilgi talebi ve iade kodu oluşturmak için sipariş numarası talebi"
+    }
+  },
+  {
+    "sohbet_id": 90004,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kupon kodum çalışmıyor. 'Hoş Geldin15' kuponunu kullanmak istiyorum ama hata veriyor.\nBot: Kuponunuzun geçerlilik koşullarını kontrol ettiniz mi? Örneğin, minimum sepet tutarı veya belirli ürünler için geçerli olup olmadığı gibi.\nMüşteri: Evet, her şeyi kontrol ettim. Sepetim de 200 TL üzerinde. Ne yapabilirim?\nBot: Sistemde kuponunuzla ilgili bir sorun görünmüyor. Lütfen farklı bir tarayıcıdan denemeyi veya önbelleğinizi temizlemeyi deneyin.\nMüşteri: Bunları zaten denedim! Sizinle konuşmak zaman kaybı oldu. Hiç yardımcı olmuyorsunuz.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Kupon",
+      "intent_detay": "Kupon kodunun çalışmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Kupon",
+      "intent_detay": "Kupon kodunun çalışmaması"
+    }
+  },
+  {
+    "sohbet_id": 90005,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimi iptal etmek istiyorum.\nBot: Sipariş numaranızı paylaşır mısınız?\nMüşteri: 76458902\nBot: Siparişiniz başarılı bir şekilde iptal edilmiştir. İadeniz en kısa sürede gerçekleştirilecektir.\nMüşteri: Çok teşekkür ederim!\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "İptal",
+      "intent_detay": "Sipariş iptali"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "Sipariş İptali",
+      "intent_detay": "Sipariş iptali talebi"
+    }
+  },
+  {
+    "sohbet_id": 90006,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: İade kargom ne zaman ulaşır?\nBot: İade takip kodunuzu paylaşır mısınız?\nMüşteri: 654321987\nBot: Kontrol ediyorum... İadeniz 2 gün içinde elimize ulaşacaktır.\nMüşteri: Tamam, teşekkür ederim.\nBot: Rica ederim, iyi günler dileriz.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "İade",
+      "intent_detay": "İade kargosu takibi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Bilgi alma",
+      "intent": "İade",
+      "intent_detay": "İade kargomun varış süresi hakkında bilgi istemi"
+    }
+  },
+  {
+    "sohbet_id": 90007,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürünüm defolu geldi. Değişim veya iade yapmak istiyorum.\nBot: Bu konuda size yardımcı olabilirim. Lütfen sipariş numaranızı ve ürünün defolu kısmının fotoğrafını gönderin.\nMüşteri: Telefonumdan fotoğraf çekemiyorum, başka bir yol yok mu?\nBot: Maalesef, defolu ürün işlemleri için fotoğraf kanıtı gerekmektedir.\nMüşteri: Bu çok saçma! O zaman iade de yapamayacak mıyım?",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Defolu ürün",
+      "intent_detay": "Değişim/iade yapılamaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "İade",
+      "intent": "İade",
+      "intent_detay": "Fotoğraf kanıtı olmadan defolu ürün için iade veya değişim talebi"
+    }
+  },
+  {
+    "sohbet_id": 90008,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Üyelik bilgilerimi güncellemek istiyorum.\nBot: Hesabım sayfasından 'Bilgilerimi Düzenle' seçeneği ile bu işlemi gerçekleştirebilirsiniz. Eğer sorun yaşarsanız, tekrar bana yazın.\nMüşteri: Teşekkür ederim, deneyeceğim.\nBot: Rica ederim. Başka bir şeye ihtiyacınız olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "İstek",
+      "intent": "Hesap bilgisi",
+      "intent_detay": "Üyelik bilgisi güncelleme"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "Üyelik bilgilerinin güncellenmesi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90009,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Faturamda bir yanlışlık var. Fiyatlar hatalı görünüyor.\nBot: Sipariş numaranızı ve faturadaki hatalı fiyat bilgisini paylaşır mısınız?\nMüşteri: Sipariş numarası 54897213. Fatura detayları ekte.\nBot: Kontrol ediyorum... Faturanızdaki hatayı düzelterek yeni faturayı size e-posta ile göndereceğim. Sorun için özür dileriz.\nMüşteri: Çok teşekkürler, çok iyi oldu bu.\nBot: Rica ederim, başka bir konuda yardımcı olmamı ister misiniz?",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Fatura hatası",
+      "intent_detay": "Fatura fiyatı hatası"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Ödeme",
+      "intent_detay": "Faturadaki hatalı fiyatların düzeltilmesi ve yeni faturanın gönderilmesi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90010,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimi iptal etmek istiyorum ama sistemde 'iptal et' butonu görünmüyor.\nBot: Siparişiniz kargoya verildiği için 'iptal et' butonu görünmüyor olabilir. Bu durumda iade süreciyle devam etmeniz gerekir.\nMüşteri: Ama siparişim daha yeni kargoya verildi. İptal edebilmem gerekirdi. Çok kötü bir hizmet.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "İptal",
+      "intent_detay": "Sipariş iptali yapılamaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Sipariş İptali",
+      "intent_detay": "Kargoya verildikten sonra iptal yapılamaması nedeniyle iade süreciyle devam edilmesi talebi."
+    }
+  },
+  {
+    "sohbet_id": 90011,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürün stok bilgisi hakkında bilgi almak istiyorum. Stokta yok görünüyor ama ne zaman gelir?\nBot: Ürün kodunu veya adını paylaşır mısınız?\nMüşteri: Elbise kodu: AB-456.\nBot: Maalesef, bu ürün için henüz bir stok yenileme tarihi belirlenmedi.\nMüşteri: Anladım. Teşekkürler yine de.\nBot: Rica ederim.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Stok",
+      "intent_detay": "Stok yenileme tarihi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Stok Takibi",
+      "intent_detay": "Stok durumu ve yeniden stok tarihi öğrenme talebi"
+    }
+  },
+  {
+    "sohbet_id": 90012,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kredi kartımdan iki kez çekim yapılmış.\nBot: Sipariş numaranızı ve banka ekstrenizin ekran görüntüsünü paylaşır mısınız?\nMüşteri: Banka ekstresini çekemedim, telefonda uygulamam çalışmıyor.\nBot: Maalesef, iki kez çekim işlemi için banka ekstresi kanıtı gereklidir.\nMüşteri: O zaman ne yapacağım? Bana bir müşteri temsilcisi bağlayın. Bu botun bir faydası yok.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Ödeme",
+      "intent_detay": "Çifte çekim"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Ödeme",
+      "intent_detay": "Çift kart çekimi için banka ekstresi kanıtı talebi ve müşteri temsilcisi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90013,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişim hala hazırlanıyor görünüyor. Ne zaman kargoya verilir?\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 21345678\nBot: Kontrol ediyorum... Siparişiniz bugün kargoya verilecek. Takip numaranız e-posta adresinize gönderilecektir.\nMüşteri: Tamam, çok sağolun.\nBot: Rica ederim. İyi günler dileriz.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Kargo",
+      "intent_detay": "Kargo durumu"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Kargo Takibi",
+      "intent_detay": "Siparişin kargoya verilme tarihi"
+    }
+  },
+  {
+    "sohbet_id": 90014,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kredi kartım neden reddediliyor?\nBot: Kredi kartı reddedilme nedenlerini güvenlik ve gizlilik nedeniyle göremiyorum. Bu durumu bankanızla görüşmeniz en doğru seçenek olacaktır.\nMüşteri: Siz yardımcı olamayacaksanız neden buradasınız? Çok sinir bozucu bir durum.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Ödeme",
+      "intent_detay": "Kredi kartı reddedilmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Ödeme",
+      "intent_detay": "Kredi kartı reddedilme nedeni ve çözüm talebi"
+    }
+  },
+  {
+    "sohbet_id": 90015,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürün beden tablosunu bulamıyorum.\nBot: Hangi ürünü arıyorsunuz? Genellikle ürün sayfasında 'Beden Tablosu' başlığı altında bu bilgi yer alır.\nMüşteri: Tamam, buldum şimdi. Gözümden kaçmış.\nBot: Sevindim. Başka bir sorunuz olursa çekinmeyin.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "Beden tablosu",
+      "intent_detay": "Ürün beden tablosu"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "Teknik Sorun",
+      "intent_detay": "Ürün beden tablosunu bulamıyorum"
+    }
+  },
+  {
+    "sohbet_id": 90016,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Adresimi yanlış girdim, nasıl düzeltebilirim?\nBot: Siparişiniz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.\nMüşteri: Siparişimi dün verdim, kargoya verilmiş. O zaman ne olacak?\nBot: Bu durumda kargo firmasıyla iletişime geçmeniz gerekmektedir.\nMüşteri: Her şey için beni kargoya yönlendiriyorsunuz. Hiçbir işe yaramıyorsunuz.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Adres hatası",
+      "intent_detay": "Yanlış adres girişi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "Yanlış adres girdim teslimatın düzeltilmesi ve kargo ile müdahale talebi"
+    }
+  },
+  {
+    "sohbet_id": 90017,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürün yorumumu neden yayınlamadınız?\nBot: Yorumlar, içerik kurallarına uygunluk açısından incelenmektedir. Yorumunuzun kurallarımıza aykırı bir içeriği olabilir.\nMüşteri: Hangi kurala aykırı? Bana bir açıklama yapın. Çok sinirliyim.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Yorum",
+      "intent_detay": "Yorum yayınlanmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Bilgi alma",
+      "intent": "Teknik Sorun",
+      "intent_detay": "Ürün yorumu neden yayınlanmadı hangi kurala aykırı olduğunu açıklama talebi"
+    }
+  },
+  {
+    "sohbet_id": 90018,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Sitede gezinirken sürekli hata alıyorum. '404 not found' diyor.\nBot: Yaşadığınız sorun için üzgünüz. Teknik ekibimiz bu hatayı en kısa sürede çözecektir.\nMüşteri: Anladım. Teşekkürler.\nBot: Yardımcı olabildiğime sevindim. İyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Şikayet",
+      "intent": "Web sitesi",
+      "intent_detay": "Teknik hata"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Nötr",
+      "tur": "Sorun",
+      "intent": "Teknik Sorun",
+      "intent_detay": "404 Not Found hatası nedeniyle sayfa bulunamama sorunu için çözüm talebi"
+    }
+  },
+  {
+    "sohbet_id": 90019,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Sipariş verdim ama hesabımdan para çekildi. Siparişlerim sayfasında görünmüyor.\nBot: Ödeme bilgilerinizle bir sorun olabilir. Lütfen bir süre bekleyin, işlem bankanız tarafından iade edilebilir.\nMüşteri: Yine mi bekleyeceğim? Bu ne kadar kötü bir sistem. Paramı geri istiyorum. Ne yapacağım şimdi?",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Ödeme",
+      "intent_detay": "Hesaptan para çekilip siparişin oluşmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "İade",
+      "intent": "Ödeme",
+      "intent_detay": "Çekilen ödeme için iade talebi ve siparişin görünmemesi"
+    }
+  },
+  {
+    "sohbet_id": 90020,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürün hakkında bilgi almak istiyorum, kumaşı nedir?\nBot: Hangi ürünü merak ediyorsunuz? Genellikle ürün açıklamasında bu bilgi yer almaktadır.\nMüşteri: Tamam, kontrol ettim. Açıklamada yazıyormuş, teşekkür ederim.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "Ürün",
+      "intent_detay": "Ürün bilgisi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Soru",
+      "intent": "Ürün Özellikleri",
+      "intent_detay": "Kumaş malzemesinin öğrenilmesi"
+    }
+  },
+  {
+    "sohbet_id": 90021,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimde promosyon ürünleri eksik geldi. Ne yapabilirim?\nBot: Sipariş numaranızı ve eksik gelen promosyon ürünlerini paylaşır mısınız?\nMüşteri: 85472196. Eksik olanlar çanta ve cüzdan.\nBot: Eksik ürünleriniz en kısa sürede kargoya verilecektir. Yaşanan aksaklık için özür dileriz.\nMüşteri: Çok teşekkür ederim, hızlı çözüm için.\nBot: Rica ederim. Başka bir şey olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Eksik ürün",
+      "intent_detay": "Eksik promosyon ürünleri"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Eksik promosyon ürünlerinin gönderilmesini talep etme"
+    }
+  },
+  {
+    "sohbet_id": 90022,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimi iptal ettim ama param hala iade edilmedi.\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 98745612\nBot: İadenizin bankanıza yansıma süresi 1-5 iş günüdür. Lütfen banka ekstrenizi kontrol edin.\nMüşteri: Siparişimi 1 hafta önce iptal ettim zaten! Çok iyi bir hizmet değil bu.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Para iadesi gecikmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "İade işleminin gecikmesi ve para iadesinin halen yapılmamış olması"
+    }
+  },
+  {
+    "sohbet_id": 90023,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürünümde hasar var, kargodan kaynaklı olduğunu düşünüyorum.\nBot: Sipariş numaranızı ve ürünün hasarlı fotoğrafını gönderir misiniz?\nMüşteri: 78965412. Fotoğrafı çektim, gönderiyorum. \nBot: Fotoğrafınız incelenmiştir. Hasarlı ürününüz en kısa sürede yenisiyle değiştirilecektir.\nMüşteri: Çok iyi, teşekkürler!\nBot: Rica ederim, iyi günler dileriz.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Hasarlı ürün",
+      "intent_detay": "Kargodan kaynaklı hasar"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Kargo kaynaklı hasarlı ürün için değişim talebi"
+    }
+  },
+  {
+    "sohbet_id": 90024,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürünü denedim ve rengini beğenmedim, değişim yapmak istiyorum.\nBot: İade sürecini başlatarak istediğiniz renkteki ürünü yeniden sipariş edebilirsiniz.\nMüşteri: Değişim seçeneği yok mu? İade ve yeniden sipariş çok zahmetli. Çok kötü bir sistem.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Değişim",
+      "intent_detay": "Değişim seçeneği olmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Renk değişimi için uygun değişim seçeneğinin bulunmaması veya sürecin zahmetli olması"
+    }
+  },
+  {
+    "sohbet_id": 90025,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: İndirim kampanyaları hakkında bilgi almak istiyorum.\nBot: Kampanyalarımız ana sayfamızda ve e-posta bültenimizde yer almaktadır. E-posta bültenimize üye olarak güncel kampanyalardan haberdar olabilirsiniz.\nMüşteri: Tamam, kontrol edeceğim. Teşekkürler.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "İndirim",
+      "intent_detay": "Kampanya bilgisi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Bilgi alma",
+      "intent": "Kupon",
+      "intent_detay": "İndirim kampanyaları hakkında bilgi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90026,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Sipariş verdim ama yanlış ürün geldi.\nBot: Sipariş numaranızı ve yanlış gelen ürünün fotoğrafını paylaşır mısınız?\nMüşteri: 65432198. Fotoğrafı ekledim.\nBot: Kontrol ediyorum... Doğru ürününüz en kısa sürede adresinize gönderilecektir. Yanlış gelen ürünü kargo ile ücretsiz olarak iade edebilirsiniz.\nMüşteri: Çok iyi, teşekkür ederim.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "Yanlış ürün",
+      "intent_detay": "Yanlış ürün gönderimi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Yanlış ürün teslimatı ve doğru ürünün gönderilmesi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90027,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Hesabımı kapatmak istiyorum.\nBot: Hesabınızı Hesabım sayfasından 'Hesabımı Kapat' butonu ile kapatabilirsiniz.\nMüşteri: Anladım, teşekkürler.\nBot: Rica ederim. Başka bir şey olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "İstek",
+      "intent": "Hesap kapatma",
+      "intent_detay": "Hesap kapatma"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "İstek",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "Hesap kapatma talebi"
+    }
+  },
+  {
+    "sohbet_id": 90028,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimde bir ürün eksik geldi, ancak siparişi verdiğimde ürünün stokta olduğunu görüyordum.\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 987456321\nBot: Stok durumunu kontrol ettim. Ürününüz stokta bulunmuyor, bu nedenle siparişinize eklenememiş. En kısa sürede para iadesi yapılacaktır.\nMüşteri: O zaman neden ürünü sipariş verdirdiniz? İade istemiyorum, ürünü istiyorum. Çok kötü bir deneyim oldu.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Eksik ürün",
+      "intent_detay": "Stokta görünen ürünün eksik gelmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Eksik ürün teslimatı ve stok hatası nedeniyle ürünü tamamlayıp teslim almak istemesi"
+    }
+  },
+  {
+    "sohbet_id": 90029,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: İade sürecinde bir sorun çıktı, iade kodum geçersiz görünüyor.\nBot: Sipariş ve iade kodunuzu alabilir miyim?\nMüşteri: 456123789. İade kodu XYZ-1234.\nBot: İade kodunuzun süresi dolmuş olabilir. Sizin için yeni bir iade kodu oluşturdum: ABC-5678.\nMüşteri: Harika! Çok teşekkürler.\nBot: Rica ederim. Başka bir şey olursa yardımcı olmaktan mutluluk duyarım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Sorun",
+      "intent": "İade",
+      "intent_detay": "İade kodunun geçersiz olması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Sorun",
+      "intent": "İade",
+      "intent_detay": "Geçersiz iade kodu nedeniyle yeni kod talebi"
+    }
+  },
+  {
+    "sohbet_id": 90030,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimin teslimat adresi yanlış yazılmış, nasıl düzeltebilirim?\nBot: Siparişiniz henüz kargoya verilmediyse, hesabım bölümünden sipariş detaylarına giderek adresinizi güncelleyebilirsiniz.\nMüşteri: Sipariş vereli 10 dakika oldu, ne zaman kargoya verilir?\nBot: Siparişler genellikle 1 iş günü içinde kargoya verilir. Lütfen güncellemeyi yapın.\nMüşteri: Teşekkürler, çok yardımcı oldunuz.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Sorun",
+      "intent": "Adres hatası",
+      "intent_detay": "Yanlış teslimat adresi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Bilgi alma",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "Yanlış teslimat adresinin düzeltilmesi"
+    }
+  },
+  {
+    "sohbet_id": 90031,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Siparişimin durumu hakkında bilgi almak istiyorum.\nBot: Sipariş numaranızı paylaşır mısınız?\nMüşteri: 54321678\nBot: Siparişiniz kargoya verilmiş ve yolda. Tahmini teslimat tarihi 3-4 gün içinde.\nMüşteri: Tamam, çok sağolun.\nBot: Rica ederim. Başka bir sorunuz olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Sipariş",
+      "intent_detay": "Sipariş durumu"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "Soru",
+      "intent": "Kargo Takibi",
+      "intent_detay": "Sipariş durumunu ve kargo takibini öğrenme"
+    }
+  },
+  {
+    "sohbet_id": 90032,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Sipariş verdim ama hesabımdan para çekilmedi.\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 34567890\nBot: Kontrol ettim, siparişiniz tamamlanmamış görünüyor. Lütfen tekrar deneyin.\nMüşteri: Tekrar denedim yine olmadı. Ne yapabilirim?",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Ödeme",
+      "intent_detay": "Ödemenin tamamlanmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Ödeme",
+      "intent_detay": "Ödeme işlemi başarısız oldu ve sipariş tamamlanmadı"
+    }
+  },
+  {
+    "sohbet_id": 90033,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürünü denemek için sipariş verdim, bedeni olmadı.\nBot: Bu durumda iade sürecini başlatabilirsiniz. Lütfen sipariş numaranızı girin.\nMüşteri: 12398765\nBot: İade kodunuz oluşturulmuştur. Kargoya ücretsiz olarak verebilirsiniz. \nMüşteri: Çok teşekkür ederim, çok hızlı oldu.\nBot: Rica ederim. Başka bir sorunuz olursa buradayım.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İade",
+      "intent": "Beden",
+      "intent_detay": "Beden uyuşmazlığı"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İade",
+      "intent": "İade",
+      "intent_detay": "Bedeni uygun olmayan ürün için iade talebinin başlatılması"
+    }
+  },
+  {
+    "sohbet_id": 90034,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kupon kodum neden çalışmıyor?\nBot: Kupon kodunuzun süresi dolmuş veya geçerli olduğu ürün ve sepet tutarı kriterlerini karşılamıyor olabilir.\nMüşteri: Kontrol ettim, her şey uygun görünüyor. Başka bir sebep olabilir mi?\nBot: Maalesef, sistemde kuponunuzla ilgili bir hata görünmüyor.\nMüşteri: O zaman ne yapacağım? Bir çözümünüz yok mu? Çok kötü bir hizmet.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Sorun",
+      "intent": "Kupon",
+      "intent_detay": "Kupon kodunun çalışmaması"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Kupon",
+      "intent_detay": "Kupon kodunun çalışmaması ve çözüm talebi"
+    }
+  },
+  {
+    "sohbet_id": 90035,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kargom nerede kaldı? Takip numaram çalışmıyor.\nBot: Kargo takip numaranızı paylaşır mısınız?\nMüşteri: 1234567890\nBot: Kontrol ediyorum... Kargonuz henüz kargo firmasına teslim edilmemiş. Lütfen biraz bekleyin.\nMüşteri: Ne kadar bekleyeceğim? Bu durumdan hiç memnun kalmadım.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Soru",
+      "intent": "Kargo",
+      "intent_detay": "Kargonun gecikmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "Kargo Takibi",
+      "intent_detay": "Takip numarasının çalışmaması ve kargonun konum bilgisinin talebi"
+    }
+  },
+  {
+    "sohbet_id": 90036,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Müşteri temsilcisiyle görüşmek istiyorum.\nBot: Belirli bir konuda yardımcı olabilmem için sorununuzu yazabilir misiniz?\nMüşteri: Siparişimi iptal etmek istiyorum. Sipariş numarası: 87654321.\nBot: Siparişiniz kargoya verilmeden iptal edilmiştir. Başka bir şeye ihtiyacınız olursa buradayım.\nMüşteri: Teşekkür ederim.\nBot: Rica ederim.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "İptal",
+      "intent_detay": "Sipariş iptali"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "Sipariş İptali",
+      "intent_detay": "Kargoya verilmemiş siparişin iptal talebi"
+    }
+  },
+  {
+    "sohbet_id": 90037,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Ürünümde bir hata var, tamir ettirmek istiyorum.\nBot: Hangi ürün olduğunu ve hatanın ne olduğunu belirtir misiniz?\nMüşteri: Kulaklık. Şarjı tutmuyor. Garanti kapsamında tamir ettirebilir miyim?\nBot: Ürününüzü teknik servisimize göndermeniz gerekmektedir. Adres ve gönderim detayları için e-posta adresinizi paylaşır mısınız?\nMüşteri: Tamam, teşekkürler.\nBot: Rica ederim. Sorunuz çözüldü mü?",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Sorun",
+      "intent": "Teknik sorun",
+      "intent_detay": "Garanti kapsamında tamir"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "İstek",
+      "intent": "Teknik Sorun",
+      "intent_detay": "Kulaklıkta şarj sorunu nedeniyle garanti kapsamında tamir talebi"
+    }
+  },
+  {
+    "sohbet_id": 90038,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: E-posta bülteninizden çıkmak istiyorum.\nBot: Size gönderilen e-postaların en altında yer alan 'abonelikten çık' linkini kullanarak bu işlemi gerçekleştirebilirsiniz.\nMüşteri: Anladım. Teşekkürler.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "İstek",
+      "intent": "Abonelik",
+      "intent_detay": "E-posta aboneliği iptali"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Pozitif",
+      "tur": "İstek",
+      "intent": "Hesap Yönetimi",
+      "intent_detay": "E-posta bülteninden çıkış talebi"
+    }
+  },
+  {
+    "sohbet_id": 90039,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: Kargom 2 gün önce dağıtıma çıktı, neden hala gelmedi?\nBot: Sipariş numaranızı alabilir miyim?\nMüşteri: 876543210\nBot: Kargo firmasıyla iletişime geçtik. Kargonuzda bir gecikme yaşanmış. Yarın gün içinde size teslim edilecektir.\nMüşteri: Tamam, teşekkürler. Artık yarın gelsin.\nBot: Rica ederim, iyi günler.",
+    "expected": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Sorun",
+      "intent": "Kargo",
+      "intent_detay": "Kargo gecikmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözüldü",
+      "sentiment": "Nötr",
+      "tur": "Soru",
+      "intent": "Kargo Takibi",
+      "intent_detay": "Kargo gecikmesi hakkında bilgi talebi"
+    }
+  },
+  {
+    "sohbet_id": 90040,
+    "tum_mesajlar": "Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?\nMüşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.\nBot: İade numaranızı paylaşır mısınız?\nMüşteri: 123456\nBot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.\nMüşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet.",
+    "expected": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "İade süreci gecikmesi"
+    },
+    "llm_prediction": {
+      "yanit_durumu": "Çözülemedi",
+      "sentiment": "Negatif",
+      "tur": "Şikayet",
+      "intent": "İade",
+      "intent_detay": "Para iadesi gecikmesi"
+    }
+  }
+]

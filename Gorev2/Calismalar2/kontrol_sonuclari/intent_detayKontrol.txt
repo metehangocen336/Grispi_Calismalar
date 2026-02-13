@@ -1,0 +1,5 @@
+Farklı olan satırlar ve değerleri (index, manuel, tahmin):
+3 İade prosedürü hakkında bilgi ************** İade süreci gecikmesi
+7 Değişim yapılamaması ************** İade süreci gecikmesi
+36 Sipariş iptali yapılamaması ************** Sipariş iptali
+39 Kargonun gecikmesi ************** Kargo takibi

@@ -1,0 +1,891 @@
+conversation_id,timestamp,sender,text,sentiment,answered,category
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:33:51,user,Kına,"sentiment=nötr 
+","Hayır 
+","konu = [
+""Etkinlik Türü"",
+""Hizmet Türü"",
+""Mekan ve Lokasyon"",
+""Tarih ve Zaman"",
+""Bütçe ve Kapasite"",
+""Ikram ve Menü""
+] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:34:06,user,Diyarbakır’da hem düğün hem kına,"sentiment=nötr 
+","Hayır 
+","konu = [
+""Etkinlik Türü"", 
+""Hizmet Türü"", 
+""Mekan ve Lokasyon"",
+""Tarih ve Zaman"", 
+""Bütçe ve Kapasite"",
+""İkram ve Menü""
+] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:35:27,user,"2 ay sonra düşünüyoruz 700 davetli gelecek ikram olarak içecek ve ,pasta ve meşrubat istiyoruz","sentiment=pozitif 
+","[Hayır] 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+
+2. Hizmet Türüyle İlgili Kelimeler,
+3. Mekan ve Lokasyonla İlgili Kelimeler,
+4. Tarih ve Zamanla İlgili Kelimeler,
+5. Bütçe ve Kapasiteyle İlgili Kelimeler,
+6. İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:14,user,"Mekan ve fotoğraf ,100 bin tl bütçemiz var kapalı alanda","sentiment=pozitif 
+","Hayır 
+","konu = [
+""Etkinlik Türü"",
+""Hizmet Türü"",
+""Mekan"",
+""Lokasyon"",
+""Bütçe""
+] 
+"
+9f1fad6e-0bc9-4fdf-b0e8-dc6da287b031,2025-06-10T19:36:43,user,Davet sayısını 600 e çekelim o zaman,"sentiment=nötr 
+","[Hayır] 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+ Davetli Sayısı
+] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:19,user,Düğün,"Sentiment: Nötr 
+","Hayır 
+","konu = [
+""Etkinlik Türüyle İlgili Kelimeler"",
+""Hizmet Türüyle İlgili Kelimeler"",
+""Mekan ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""Irakım ve Menüyle İlgili Kelimeler""
+] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:55:52,user,Adıyaman Kahta,"sentiment=nötr 
+","Hayır 
+","* Etkinlik Türü
+* Mekan ve Lokasyon
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:24,user,Ağustos ayı,"Sentiment: Nötr 
+","Hayır 
+","konu = [
+  2. Hizmet Türüyle İlgili Kelimeler   
+] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:56:47,user,200 e Yakın,"Sentiment: Nötr 
+","Hayır 
+","konu = [2. Hizmet Türüyle İlgili Kelimeler]  
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:57:11,user,Yemekli,"Sentimnet: Nötr 
+","Hayır 
+","konu=[6. İkram ve Menüyle İlgili Kelimeler] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:04,user,Açık yada kapalı düğün salonu,"sentiment=nötr 
+","Hayır 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Mekân ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:58:43,user,500,"Sentiment: Nötr 
+","Hayır 
+","konu = [ 2. Hizmet Türüyle İlgili Kelimeler ] 
+"
+9f1fb51c-a029-4691-973d-63772a5f82ab,2025-06-10T19:59:37,user,Adıyaman Kahta köşk düğün salonu,"Sentiment: Nötr 
+","Hayır 
+","konu = [
+    ""Etkinlik Türü"",
+    ""Hizmet Türü"",
+    ""Mekan ve Lokasyon"",
+    ""Tarih ve Zaman"",
+    ""Bütçe ve Kapasite"",
+    ""Ikram ve Menü"" 
+] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:19,user,Kına,"sentiment=nötr 
+","[Hayır] 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:56:45,user,Abiye istiyorum,"sentiment=pozitif 
+","[Hayır] 
+","konu = [2. Hizmet Türüyle İlgili Kelimeler ]  
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:57:43,user,İstanbul Türkiye bütçe 4000 bin TL,"Sentiment: Nötr 
+","Hayır 
+","konu=[
+  ""Etkinlik Türüyle İlgili Kelimeler"" ,
+  ""Hizmet Türüyle İlgili Kelimeler"",
+  ""Mekan ve Lokasyonla İlgili Kelimeler"",
+  ""Tarih ve Zamanla İlgili Kelimeler"",
+  ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+  ""İkram ve Menüyle İlgili Kelimeler""
+]   
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:58:51,user,Bağcılar Esenler,"Sentiment: Nötr 
+","[Hayır]  
+","konu =  [
+Etkinlik Türü,
+Hizmet Türü,
+Mekan ve Lokasyon,
+Tarih ve Zaman,
+Bütçe ve Kapasite,
+İkram ve Menü
+] 
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T19:59:32,user,Ok,"sentiment=nötr 
+","Hayır 
+","konu = [ 
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+]  
+"
+9f1fb55f-544f-4c63-bcf0-4bba9aa984d5,2025-06-10T20:01:01,user,Peki uygun fiyata olnine site bula bilirmisib,"sentiment=nötr 
+","Hayır 
+","konu = [""Hizmet Türüyle İlgili Kelimeler"", ""Uygul Fiyat"", ""Fiyat"", ""Kapasite"", ""Lokasyon""] 
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:04,user,Düğün,"sentiment=nötr 
+","Hayır 
+","konu=[""Etkinlik Türüyle İlgili Kelimeler"",
+""Hizmet Türüyle İlgili Kelimeler"",
+""Mekan ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""İkram ve Menüyle İlgili Kelimeler""] 
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:41:54,user,2025.11.15,"sentiment=nötr 
+","[Hayır] 
+","konu = [
+    ""Etkinlik Türü"",
+    ""Hizmet Türü"",
+    ""Mekan ve Lokasyon"",
+    ""Tarih ve Zaman"",
+    ""Bütçe ve Kapasite"",
+    ""İkram ve Menü""
+] 
+"
+9f1fc574-98e7-4e66-b86c-e77c51347f3b,2025-06-10T20:42:23,user,Düğün mekanı,"sentiment=nötr 
+","Hayır 
+","konu=[ Etkinlik Türü, Hizmet Türü, Mekan ve Lokasyon, Tarih ve Zaman, Bütçe ve Kapasite, İkram ve Menü ] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:34:31,user,Merbah,"sentiment=pozitif 
+","Hayır 
+","konu = [
+    ""Etkinlik Türü"",
+    ""Hizmet Türü"",
+    ""Mekan ve Lokasyon"",
+    ""Tarih ve Zaman"",
+    ""Bütçe ve Kapasite"",
+    ""İkram ve Menü""
+] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:35:06,user,Şeşi,"sentiment=nötr 
+","Hayır 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f1fd866-240c-42d0-a3b5-84133bcba6fb,2025-06-10T21:36:02,user,https://images.app.goo.gl/cid7SnWHy1pyLv118,"Sentiment: Nötr 
+","[Hayır] 
+","konu = [ 
+""Etkinlik Türü"",
+""Hizmet Türü"",
+""Mekan ve Lokasyon"",
+""Tarih ve Zaman"",
+""Bütçe ve Kapasite"",
+""İkram ve Menü""
+] 
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:39:15,user,Nişan,"sentiment=pozitif 
+","[Hayır] 
+","konu = [
+    ""Etkinlik Türüyle İlgili Kelimeler"",
+    ""Hizmet Türüyle İlgili Kelimeler"",
+    ""Mekan ve Lokasyonla İlgili Kelimeler"",
+    ""Tarih ve Zamanla İlgili Kelimeler"",
+    ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+    ""İkram ve Menüyle İlgili Kelimeler""
+] 
+
+
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:31,user,Nişanlık beğenmiştim de onu,"sentiment=negatif 
+","Hayır 
+","konu = [
+Etkinlik Türüyle İlgili Kelimeler ,
+Hizmet Türüyle İlgili Kelimeler,
+Mekân ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f1fda47-f4d0-4293-ac53-8b46ff243af4,2025-06-10T21:41:40,user,Fiyatı ne kadar,"Sentiment: Nötr 
+","Hayır 
+","konu=[ Fiyat ] 
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:04,user,Düğün,"sentiment=nötr 
+","Hayır 
+","konu = [Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler]  
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:57:48,user,23.08.25 pastalı olcak 600 kişi,"Sentiment: Nötr 
+","[Hayır] 
+","konu = [
+    ""Etkinlik Türü"",
+    ""Tarih"", 
+    ""Davetli Sayısı"",
+    ""Pasta"", 
+] 
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:15,user,Konya da olacak,"sentiment=nötr 
+","[Hayır] 
+","konu = [
+  2. Hizmet Türüyle İlgili Kelimeler,
+  3. Mekan ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f208c53-9dd0-4a3c-bcfc-2e880230d355,2025-06-11T05:58:35,user,100,"Sentiment: Nötr 
+","Hayır 
+","konu = [
+    ""Etkinlik Türü"",
+    ""Hizmet Türü"",
+    ""Mekan ve Lokasyon"",
+    ""Tarih ve Zaman"",
+    ""Bütçe ve Kapasite"",
+    ""İkram ve Menü""
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:30,user,merhaba,"Sentiment: Nötr 
+","Hayır 
+","konu=[ Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:43:47,user,okulumuzun mezuniyet töreni için fiyat almak istiyorum,"sentiment = nötr 
+","Hayır 
+","konu = [
+""Etkinlik Türü"",
+"" Hizmet Türü"" , 
+"" Mekan ve Lokasyon"",
+ ""Tarih ve Zaman"",
+ ""Bütçe ve Kapasite"",
+ ""İkram ve Menü""
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:12,user,istanbul tuzla,"Sentiment: Nötr 
+","Hayır 
+","konu = [
+  2. Hizmet Türüyle İlgili Kelimeler
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:19,user,28-29 haziran,"sentiment=nötr 
+","Hayır 
+","konu = [
+4. Tarih ve Zamanla İlgili Kelimeler 
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:44:59,user,yemek ve pasta,"sentiment=nötr 
+","Hayır 
+","konu = [
+  2. Hizmet Türüyle İlgili Kelimeler,
+  6. İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:13,user,toplamda 50 kişi,"sentiment=nötr 
+","Hayır 
+","konu = [5. Bütçe ve Kapasiteyle İlgili Kelimeler, davetli sayısı] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:45:57,user,en düşük fiyat önerilerinizi öğrenirsem daha iyi olur,"sentiment=nötr 
+","[Hayır] 
+","konu = [Bütçe, Fiyat] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:46:26,user,açık kapalı fark etmez,"Sentiment: Nötr 
+","Hayır 
+","konu=[
+Etkinlik Türüyle İlgili Kelimeler
+Mekan ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:05,user,kapalı alan olan var mı,"sentiment=nötr 
+","[Evet] 
+","konu = [
+    . Mekan Türüyle İlgili Kelimeler
+]       
+     "
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:48:41,user,tamam önerilerinizi inceleyim,"sentiment=nötr 
+","Hayır 
+","konu = [
+Etkinlik Türü ,
+ Hizmet Türü ,
+ Mekan ve Lokasyon ,
+ Tarih ve Zaman ,
+ Bütçe ve Kapasite ,
+ İkram ve Menü
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:51:28,user,resim ve video çekimi de istiyorum,"sentiment=pozitif 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler]  
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:29,user,çekimler tören sırasında olacak,"sentiment=nötr 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler, 1. Etkinlik Türüyle İlgili Kelimeler ] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:52:59,user,fotoğraf ve video çekimi olacak,"sentiment=pozitif 
+",,"konu = [
+    2. Hizmet Türüyle İlgili Kelimeler, 
+    2. Hizmet Türüyle İlgili Kelimeler
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T06:53:34,user,en uygun olanları verebilirseniz sevinirim,"sentiment=pozitif 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:00:34,user,tekrar merhaba,"Sentiment: Nötr 
+",,"konu = [ 
+Etkinlik Türü
+] 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:01:18,user,temenye quın garden için,"sentiment=pozitif 
+",,"konu = 
+- Etkinlik Türü 
+- Mekan 
+"
+9f209ce4-52c0-4749-87a6-4dd467d90ad3,2025-06-11T07:02:49,user,28 haziran akşam saatlerinde  yemek - pasta - ve fotoğraf video çekimi içinde 50 kişilik fiyat teklifi alabilir miyim,"sentiment=pozitif 
+",,"konu=[
+""Etkinlik Türüyle İlgili Kelimeler"" ,
+""Hizmet Türüyle İlgili Kelimeler"",
+""Mekandır ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""İkram ve Menüyle İlgili Kelimeler""
+]
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:31:11,user,Nişan,"Sentiment: Pozitif 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler, Tarih ve Zamanla İlgili Kelimeler, Bütçe ve Kapasiteyle İlgili Kelimeler, İkram ve Menüyle İlgili Kelimeler] 
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:12,user,Manisa Salihli 24 Haziran 2025 150 davetli,"sentiment=nötr 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler 
+] 
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:36,user,Sadece mekan,"Sentiment: Nötr 
+",,"konu=[ 
+Etkinlik Türü, 
+Düğün, 
+Mekan Seçimi 
+]   
+"
+9f20adf9-c1fe-48cf-9764-9295851df285,2025-06-11T07:32:51,user,Hicbiri,"Sentiment: Nötr 
+",,"konu = [ 
+""Ekonomi"",
+""Düğün tipi"",
+""Mekan"",
+
+
+]  
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:53:49,user,19 ekim sünnet düğünü salonu,"sentiment=nötr 
+",,"konu=[
+Etkinlik Türü,
+Hizmet Türü,
+Mekan, 
+Tarih, 
+Kapasite
+] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:05,user,Kocaeli gebze,"sentiment=nötr 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler
+]
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:29,user,350 400 pasta ö,"sentiment=nötr 
+",,"konu = [
+""Pasta"" ,
+""Fiyat"" ,
+""Bütçe""
+] 
+
+
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:45,user,Mest5,"Sentiment: Nötr 
+",,"konu = [
+    ""Etkinlik Türü"",
+    ""Hizmet Türü"",
+    ""Mekan ve Lokasyon"",
+    ""Tarih ve Zaman"",
+    ""Bütçe ve Kapasite"",
+    ""İkram ve Menü""
+] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:54:52,user,45 milyar,"Sentiment: Nötr 
+",,"konu=[
+Bütçe,
+] 
+"
+9f20b600-d0ba-4b3b-8a79-fbc063130a19,2025-06-11T07:55:16,user,Gebze sadece,"Sentiment: Nötr 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler, 3. Mekan ve Lokasyonla İlgili Kelimeler] 
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:11:32,user,Düğün,"sentiment=nötr 
+",,"konu=[
+ Etkinlik Türüyle İlgili Kelimeler,
+ Hizmet Türüyle İlgili Kelimeler,
+ Mekan ve Lokasyonla İlgili Kelimeler,
+ Tarih ve Zamanla İlgili Kelimeler,
+ Bütçe ve Kapasiteyle İlgili Kelimeler,
+ İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:14:28,user,"Gaziantep Şahinbey de bir mekan arıyoruz. 100-450 civarlarında davetlimiz olacak, tahmini düğün tarihimize daha var ama ben şimdiden araştırmak istiyorum. Hizmette ise;Mekan, organizasyon, içecekler ama alkol asla olmayacak, fotoğraf ve video çekimi ve kuru pasta gibi ikramların olduğu bir mekan arıyorum.. Anlıyorsunuz değil mi beni?","sentiment=pozitif 
+",,"konu=[
+""Etkinlik Türüyle İlgili Kelimeler"",
+""Hizmet Türüyle İlgili Kelimeler"",
+""Mekan ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""İkram ve Menüyle İlgili Kelimeler""
+] 
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:16:24,user,"Kapalı bir mekan arıyoruz ve bütçe bizim için önemli değil. Şık, görkemli bir mekan arıyoruz. Önerilerde bulunursanız sevinirim.","sentiment=pozitif 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler, 
+Hizmet Türüyle İlgili Kelimeler, 
+Mekan ve Lokasyonla İlgili Kelimeler, 
+Bütçe ve Kapasiteyle İlgili Kelimeler 
+] 
+"
+9f20bc62-12c6-45de-ac67-15fbdb278451,2025-06-11T08:17:22,user,Sence hangisi daha iyi? Karar vermekte zorlanıyorum.,"sentiment=nötr 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler, 
+Hizmet Türüyle İlgili Kelimeler, 
+Mekan ve Lokasyonla İlgili Kelimeler
+ ] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:07:52,user,Kıyı bungalov,"sentiment : nötr 
+",,"konu = [ 
+   ""Etkinlik Türüyle İlgili Kelimeler"",
+   ""Hizmet Türüyle İlgili Kelimeler"",
+   ""Mekan ve Lokasyonla İlgili Kelimeler"",
+   ""Tarih ve Zamanla İlgili Kelimeler"",
+   ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+   ""İkram ve Menüyle İlgili Kelimeler""
+] 
+
+
+
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:05,user,Balayı,"Sentiment: Pozitif 
+",,"konu=[Balayı, Balayı Oteli, Balayı Villası] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:08:19,user,Rize,"sentiment=nötr 
+",,"* Etkinlik Türü
+* Mekan ve Lokasyon  
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:09,user,10.07.2025 göl kenarı 1000-5000 TL arası,"sentiment=nötr 
+",,"konu = [
+Etkinlik Türü, 
+ Hizmet Türü, 
+Mekan, 
+Tarih ve Zaman, 
+Bütçe ve Kapasite 
+]  
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:09:48,user,5000-10000 TL arası,"sentiment=nötr 
+",,"konu = [ 
+Bütçe ve Kapasiteyle İlgili Kelimeler
+] 
+"
+9f20d064-7c3a-4319-969d-8861296da451,2025-06-11T09:10:25,user,Deniz kenarı,"sentiment=pozitif 
+",,"konu = [ 
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler 
+] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:15:19,user,27 09 2025 günü kız isteme ve nişan töreni  ortalama 120 kişilik,"sentiment=pozitif 
+",,"konu = [""Etkinlik Türüyle İlgili Kelimeler"", ""Hizmet Türüyle İlgili Kelimeler"", ""Mekan ve Lokasyonla İlgili Kelimeler"", ""Tarih ve Zamanla İlgili Kelimeler"", ""Bütçe ve Kapasiteyle İlgili Kelimeler"", ""Ikram ve Menüyle İlgili Kelimeler""] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:16:14,user,Hatay ili merkezde ikramlı kapalı alan,"sentiment=nötr 
+",,"konu = [ 
+""Etkinlik Türü"",
+""Mekan ve Lokasyon"",
+""İkram"" 
+]  
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:17:45,user,Pasta meşrubat,"Sentiment: Nötr 
+",,"konu = [
+     3. Mekan ve Lokasyonla İlgili Kelimeler,
+     6. İkram ve Menüyle İlgili Kelimeler 
+] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:08,user,30000,"sentiment=nötr 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler] 
+
+
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:18:39,user,Evet,"sentiment=pozitif 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f211352-2622-4515-ba21-855cad8650a7,2025-06-11T12:19:03,user,Defne,"sentiment=nötr 
+",,"konu = [
+""Etkinlik Türü"",
+""Hizmet Türü"",
+""Mekan ve Lokasyon"",
+""Tarih ve Zaman"",
+""Bütçe ve Kapasite"",
+""İkram ve Menü""
+] 
+
+
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:52:45,user,Nişan,"Sentiment: Pozitif 
+",,"konu = [
+    ""Etkinlik Türü"", 
+    ""Hizmet Türü"", 
+    ""Mekan ve Lokasyon"", 
+    ""Tarih ve Zaman"", 
+    ""Bütçe ve Kapasite"", 
+    ""İkram ve Menü""
+] 
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:11,user,"Söz ve isteme bir arada olacak şekilde kuru pasta ve meyve suyuyla beraber istiyoruz . Ankara yenimahalle, Mamak , Çankaya da olabilir . Yaklaşık 150-200 davetli . Söz mekânında organizasyon fotoğrafını istiyorum . Tarih olarak 20 Temmuz","sentiment=pozitif 
+",,"konu=[ Etkinlik Türü: Söz ve İsteme Ünitesi
+Hizmet Türü: Organizasyon, Fotoğrafçı Hizmeti 
+Mekan Diyagramları: Ankara (Yenimahalle, Mamak, Çankaya) Önerisi
+Kapasite: 150-200 Davetli
+Tarih: 20 Temmuz
+Servis: Kuru Pasta, Meyve Suyu
+İkram Menü: İkram ve Pastane Hizmeti  ] 
+"
+9f2120f9-66af-450e-b741-02e0095f1907,2025-06-11T12:55:48,user,evet bakabilirsiniz,"sentiment=nötr 
+",,"konu=[
+2. Hizmet Türüyle İlgili Kelimeler,
+3. Mekan ve Lokasyonla İlgili Kelimeler,
+] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:13,user,Düğün,"Sentiment: Nötr 
+",,"konu = [
+
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:38,user,trabzon araklı,"sentiment=nötr 
+",,"konu = [
+    ""Etkinlik Türüyle İlgili Kelimeler"",
+    ""Hizmet Türüyle İlgili Kelimeler"",
+    ""Mekan ve Lokasyonla İlgili Kelimeler"",
+    ""Tarih ve Zamanla İlgili Kelimeler"",
+    ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+    ""İkram ve Menüyle İlgili Kelimeler""
+] 
+
+
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:46,user,15 kadım,"sentiment=nötr 
+",,"konu=[ 2.Hizmet Türüyle İlgili Kelimeler, 5. Bütçe ve Kapasiteyle İlgili Kelimeler] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:56:57,user,200 davetli,"sentiment=nötr 
+",,"konu=[Davetli Sayısı] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:05,user,pasta meşrubat,"Sentiment: Nötr 
+",,"konu=[
+
+İkram ve Menüyle İlgili Kelimeler,
+] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:22,user,50,"Sentiment: Nötr 
+",,"konu = [
+Etkinlik Türü
+Hizmet Türü
+Mekan ve Lokasyon
+Tarih ve Zaman
+Bütçe ve Kapasite
+İkram ve Menü 
+] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:44,user,50 bin tl,"sentiment=nötr 
+",,"konu = [ 5. Bütçe ve Kapasiteyle İlgili Kelimeler ] 
+"
+9f216298-e98d-4d12-b3d8-a42064b21293,2025-06-11T15:57:55,user,kapalı,"sentiment=nötr 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T15:59:57,user,Düğün,"sentiment=nötr 
+",,"konu=[
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:22,user,Ankara,"sentiment=nötr 
+",,"konu=[
+""Mekan"",
+""Lokasyon"",
+""Şehir""
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:00:31,user,Etiler orduevi,"sentiment=nötr 
+",,"konu = [
+  ""Etkinlik Türüyle İlgili Kelimeler"",
+  ""Hizmet Türüyle İlgili Kelimeler"",
+  ""Mekan ve Lokasyonla İlgili Kelimeler"",
+  ""Tarih ve Zamanla İlgili Kelimeler"",
+  ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+  ""İkram ve Menüyle İlgili Kelimeler""
+] 
+
+
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:01:40,user,300 kişi yemekli 2026 ekim,"sentiment=nötr 
+",,"konu=[
+Etkinlik Türüyle İlgili Kelimeler, 
+Hizmet Türüyle İlgili Kelimeler, 
+Mekan ve Lokasyonla İlgili Kelimeler, 
+Tarih ve Zamanla İlgili Kelimeler, 
+Bütçe ve Kapasiteyle İlgili Kelimeler, 
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:02:28,user,Paket herşey dahil Etiler ordu evi,"sentiment=nötr 
+",,"konu = [
+    ""Etkinlik Türüyle İlgili Kelimeler"",
+    ""Hizmet Türüyle İlgili Kelimeler"",
+    ""Mekan ve Lokasyonla İlgili Kelimeler"",
+    ""Tarih ve Zamanla İlgili Kelimeler"",
+    ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+    ""İkram ve Menüyle İlgili Kelimeler""
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:03:23,user,Fotoğrafçı canlı müzik düğün pastasi,"sentiment=nötr 
+",,"*  Etkinlik Türü: Düğün
+* Hizmet Türü: Fotoğrafçı 
+* Hizmet Türü: Canlı Müzik 
+* Hizmet Türü: Düğün Pastası  
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:08,user,Kişi başı 1000 tl,"sentiment=nötr 
+",,"konu = [
+""Bütçe ve Kapasite"" 
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:04:54,user,1250,"Sentiment: Nötr 
+",,"konu = [
+""Evlilik"",
+""Düğün"",
+""Hizmet"",
+""Fotoğrafçı"",
+""Video Çekim"",
+""Zaman"",
+""Bütçe""
+
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:05:22,user,Kisi başı 1500,"sentiment=nötr 
+",,"konu = [
+5. Bütçe ve Kapasiteyle İlgili Kelimeler 
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:07:22,user,Sayın Hera talebim Etiler orduevi,"sentiment=nötr 
+",,"konu=[
+""Etkinlik Türü"",
+""Hizmet Türü"",
+""Mekan ve Lokasyon"",
+""Tarih ve Zaman"",
+""Bütçe ve Kapasite"",
+""İkram ve Menü""
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:08:55,user,Tandoğan orduevi,"Sentiment: Nötr 
+",,"konu=[
+""Etkinlik Türü"",
+""Mekana-İlgili Bilgi""
+] 
+"
+9f2163e4-68fd-4d5d-9be5-de2597a39773,2025-06-11T16:09:22,user,Aynı paket program,"sentiment=nötr 
+",,"konu = [Hizmet Türüyle İlgili Kelimeler ] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:13:52,user,Düğün,"Sentiment: Nötr 
+",,"konu = [ 
+Etkinlik Türüyle İlgili Kelimeler, 
+Hizmet Türüyle İlgili Kelimeler, 
+ mekan ve Lokasyonla İlgili Kelimeler, 
+Tarih ve Zamanla İlgili Kelimeler, 
+Bütçe ve Kapasiteyle İlgili Kelimeler, 
+İkram ve Menüyle İlgili Kelimeler
+] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:30,user,İstabul Eyüp,"sentiment=nötr 
+",,"konu = [ 
+3. Mekan ve Lokasyonla İlgili Kelimeler 
+] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:48,user,9 Kasım,"sentiment=nötr 
+",,"konu =  [
+
+""Tarih ve Zamanla İlgili Kelimeler""
+] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:21:56,user,500 kişilik kokteyl,"sentiment=nötr 
+",,"konu=[
+    . Etkinlik Türüyle İlgili Kelimeler
+    2. Hizmet Türüyle İlgili Kelimeler
+    3. Mekan ve Lokasyonla İlgili Kelimeler
+    4. Tarih ve Zamanla İlgili Kelimeler
+    5. Bütçe ve Kapasiteyle İlgili Kelimeler
+    6. İkram ve Menüyle İlgili Kelimeler 
+] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:06,user,düğün mekanı,"Sentiment: Nötr 
+",,"konu = [ 
+3. Mekan ve Lokasyonla İlgili Kelimeler 
+]
+
+
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:27,user,kapalı mekan,"sentiment=nötr 
+",,"konu=[ 3. Mekan ve Lokasyonla İlgili Kelimeler ] 
+"
+9f2193d3-f217-4b47-8ade-13906b44764d,2025-06-11T18:22:37,user,120 bin,"sentiment=nötr 
+",,"konu=[Bütçe] 
+"
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:20,user,Düğün,"sentiment=nötr 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler, 
+Hizmet Türüyle İlgili Kelimeler, 
+Mekan ve Lokasyonla İlgili Kelimeler, 
+Tarih ve Zamanla İlgili Kelimeler, 
+Bütçe ve Kapasiteyle İlgili Kelimeler, 
+İkram ve Menüyle İlgili Kelimeler 
+] 
+"
+9f21967e-3589-40cf-8023-6d342f58e416,2025-06-11T18:21:36,user,Ankara Keçiören,"sentiment=nötr 
+",,"konu=[
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+İkram ve Menüyle İlgili Kelimeler
+]  
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:25,user,arkadaslarjmla gelmek istiyorum,"sentiment=pozitif 
+",,"konu=[
+
+""Etkinlik Türüyle İlgili Kelimeler"",
+""Hizmet Türüyle İlgili Kelimeler"", 
+""Mekan ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""İkram ve Menüyle İlgili Kelimeler""
+] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:03:44,user,arkadaslarımla vakit gecirmek icin,"sentiment=pozitif 
+",,"konu = [2. Hizmet Türüyle İlgili Kelimeler] 
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:04:33,user,bakırkoyde ferah ve boyama yapabilecegim bir kafede,"sentiment=pozitif 
+",,"konu =[
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler  
+]
+"
+9f21d05d-9f1a-477a-8276-06535e16b336,2025-06-11T21:05:20,user,2 kisiyiz pazartesi günü ve boyama yapmamıza izin verecek bir kafe,"sentiment=pozitif 
+",,"konu = [
+""Etkinlik Türüyle İlgili Kelimeler"",
+""Hizmet Türüyle İlgili Kelimeler"",
+""Mekan ve Lokasyonla İlgili Kelimeler"",
+""Tarih ve Zamanla İlgili Kelimeler"",
+""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+""İkram ve Menüyle İlgili Kelimeler""
+]
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:04:53,user,Düğün,"sentiment=nötr 
+",,"konu=[
+    ""Etkinlik Türüyle İlgili Kelimeler"",
+    ""Hizmet Türüyle İlgili Kelimeler"",
+    ""Mekan ve Lokasyonla İlgili Kelimeler"",
+    ""Tarih ve Zamanla İlgili Kelimeler"",
+    ""Bütçe ve Kapasiteyle İlgili Kelimeler"",
+    ""İkram ve Menüyle İlgili Kelimeler""
+] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:05:23,user,Gelin bohcası fiyatlar,"sentiment=nötr 
+",,"konu = [
+  2. Hizmet Türüyle İlgili Kelimeler
+] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:06:53,user,10 bin tl,"Sentiment: Nötr 
+",,"konu=[
+Bütçe
+] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:07:01,user,Bütce,"sentiment=nötr 
+",,"konu=[""Bütçe"", ""Toplam Bütçe"", ""Kişi Başı Fiyat"", ""Uygun Fiyatlı"", ""Farklı Hizmet Paketleri"", ""Kapasite""] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:08:23,user,İl aksaray,"Sentiment: Nötr 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Hizmet Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler,
+Tarih ve Zamanla İlgili Kelimeler,
+Bütçe ve Kapasiteyle İlgili Kelimeler,
+Irakım ve Menüyle İlgili Kelimeler
+] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:09:14,user,Set takımı,"sentiment=nötr 
+",,"konu=[ ""Hizmet Türüyle İlgili Kelimeler"", ""Etkinlik Türüyle İlgili Kelimeler"", ""Mekan ve Lokasyonla İlgili Kelimeler""] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:10:26,user,Set oldun yeterli,"Sentiment: Negatif 
+",,"konu = [
+Etkinlik Türüyle İlgili Kelimeler,
+Mekan ve Lokasyonla İlgili Kelimeler
+] 
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:11:19,user,İzmir'de gördüm bi set takımı,"Sentiment: Nötr 
+",,"konu = [
+""ETKİNLİK TÜRÜ"",
+""YER"" ]  
+"
+9f21d0f2-6e96-4c94-9888-510527d2fbfc,2025-06-11T21:12:44,user,Tüm izmir,"Sentiment: Nötr 
+",,"konu=[Etkinlik Türüyle İlgili Kelimeler, Hizmet Türüyle İlgili Kelimeler, Mekan ve Lokasyonla İlgili Kelimeler] 
+
+
+"

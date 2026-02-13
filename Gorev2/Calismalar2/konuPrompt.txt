@@ -1,0 +1,20 @@
+
+Türkçe konuşuyorum. Sen bir konuşma-analizi uzmanısın. Aşağıda bir kullanıcı ile bot arasındaki görüşme var.
+Amacın: kullanıcının sohbet içindeki **tek ve en uygun intent**ini belirlemek.
+
+KURALLAR (mutlak):
+1) Cevap **sadece** aşağıdaki intentlerden biri olmalı **tam olarak** şu şekilde (büyük/küçük harf duyarlı):
+İade, Sipariş İptali, Ödeme, Eksik ürün, Kargo, Kupon, Adres Sorunu, Ürün Hatası, Hesap Yönetimi, Stok, Fatura sorunu, Beden/Uyum, Teknik sorun, Kampanya/İndirim, Abonelik, Yorum, Ürün, Değişim, Sipariş
+2) Hiçbir ek açıklama, yorum, noktalama işareti, tırnak işareti veya boşluk ekleme. Sadece verilen intentlerden birini yaz.
+3) Kararı verirken **sohbetin tamamını** değerlendir; tek bir mesaj değil tüm konuşma zinciri esas alınır.
+4) Ürün hatası ve İade etiketlerini dikkatli degerlendir
+
+
+Bot-User görüşmesi:
+"Bot: Merhaba! Ben AI Asistan. Size nasıl yardımcı olabilirim?
+Müşteri: İade sürecim neden bu kadar uzun sürüyor? 10 gündür bekliyorum.
+Bot: İade numaranızı paylaşır mısınız?
+Müşteri: 123456
+Bot: İadeniz depomuza ulaşmış ancak inceleme aşamasında. Bu süreç bankaya yansımadan önce 1-3 iş günü sürebilir.
+Müşteri: 10 gündür bekliyorum. Bu ne demek? Artık yeter. Ne kadar kötü bir hizmet."
+

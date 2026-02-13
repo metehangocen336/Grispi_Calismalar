@@ -1,0 +1,12 @@
+Türkçe konuşuyorum. Aşağıdaki kullanıcının userın bir botla göüşmesinin mesajları  var botun mesajları yok bu mesajları bir düğün analizi uzmanı gibi analiz et. 
+Analiz sonucunu yazmana gerek yok. Kullanıcının konuşma mesajlarındaki genel sentimentini değerlendir ve bir etiket ver: [Pozitif / Negatif / Nötr]
+
+**Sentiment Etiketleme Mantığı**:
+- Kullanıcının mesajları tamamen olumlu ve kesin pozitif anlam içeriyorsa: **Pozitif**
+- Kullanıcının mesajları genel olarak net bir şekilde negatif durumlar içeriyorsa: **Negatif**
+- Kullanıcının mesajları net olarak pozitif veya negatif değilse, yani karışık veya nötr bir tonda ise: **Nötr**
+- Her mesajı ayrı ayrı analiz et, ancak etiketi konuşmanın geneline bakarak belirle.
+
+**Cevap Formatı**: Cevap kesinlikle sadece üç seçenekten biri olmalı: "Pozitif" veya "Negatif" veya "Nötr". Başka hiçbir şey yazma.
+
+userın cevapları: "{mesaj}"
